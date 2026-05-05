@@ -1,0 +1,183 @@
+{
+  "terms": {
+    "Duet Night Abyss": {
+      "vi": "Duet Night Abyss",
+      "jp": "デュエットナイトアビス",
+      "zh": "二重奏夜深渊"
+    },
+    "Vanguard": {
+      "vi": "Tiên Phong",
+      "jp": "ヴァンガード",
+      "zh": "先锋"
+    },
+    "Support": {
+      "vi": "Hỗ Trợ",
+      "jp": "サポート",
+      "zh": "支援"
+    },
+    "Annihilator": {
+      "vi": "Tiêu Diệt",
+      "jp": "アナイアレーター",
+      "zh": "歼灭者"
+    },
+    "Melee": {
+      "vi": "Cận Chiến",
+      "jp": "近接",
+      "zh": "近战"
+    },
+    "Range": {
+      "vi": "Tầm Xa",
+      "jp": "遠距離",
+      "zh": "远程"
+    },
+    "Katana": {
+      "vi": "Kiếm Nhật",
+      "jp": "カタナ",
+      "zh": "武士刀"
+    },
+    "Sword": {
+      "vi": "Kiếm",
+      "jp": "剣",
+      "zh": "剑"
+    },
+    "Polearm": {
+      "vi": "Thương",
+      "jp": "槍",
+      "zh": "长枪"
+    },
+    "Whipsword": {
+      "vi": "Kiếm Roi",
+      "jp": "ウィップソード",
+      "zh": "鞭剑"
+    },
+    "Greatsword": {
+      "vi": "Kiếm Lớn",
+      "jp": "大剣",
+      "zh": "大剑"
+    },
+    "Shotgun": {
+      "vi": "Súng Ngắn",
+      "jp": "ショットガン",
+      "zh": "霰弹枪"
+    },
+    "Dual Pistols": {
+      "vi": "Súng Đôi",
+      "jp": "デュアルピストル",
+      "zh": "双手枪"
+    },
+    "Assault Rifle": {
+      "vi": "Súng Trường",
+      "jp": "アサルトライフル",
+      "zh": "突击步枪"
+    },
+    "Bow": {
+      "vi": "Cung",
+      "jp": "弓",
+      "zh": "弓"
+    },
+    "Grenade Launcher": {
+      "vi": "Súng Phóng Lựu",
+      "jp": "グレネードランチャー",
+      "zh": "榴弹发射器"
+    },
+    "Fire": {
+      "vi": "Hỏa",
+      "jp": "火",
+      "zh": "火"
+    },
+    "Water": {
+      "vi": "Thủy",
+      "jp": "水",
+      "zh": "水"
+    },
+    "Earth": {
+      "vi": "Thổ",
+      "jp": "土",
+      "zh": "土"
+    },
+    "Wind": {
+      "vi": "Phong",
+      "jp": "風",
+      "zh": "风"
+    },
+    "Light": {
+      "vi": "Quang",
+      "jp": "光",
+      "zh": "光"
+    },
+    "Dark": {
+      "vi": "Ám",
+      "jp": "闇",
+      "zh": "暗"
+    },
+    "Ice": {
+      "vi": "Băng",
+      "jp": "氷",
+      "zh": "冰"
+    },
+    "Lightning": {
+      "vi": "Lôi",
+      "jp": "雷",
+      "zh": "雷"
+    },
+    "Anemo": {
+      "vi": "Phong Nguyên Tố",
+      "jp": "アネモ",
+      "zh": "风元素"
+    },
+    "Psychic": {
+      "vi": "Tâm Linh",
+      "jp": "サイキック",
+      "zh": "超能"
+    },
+    "Moon": {
+      "vi": "Nguyệt",
+      "jp": "月",
+      "zh": "月"
+    },
+    "Sound": {
+      "vi": "Âm",
+      "jp": "音",
+      "zh": "声"
+    },
+    "DMG": {
+      "vi": "ST",
+      "jp": "ダメージ",
+      "zh": "伤害"
+    },
+    "HP": {
+      "vi": "HP",
+      "jp": "HP",
+      "zh": "生命值"
+    },
+    "ATK": {
+      "vi": "CT",
+      "jp": "攻撃力",
+      "zh": "攻击力"
+    },
+    "DEF": {
+      "vi": "PV",
+      "jp": "防御力",
+      "zh": "防御力"
+    },
+    "Crit Rate": {
+      "vi": "Tỷ Lệ Chí Mạng",
+      "jp": "会心率",
+      "zh": "暴击率"
+    },
+    "Crit Damage": {
+      "vi": "ST Chí Mạng",
+      "jp": "会心ダメージ",
+      "zh": "暴击伤害"
+    }
+  },
+  "preservePatterns": [
+    "\\d+%",
+    "\\d+s",
+    "\\d+\\.\\d+",
+    "\\d+",
+    "Lv\\.",
+    "★"
+  ]
+}
+

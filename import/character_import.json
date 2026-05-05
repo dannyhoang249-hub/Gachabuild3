@@ -1,0 +1,488 @@
+[
+  {
+    "name": {
+      "en": "Berenica",
+      "vi": "Berenica"
+    },
+    "slug": "berenica",
+    "role": "Vanguard",
+    "weapon": "Sword",
+    "rarity": "4★",
+    "element": "Unknown",
+    "overview": {
+      "en": "Wishes?... I, can't think of any. Your smile in the morning is already the greatest pick-me-up of all.",
+      "vi": "Ước nguyện ư?... Tôi không nghĩ ra được gì cả. Nụ cười của ngài vào buổi sáng đã là sự lựa chọn tuyệt vời nhất rồi."
+    },
+    "image": "/characters/Berenica.png",
+    "splash": "/characters/Berenica.png",
+    "skills": [],
+    "build": {
+      "weapons": [],
+      "artifacts": [],
+      "statPriority": []
+    },
+    "synergy": [],
+    "pros": [],
+    "cons": [],
+    "recommendedWeapons": []
+  },
+  {
+    "name": {
+      "en": "Daphne",
+      "vi": "Daphne"
+    },
+    "slug": "daphne",
+    "role": "Vanguard",
+    "weapon": "Sword",
+    "rarity": "4★",
+    "element": "Unknown",
+    "overview": {
+      "en": "It's delightful to see you safe and well today. Take care. The peace we all long for will surely arrive someday.",
+      "vi": "Thật vui khi thấy bạn an toàn và khỏe mạnh hôm nay. Hãy cẩn thận. Hòa bình mà tất cả chúng ta mong muốn chắc chắn sẽ đến một ngày nào đó."
+    },
+    "image": "/characters/Daphne.png",
+    "splash": "/characters/Daphne.png",
+    "skills": [],
+    "build": {
+      "weapons": [],
+      "artifacts": [],
+      "statPriority": []
+    },
+    "synergy": [],
+    "pros": [],
+    "cons": [],
+    "recommendedWeapons": []
+  },
+  {
+    "name": {
+      "en": "Fina",
+      "vi": "Fina"
+    },
+    "slug": "fina",
+    "role": "Vanguard",
+    "weapon": "Sword",
+    "rarity": "4★",
+    "element": "Unknown",
+    "overview": {
+      "en": "What a tiny, tiny, little home... It rests in and hides in the treetops and the magical golden river flow... Do you see that stone? The embers crackle, crackle...",
+      "vi": "Thật là một ngôi nhà nhỏ bé, nhỏ bé... Nó nằm và ẩn mình trong ngọn cây và dòng sông vàng ma thuật chảy... Bạn có thấy hòn đá đó không? Những tàn lửa nổ lách tách, lách tách..."
+    },
+    "image": "/characters/Fina.png",
+    "splash": "/characters/Fina.png",
+    "skills": [],
+    "build": {
+      "weapons": [],
+      "artifacts": [],
+      "statPriority": []
+    },
+    "synergy": [],
+    "pros": [],
+    "cons": [],
+    "recommendedWeapons": []
+  },
+  {
+    "name": {
+      "en": "Fushu",
+      "vi": "Fushu"
+    },
+    "slug": "fushu",
+    "role": "Support",
+    "weapon": "Sword",
+    "rarity": "4★",
+    "element": "Unknown",
+    "overview": {
+      "en": "I am Fushu, a healer from Huaxu. If you are injured or unwell, please, do not conceal it from me. Though my skills may have their limits, I will do everything in my power to safeguard your well-being.",
+      "vi": "Tôi là Fushu, một thầy thuốc từ Huaxu. Nếu bạn bị thương hoặc không khỏe, xin đừng giấu tôi. Mặc dù kỹ năng của tôi có thể có giới hạn, tôi sẽ làm mọi thứ trong khả năng của mình để bảo vệ sức khỏe của bạn."
+    },
+    "image": "/characters/Fushu.png",
+    "splash": "/characters/Fushu.png",
+    "skills": [],
+    "build": {
+      "weapons": [],
+      "artifacts": [],
+      "statPriority": []
+    },
+    "synergy": [],
+    "pros": [],
+    "cons": [],
+    "recommendedWeapons": []
+  },
+  {
+    "name": {
+      "en": "Hellfire",
+      "vi": "Hellfire"
+    },
+    "slug": "hellfire",
+    "role": "Vanguard",
+    "weapon": "Sword",
+    "rarity": "4★",
+    "element": "Unknown",
+    "overview": {
+      "en": "Every minute of rest delays justice a bit, and when justice is delayed, chaos and the law of the jungle take over.",
+      "vi": "Mỗi phút nghỉ ngơi đều trì hoãn công lý một chút, và khi công lý bị trì hoãn, hỗn loạn và luật rừng sẽ chiếm lấy."
+    },
+    "image": "/characters/Hellfire.png",
+    "splash": "/characters/Hellfire.png",
+    "skills": [],
+    "build": {
+      "weapons": [],
+      "artifacts": [],
+      "statPriority": []
+    },
+    "synergy": [],
+    "pros": [],
+    "cons": [],
+    "recommendedWeapons": []
+  },
+  {
+    "name": {
+      "en": "Lady Nifle",
+      "vi": "Lady Nifle"
+    },
+    "slug": "lady-nifle",
+    "role": "Vanguard",
+    "weapon": "Sword",
+    "rarity": "4★",
+    "element": "Unknown",
+    "overview": {
+      "en": "Should you wander into the Emerald Forest, would you mind bringing a bouquet of white asters for me? Beneath its earth rest my friends, my child, and a version of myself from long ago.",
+      "vi": "Nếu bạn lang thang vào Rừng Ngọc Lục Bảo, bạn có thể mang cho tôi một bó hoa cúc trắng không? Dưới lòng đất đó yên nghỉ những người bạn, đứa con và phiên bản của tôi từ rất lâu rồi."
+    },
+    "image": "/characters/LadyNifle.png",
+    "splash": "/characters/LadyNifle.png",
+    "skills": [],
+    "build": {
+      "weapons": [],
+      "artifacts": [],
+      "statPriority": []
+    },
+    "synergy": [],
+    "pros": [],
+    "cons": [],
+    "recommendedWeapons": []
+  },
+  {
+    "name": {
+      "en": "Lynn",
+      "vi": "Lynn"
+    },
+    "slug": "lynn",
+    "role": "Vanguard",
+    "weapon": "Sword",
+    "rarity": "4★",
+    "element": "Unknown",
+    "overview": {
+      "en": "Tips? The only tip I have is there's no problem a good punch can't fix. If that doesn't work, throw another.",
+      "vi": "Mẹo? Mẹo duy nhất tôi có là không có vấn đề gì mà một cú đấm tốt không thể giải quyết. Nếu không hiệu quả, hãy ném thêm một cú nữa."
+    },
+    "image": "/characters/Lynn.png",
+    "splash": "/characters/Lynn.png",
+    "skills": [],
+    "build": {
+      "weapons": [],
+      "artifacts": [],
+      "statPriority": []
+    },
+    "synergy": [],
+    "pros": [],
+    "cons": [],
+    "recommendedWeapons": []
+  },
+  {
+    "name": {
+      "en": "Margie",
+      "vi": "Margie"
+    },
+    "slug": "margie",
+    "role": "Vanguard",
+    "weapon": "Sword",
+    "rarity": "4★",
+    "element": "Ice",
+    "overview": {
+      "en": "What?! You've already heard of my title 'Princess Rabbitsy' Biz? Just call me Margie. No princess here, just a little scavenger of Icelake.",
+      "vi": "Cái gì?! Bạn đã nghe về danh hiệu 'Công chúa Thỏ' của tôi rồi à? Chỉ cần gọi tôi là Margie thôi. Không có công chúa nào ở đây, chỉ là một kẻ nhặt rác nhỏ của Hồ Băng."
+    },
+    "image": "/characters/Margie.png",
+    "splash": "/characters/Margie.png",
+    "skills": [],
+    "build": {
+      "weapons": [],
+      "artifacts": [],
+      "statPriority": []
+    },
+    "synergy": [],
+    "pros": [],
+    "cons": [],
+    "recommendedWeapons": []
+  },
+  {
+    "name": {
+      "en": "Outsider",
+      "vi": "Outsider"
+    },
+    "slug": "outsider",
+    "role": "Vanguard",
+    "weapon": "Sword",
+    "rarity": "4★",
+    "element": "Unknown",
+    "overview": {
+      "en": "Here you are. I've finally finished all my chores and got absolutely knackered, but I've only earned a few quid. Urgh... I've given too much for you guys.",
+      "vi": "Đây bạn. Cuối cùng tôi đã hoàn thành tất cả công việc và hoàn toàn kiệt sức, nhưng tôi chỉ kiếm được vài đồng. Urgh... Tôi đã cho quá nhiều cho các bạn."
+    },
+    "image": "/characters/Outsider.png",
+    "splash": "/characters/Outsider.png",
+    "skills": [],
+    "build": {
+      "weapons": [],
+      "artifacts": [],
+      "statPriority": []
+    },
+    "synergy": [],
+    "pros": [],
+    "cons": [],
+    "recommendedWeapons": []
+  },
+  {
+    "name": {
+      "en": "Phantasio",
+      "vi": "Phantasio"
+    },
+    "slug": "phantasio",
+    "role": "Vanguard",
+    "weapon": "Sword",
+    "rarity": "4★",
+    "element": "Unknown",
+    "overview": {
+      "en": "We shall meet in the gloomiest hour of the night, so that you won't scream at the sight of my ugly, dreadfully ravaged face.",
+      "vi": "Chúng ta sẽ gặp nhau vào giờ tối tăm nhất của đêm, để bạn không hét lên khi nhìn thấy khuôn mặt xấu xí, tàn tạ khủng khiếp của tôi."
+    },
+    "image": "/characters/Phantasio.png",
+    "splash": "/characters/Phantasio.png",
+    "skills": [],
+    "build": {
+      "weapons": [],
+      "artifacts": [],
+      "statPriority": []
+    },
+    "synergy": [],
+    "pros": [],
+    "cons": [],
+    "recommendedWeapons": []
+  },
+  {
+    "name": {
+      "en": "Psyche",
+      "vi": "Psyche"
+    },
+    "slug": "psyche",
+    "role": "Vanguard",
+    "weapon": "Sword",
+    "rarity": "4★",
+    "element": "Unknown",
+    "overview": {
+      "en": "The courtyard at the Hypnos' House looked a bit barren with just a few trees, so I planted some white flowers there.",
+      "vi": "Sân trong nhà Hypnos trông hơi trống trải với chỉ vài cây, nên tôi đã trồng một số hoa trắng ở đó."
+    },
+    "image": "/characters/Spyche.png",
+    "splash": "/characters/Spyche.png",
+    "skills": [],
+    "build": {
+      "weapons": [],
+      "artifacts": [],
+      "statPriority": []
+    },
+    "synergy": [],
+    "pros": [],
+    "cons": [],
+    "recommendedWeapons": []
+  },
+  {
+    "name": {
+      "en": "Randy",
+      "vi": "Randy"
+    },
+    "slug": "randy",
+    "role": "Vanguard",
+    "weapon": "Sword",
+    "rarity": "4★",
+    "element": "Light",
+    "overview": {
+      "en": "Listen the Beds are havens, where souls find ease rooftops sanctuaries, where anxieties cease. In afternoon gardens, the sunlight gleams take a nap, and enjoy the symphony of sweet dreams...",
+      "vi": "Nghe này, giường là thiên đường, nơi linh hồn tìm thấy sự thoải mái, mái nhà là nơi ẩn náu, nơi lo lắng chấm dứt. Trong những khu vườn buổi chiều, ánh nắng lấp lánh, hãy chợp mắt và tận hưởng bản giao hưởng của những giấc mơ ngọt ngào..."
+    },
+    "image": "/characters/Randy.png",
+    "splash": "/characters/Randy.png",
+    "skills": [],
+    "build": {
+      "weapons": [],
+      "artifacts": [],
+      "statPriority": []
+    },
+    "synergy": [],
+    "pros": [],
+    "cons": [],
+    "recommendedWeapons": []
+  },
+  {
+    "name": {
+      "en": "Rebecca",
+      "vi": "Rebecca"
+    },
+    "slug": "rebecca",
+    "role": "Vanguard",
+    "weapon": "Sword",
+    "rarity": "4★",
+    "element": "Water",
+    "overview": {
+      "en": "Love is like water in perfume, which kisses and embraces each ingredient, devours and absorbs their fragrance, and eventually blends with them to create a long-lasting aroma...",
+      "vi": "Tình yêu giống như nước trong nước hoa, nó hôn và ôm ấp từng thành phần, nuốt chửng và hấp thụ hương thơm của chúng, và cuối cùng hòa quyện với chúng để tạo ra một mùi hương lâu dài..."
+    },
+    "image": "/characters/Rebecca.png",
+    "splash": "/characters/Rebecca.png",
+    "skills": [],
+    "build": {
+      "weapons": [],
+      "artifacts": [],
+      "statPriority": []
+    },
+    "synergy": [],
+    "pros": [],
+    "cons": [],
+    "recommendedWeapons": []
+  },
+  {
+    "name": {
+      "en": "Rhythm",
+      "vi": "Rhythm"
+    },
+    "slug": "rhythm",
+    "role": "Vanguard",
+    "weapon": "Sword",
+    "rarity": "4★",
+    "element": "Unknown",
+    "overview": {
+      "en": "Patrol complete. No signs of dangerous creatures, structural damage, or suspicious markings. Routine operations may proceed without interruption. Report concluded.",
+      "vi": "Tuần tra hoàn thành. Không có dấu hiệu của sinh vật nguy hiểm, hư hỏng cấu trúc, hoặc dấu hiệu đáng ngờ. Các hoạt động thường quy có thể tiến hành mà không bị gián đoạn. Báo cáo kết thúc."
+    },
+    "image": "/characters/Rhythm.png",
+    "splash": "/characters/Rhythm.png",
+    "skills": [],
+    "build": {
+      "weapons": [],
+      "artifacts": [],
+      "statPriority": []
+    },
+    "synergy": [],
+    "pros": [],
+    "cons": [],
+    "recommendedWeapons": []
+  },
+  {
+    "name": {
+      "en": "Sibylle",
+      "vi": "Sibylle"
+    },
+    "slug": "sibylle",
+    "role": "Vanguard",
+    "weapon": "Sword",
+    "rarity": "4★",
+    "element": "Unknown",
+    "overview": {
+      "en": "I know what you wish to ask, but you're not yet strong enough to warrant my response. So, lay down your weapon; that's the kindest advice I can offer.",
+      "vi": "Tôi biết bạn muốn hỏi gì, nhưng bạn chưa đủ mạnh để xứng đáng với câu trả lời của tôi. Vậy nên, hãy đặt vũ khí xuống; đó là lời khuyên tốt nhất tôi có thể đưa ra."
+    },
+    "image": "/characters/Sibylle.png",
+    "splash": "/characters/Sibylle.png",
+    "skills": [],
+    "build": {
+      "weapons": [],
+      "artifacts": [],
+      "statPriority": []
+    },
+    "synergy": [],
+    "pros": [],
+    "cons": [],
+    "recommendedWeapons": []
+  },
+  {
+    "name": {
+      "en": "Tabethe",
+      "vi": "Tabethe"
+    },
+    "slug": "tabethe",
+    "role": "Vanguard",
+    "weapon": "Sword",
+    "rarity": "4★",
+    "element": "Unknown",
+    "overview": {
+      "en": "Don't worry, Demon Tabethe the Red Hand never steals from the fair and honest. Or perhaps you're on the naughty list?",
+      "vi": "Đừng lo, Ác ma Tabethe Bàn tay Đỏ không bao giờ ăn cắp từ những người công bằng và trung thực. Hoặc có lẽ bạn đang trong danh sách nghịch ngợm?"
+    },
+    "image": "/characters/Tabethe.png",
+    "splash": "/characters/Tabethe.png",
+    "skills": [],
+    "build": {
+      "weapons": [],
+      "artifacts": [],
+      "statPriority": []
+    },
+    "synergy": [],
+    "pros": [],
+    "cons": [],
+    "recommendedWeapons": []
+  },
+  {
+    "name": {
+      "en": "Truffle and Filbert",
+      "vi": "Truffle and Filbert"
+    },
+    "slug": "truffle-and-filbert",
+    "role": "Vanguard",
+    "weapon": "Sword",
+    "rarity": "4★",
+    "element": "Unknown",
+    "overview": {
+      "en": "Helloooo! I heard that praying can make one's soul feel uplifted. Personally, I think that a good meal does the same thing. But which one works better, praying or dining?",
+      "vi": "Xin chào! Tôi nghe nói rằng cầu nguyện có thể làm cho linh hồn cảm thấy được nâng cao. Cá nhân tôi nghĩ rằng một bữa ăn ngon cũng làm điều tương tự. Nhưng cái nào hiệu quả hơn, cầu nguyện hay ăn uống?"
+    },
+    "image": "/characters/truffeandfilbert.png",
+    "splash": "/characters/truffeandfilbert.png",
+    "skills": [],
+    "build": {
+      "weapons": [],
+      "artifacts": [],
+      "statPriority": []
+    },
+    "synergy": [],
+    "pros": [],
+    "cons": [],
+    "recommendedWeapons": []
+  },
+  {
+    "name": {
+      "en": "Yale and Oliver",
+      "vi": "Yale and Oliver"
+    },
+    "slug": "yale-and-oliver",
+    "role": "Vanguard",
+    "weapon": "Sword",
+    "rarity": "4★",
+    "element": "Unknown",
+    "overview": {
+      "en": "Yale: 'Peter Piper p-picked a peck of p-p-pickled peppers...' Oliver: 'It's 'Peter Piper picked a peck of pickled peppers.' Come on, Yale, keep up!",
+      "vi": "Yale: 'Peter Piper p-picked a peck of p-p-pickled peppers...' Oliver: 'Đó là 'Peter Piper picked a peck of pickled peppers.' Thôi nào, Yale, cố lên!"
+    },
+    "image": "/characters/YaleandOliver.png",
+    "splash": "/characters/YaleandOliver.png",
+    "skills": [],
+    "build": {
+      "weapons": [],
+      "artifacts": [],
+      "statPriority": []
+    },
+    "synergy": [],
+    "pros": [],
+    "cons": [],
+    "recommendedWeapons": []
+  }
+]

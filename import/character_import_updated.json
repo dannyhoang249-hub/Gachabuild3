@@ -1,0 +1,4962 @@
+[
+  {
+    "name": {
+      "en": "Berenica",
+      "vi": "Berenica"
+    },
+    "overview": {
+      "en": "",
+      "vi": ""
+    },
+    "rarity": "5★",
+    "traits": [
+      {
+        "name": "Name",
+        "effect": "Effect"
+      },
+      {
+        "name": "Adventurer",
+        "effect": "Skilled in Combat."
+      },
+      {
+        "name": "Impression: Morality",
+        "effect": "Upholds justice and integrity."
+      },
+      {
+        "name": "Rapt Attention",
+        "effect": "Handles tasks with heightened **efficiency**, reducing completion time."
+      }
+    ],
+    "baseStats": [
+      {
+        "stat": "Umbro ATK",
+        "lv1": "20",
+        "lvMax": "376.57"
+      },
+      {
+        "stat": "HP",
+        "lv1": "100",
+        "lvMax": "1255"
+      },
+      {
+        "stat": "Shield",
+        "lv1": "100",
+        "lvMax": "1255"
+      },
+      {
+        "stat": "DEF",
+        "lv1": "300",
+        "lvMax": "300"
+      },
+      {
+        "stat": "Max Sanity",
+        "lv1": "150",
+        "lvMax": "150"
+      },
+      {
+        "stat": "Weapon Proficiency",
+        "lv1": "Sword / Dual Pistols",
+        "lvMax": "—"
+      },
+      {
+        "stat": "Skill DMG",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "lv1": "118%",
+        "lvMax": "118%"
+      },
+      {
+        "stat": "Skill **Efficiency**",
+        "lv1": "100%",
+        "lvMax": "112.5%"
+      },
+      {
+        "stat": "Morale",
+        "lv1": "0%",
+        "lvMax": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "lv1": "0%",
+        "lvMax": "0%"
+      }
+    ],
+    "passiveUpgrades": [
+      {
+        "upgrade": "ATK",
+        "value": "+30%"
+      },
+      {
+        "upgrade": "Skill **Efficiency**",
+        "value": "+5%"
+      },
+      {
+        "upgrade": "Skill **Efficiency**",
+        "value": "+7.5%"
+      },
+      {
+        "upgrade": "Afterburn",
+        "value": "After using **[Netherflames]**, the next **[Faintlight]** does not consume Sanity."
+      },
+      {
+        "upgrade": "Heart Devourer",
+        "value": "*(Partner)* Increase ATK (+40%) for the character and nearby Umbro teammate(s)."
+      }
+    ],
+    "skills": [
+      {
+        "name": {
+          "en": "Netherflames",
+          "vi": "Netherflames"
+        },
+        "description": {
+          "en": "Switches melee weapon to **[Ymir]** and casts 1 Swordwave. During **[Ymir]**, normal attacks unleash Swordwaves, constantly consuming Sanity. Immune to Hitstun while active. Ends on 0 Sanity or re‑cast.",
+          "vi": "Switches melee weapon to **[Ymir]** and casts 1 Swordwave. During **[Ymir]**, normal attacks unleash Swordwaves, constantly consuming Sanity. Immune to Hitstun while active. Ends on 0 Sanity or re‑cast."
+        },
+        "type": "ultimate",
+        "skillDMG": "Lv.1: Sanity Cost: **10**; Cost/s: **26**; 1‑Hit DMG **19%**, 2‑Hit **20%**, 3‑Hit **26%**, 4‑Hit **35%**, 5‑Hit **42%**; Normal Hit Radius **3m**; Charged ATK **113%**; Sliding ATK **51%**; Swordwave DMG: 1‑Hit **209%**, 2‑Hit **259%**, 3‑Hit **291%**, 4‑Hit **400%**, 5‑Hit **434%**; Skill DMG **209%**; Swordwave Width **12m**",
+        "misc": "Lv.Max: Sanity Cost: **9**; Cost/s: **23**; 1‑Hit **37%**, 2‑Hit **47%**, 3‑Hit **53%**, 4‑Hit **71%**, 5‑Hit **78%**; Radius **3m**; Charged **113%**; Sliding **51%**; Swordwave: 1‑Hit **416%**, 2‑Hit **520%**, 3‑Hit **588%**, 4‑Hit **796%**, 5‑Hit **866%**; Skill DMG **416%**; Width **12m**"
+      },
+      {
+        "name": {
+          "en": "Recuperation",
+          "vi": "Recuperation"
+        },
+        "description": {
+          "en": "When dealing damage with **[Faintlight]** or Sword, has a chance to restore Sanity.",
+          "vi": "When dealing damage with **[Faintlight]** or Sword, has a chance to restore Sanity."
+        },
+        "type": "passive",
+        "skillDMG": "Lv.1: Sanity Recovery **2**; Trigger Probability **17%**",
+        "misc": "Lv.Max: Sanity Recovery **2**; Trigger Probability **44%**"
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 2",
+          "vi": "Intron Lv. 2"
+        },
+        "description": {
+          "en": "Deal +30% damage to targets whose HP% is lower than Berenica’s.",
+          "vi": "Deal +30% damage to targets whose HP% is lower than Berenica’s."
+        },
+        "type": "intron",
+        "level": 2
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 3",
+          "vi": "Intron Lv. 3"
+        },
+        "description": {
+          "en": "**[Faintlight]** +2; **[Recuperation]** +1.",
+          "vi": "**[Faintlight]** +2; **[Recuperation]** +1."
+        },
+        "type": "intron",
+        "level": 3
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 4",
+          "vi": "Intron Lv. 4"
+        },
+        "description": {
+          "en": "Increase ATK by +20% per Combo Level.",
+          "vi": "Increase ATK by +20% per Combo Level."
+        },
+        "type": "intron",
+        "level": 4
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 5",
+          "vi": "Intron Lv. 5"
+        },
+        "description": {
+          "en": "**[Netherflames]** +2; **[Recuperation]** +1.",
+          "vi": "**[Netherflames]** +2; **[Recuperation]** +1."
+        },
+        "type": "intron",
+        "level": 5
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 6",
+          "vi": "Intron Lv. 6"
+        },
+        "description": {
+          "en": "While in **[Netherflames]**, each attack has a chance to unleash 1 additional Swordwave (probability = 25% of **[Ymir]** Trigger Probability).",
+          "vi": "While in **[Netherflames]**, each attack has a chance to unleash 1 additional Swordwave (probability = 25% of **[Ymir]** Trigger Probability)."
+        },
+        "type": "intron",
+        "level": 6
+      }
+    ],
+    "slug": "berenica",
+    "role": "DPS",
+    "element": "Umbro",
+    "weapon": "Sword",
+    "profile": {
+      "birthplace": "Hyperborean Empire",
+      "birthday": "1 January",
+      "allegiance": "Unaffiliated"
+    }
+  },
+  {
+    "name": {
+      "en": "Daphne",
+      "vi": "Daphne"
+    },
+    "overview": {
+      "en": "",
+      "vi": ""
+    },
+    "rarity": "5★",
+    "traits": [
+      {
+        "name": "Name",
+        "effect": "Effect"
+      },
+      {
+        "name": "Geologist",
+        "effect": "Skilled in Mining."
+      },
+      {
+        "name": "Impression: Wisdom",
+        "effect": "Quick‑witted or highly knowledgeable in specific fields."
+      },
+      {
+        "name": "Fortune Favour",
+        "effect": "Favoured by luck—more likely to receive unexpected gains."
+      }
+    ],
+    "baseStats": [
+      {
+        "stat": "Anemo ATK",
+        "lv1": "19",
+        "lvMax": "357.74"
+      },
+      {
+        "stat": "HP",
+        "lv1": "100",
+        "lvMax": "1255"
+      },
+      {
+        "stat": "Shield",
+        "lv1": "100",
+        "lvMax": "1255"
+      },
+      {
+        "stat": "DEF",
+        "lv1": "285",
+        "lvMax": "285"
+      },
+      {
+        "stat": "Max Sanity",
+        "lv1": "160",
+        "lvMax": "160"
+      },
+      {
+        "stat": "Weapon Proficiency",
+        "lv1": "Whipsword / Assault Rifle",
+        "lvMax": "—"
+      },
+      {
+        "stat": "Skill DMG",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "lv1": "100%",
+        "lvMax": "130%"
+      },
+      {
+        "stat": "Skill Duration",
+        "lv1": "118%",
+        "lvMax": "118%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Morale",
+        "lv1": "0%",
+        "lvMax": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "lv1": "0%",
+        "lvMax": "0%"
+      }
+    ],
+    "passiveUpgrades": [
+      {
+        "upgrade": "ATK",
+        "value": "+30%"
+      },
+      {
+        "upgrade": "Skill Range",
+        "value": "+12%"
+      },
+      {
+        "upgrade": "Skill Range",
+        "value": "+18%"
+      },
+      {
+        "upgrade": "Argent Lacrima",
+        "value": "While possessing **[Azoth Projectiles]**, ranged hits apply **[Decay Formula]** DoT once (DMG = 10% of Daphne’s ranged Trigger Probability)."
+      },
+      {
+        "upgrade": "Ardent Impulse",
+        "value": "*(Partner)* Increase CRIT Chance (+40%) for the character and nearby teammate(s)."
+      }
+    ],
+    "skills": [
+      {
+        "name": {
+          "en": "Repulsion Synthesis",
+          "vi": "Repulsion Synthesis"
+        },
+        "description": {
+          "en": "Heals allies, applies **[Purification Formula]** (bonus Anemo DMG), restrains nearby enemies, and inflicts **[Decay Formula]** (ATK↓ and periodic Anemo DMG every 2s). Generates **1 [Azoth Projectile]** per affected target (ally or enemy), up to 12.",
+          "vi": "Heals allies, applies **[Purification Formula]** (bonus Anemo DMG), restrains nearby enemies, and inflicts **[Decay Formula]** (ATK↓ and periodic Anemo DMG every 2s). Generates **1 [Azoth Projectile]** per affected target (ally or enemy), up to 12."
+        },
+        "type": "ultimate",
+        "skillDMG": "Lv.1: Sanity Cost **60**; Healing **2.5% ATK + 35**; Purification Duration **14.16s**; Additional DMG **6.6%**; Enemy Radius **10m**; Decay Duration **14.16s**; DoT **43%**; ATK Reduce **15%**; Immobilize **3.54s**",
+        "misc": "Lv.Max: Sanity Cost **60**; Healing **7% ATK + 35**; Additional DMG **21%**; Enemy Radius **13m**; DoT **133%**; other durations same as Lv.1"
+      },
+      {
+        "name": {
+          "en": "Azoth Projectile",
+          "vi": "Azoth Projectile"
+        },
+        "description": {
+          "en": "Increases ranged weapon Trigger Probability while holding **[Azoth Projectiles]** (max 30; each ranged hit consumes 1).",
+          "vi": "Increases ranged weapon Trigger Probability while holding **[Azoth Projectiles]** (max 30; each ranged hit consumes 1)."
+        },
+        "type": "passive",
+        "skillDMG": "Lv.1: Trigger Prob. +**37%**",
+        "misc": "Lv.Max: Trigger Prob. +**100%**"
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 2",
+          "vi": "Intron Lv. 2"
+        },
+        "description": {
+          "en": "During **[Emerald Effusion]**, Azoth generation increases to **3/sec**.",
+          "vi": "During **[Emerald Effusion]**, Azoth generation increases to **3/sec**."
+        },
+        "type": "intron",
+        "level": 2
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 3",
+          "vi": "Intron Lv. 3"
+        },
+        "description": {
+          "en": "**[Emerald Effusion]** +2; **[Azoth Projectile]** +1.",
+          "vi": "**[Emerald Effusion]** +2; **[Azoth Projectile]** +1."
+        },
+        "type": "intron",
+        "level": 3
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 4",
+          "vi": "Intron Lv. 4"
+        },
+        "description": {
+          "en": "Restore **1 Sanity** for each **[Azoth Projectile]** consumed.",
+          "vi": "Restore **1 Sanity** for each **[Azoth Projectile]** consumed."
+        },
+        "type": "intron",
+        "level": 4
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 5",
+          "vi": "Intron Lv. 5"
+        },
+        "description": {
+          "en": "**[Repulsion Synthesis]** +2; **[Azoth Projectile]** +1.",
+          "vi": "**[Repulsion Synthesis]** +2; **[Azoth Projectile]** +1."
+        },
+        "type": "intron",
+        "level": 5
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 6",
+          "vi": "Intron Lv. 6"
+        },
+        "description": {
+          "en": "When a teammate with **[Purification Formula]** hits an enemy with **[Decay Formula]**, Daphne gains 1 stack: +7% Damage Dealt for 12s (max 3; 1s ICD).",
+          "vi": "When a teammate with **[Purification Formula]** hits an enemy with **[Decay Formula]**, Daphne gains 1 stack: +7% Damage Dealt for 12s (max 3; 1s ICD)."
+        },
+        "type": "intron",
+        "level": 6
+      }
+    ],
+    "slug": "daphne",
+    "role": "Support",
+    "element": "Anemo",
+    "weapon": "Whipsword",
+    "profile": {
+      "birthplace": "Hyperborean Empire",
+      "birthday": "8 May",
+      "allegiance": "The 13th Legion"
+    }
+  },
+  {
+    "name": {
+      "en": "Lynn",
+      "vi": "Lynn"
+    },
+    "overview": {
+      "en": "",
+      "vi": ""
+    },
+    "rarity": "5★",
+    "traits": [
+      {
+        "name": "Name",
+        "effect": "Effect"
+      },
+      {
+        "name": "Impression: Chaos",
+        "effect": "Values spontaneity and personal freedom over order."
+      },
+      {
+        "name": "Rapt Attention",
+        "effect": "Handles tasks with heightened efficiency, reducing completion time."
+      },
+      {
+        "name": "Adventurer",
+        "effect": "Skilled in combat."
+      }
+    ],
+    "baseStats": [
+      {
+        "stat": "Pyro ATK",
+        "lv1": "23",
+        "lvMax": "433.05"
+      },
+      {
+        "stat": "HP",
+        "lv1": "105",
+        "lvMax": "1318"
+      },
+      {
+        "stat": "Shield",
+        "lv1": "105",
+        "lvMax": "1318"
+      },
+      {
+        "stat": "DEF",
+        "lv1": "240",
+        "lvMax": "240"
+      },
+      {
+        "stat": "Max Sanity",
+        "lv1": "150",
+        "lvMax": "150"
+      },
+      {
+        "stat": "Weapon Proficiency",
+        "lv1": "Greatsword / Dual Pistols",
+        "lvMax": "—"
+      },
+      {
+        "stat": "Skill DMG",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "lv1": "100%",
+        "lvMax": "115%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Morale",
+        "lv1": "0%",
+        "lvMax": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "lv1": "0%",
+        "lvMax": "0%"
+      }
+    ],
+    "passiveUpgrades": [
+      {
+        "upgrade": "ATK",
+        "value": "+30%"
+      },
+      {
+        "upgrade": "Skill Duration",
+        "value": "+6%"
+      },
+      {
+        "upgrade": "Skill Duration",
+        "value": "+9%"
+      },
+      {
+        "upgrade": "The Unforgivable",
+        "value": "Immediately removes **[Laceration]** and deals damage once **[Lacerated Wound]** reaches maximum."
+      },
+      {
+        "upgrade": "Hellforge",
+        "value": "*(Partner)* Increase ATK (+50%) for the character and nearby Pyro teammate(s)."
+      }
+    ],
+    "skills": [
+      {
+        "name": {
+          "en": "Gunpowder Revelry",
+          "vi": "Gunpowder Revelry"
+        },
+        "description": {
+          "en": "Switches ranged weapon to **[Hansel and Gretel]**. Can shoot/use skills; movement via **[Deadly Blossom]** only. Shots hit all enemies in front and grant +ATK SPD stacks every 0.2s (max 35). Continuously consumes Sanity and grants Hitstun immunity. Ends on 0 Sanity or re‑cast.",
+          "vi": "Switches ranged weapon to **[Hansel and Gretel]**. Can shoot/use skills; movement via **[Deadly Blossom]** only. Shots hit all enemies in front and grant +ATK SPD stacks every 0.2s (max 35). Continuously consumes Sanity and grants Hitstun immunity. Ends on 0 Sanity or re‑cast."
+        },
+        "type": "ultimate",
+        "skillDMG": "Lv.1: Sanity Cost **10**; Cost/s **20**; Shooting DMG **127%**; Max Range **50m**; ATK SPD/stack **3%**",
+        "misc": "Lv.Max: Sanity Cost **10**; Cost/s **18**; Shooting DMG **253%**; Max Range **50m**; ATK SPD/stack **3%**"
+      },
+      {
+        "name": {
+          "en": "Tactical Rapid Fire",
+          "vi": "Tactical Rapid Fire"
+        },
+        "description": {
+          "en": "When not shooting, gain **1 [Preload]** per second (max 6). When shooting, consume all stacks to gain **[Suppressing Fire]** for a duration; DMG increases based on consumed stacks. Cannot gain **[Preload]** during **[Suppressing Fire]**.",
+          "vi": "When not shooting, gain **1 [Preload]** per second (max 6). When shooting, consume all stacks to gain **[Suppressing Fire]** for a duration; DMG increases based on consumed stacks. Cannot gain **[Preload]** during **[Suppressing Fire]**."
+        },
+        "type": "passive",
+        "skillDMG": "Lv.1: Suppressing Fire **6s**; DMG/stack **5.1%**",
+        "misc": "Lv.Max: Suppressing Fire **6.9s**; DMG/stack **15%**"
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 2",
+          "vi": "Intron Lv. 2"
+        },
+        "description": {
+          "en": "During **[Gunpowder Revelry]**, Damage Taken −30%; ATK SPD stack interval reduced to **0.06s**.",
+          "vi": "During **[Gunpowder Revelry]**, Damage Taken −30%; ATK SPD stack interval reduced to **0.06s**."
+        },
+        "type": "intron",
+        "level": 2
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 3",
+          "vi": "Intron Lv. 3"
+        },
+        "description": {
+          "en": "**[Deadly Blossom]** +2; **[Tactical Rapid Fire]** +1.",
+          "vi": "**[Deadly Blossom]** +2; **[Tactical Rapid Fire]** +1."
+        },
+        "type": "intron",
+        "level": 3
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 4",
+          "vi": "Intron Lv. 4"
+        },
+        "description": {
+          "en": "Deal +35% damage to targets with HP% < 70%.",
+          "vi": "Deal +35% damage to targets with HP% < 70%."
+        },
+        "type": "intron",
+        "level": 4
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 5",
+          "vi": "Intron Lv. 5"
+        },
+        "description": {
+          "en": "**[Gunpowder Revelry]** +2; **[Tactical Rapid Fire]** +1.",
+          "vi": "**[Gunpowder Revelry]** +2; **[Tactical Rapid Fire]** +1."
+        },
+        "type": "intron",
+        "level": 5
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 6",
+          "vi": "Intron Lv. 6"
+        },
+        "description": {
+          "en": "During **[Gunpowder Revelry]**, triggering Bonus Effect with **[Hansel and Gretel]** inflicts **[Laceration]** on targets for 8s.",
+          "vi": "During **[Gunpowder Revelry]**, triggering Bonus Effect with **[Hansel and Gretel]** inflicts **[Laceration]** on targets for 8s."
+        },
+        "type": "intron",
+        "level": 6
+      }
+    ],
+    "slug": "lynn",
+    "role": "DPS",
+    "element": "Pyro",
+    "weapon": "Greatsword",
+    "profile": {
+      "birthplace": "Hyperborean Empire",
+      "birthday": "17 April",
+      "allegiance": "The 13th Legion"
+    }
+  },
+  {
+    "name": {
+      "en": "Outsider",
+      "vi": "Outsider"
+    },
+    "overview": {
+      "en": "",
+      "vi": ""
+    },
+    "rarity": "5★",
+    "traits": [
+      {
+        "name": "Name",
+        "effect": "Effect"
+      },
+      {
+        "name": "Piscator",
+        "effect": "Skilled in fishing."
+      },
+      {
+        "name": "Impression: Empathy",
+        "effect": "Deeply sensitive and emotionally perceptive."
+      },
+      {
+        "name": "Rapt Attention",
+        "effect": "Handles tasks with heightened efficiency, reducing completion time."
+      }
+    ],
+    "baseStats": [
+      {
+        "stat": "Anemo ATK",
+        "lv1": "20",
+        "lvMax": "376.57"
+      },
+      {
+        "stat": "HP",
+        "lv1": "85",
+        "lvMax": "1067"
+      },
+      {
+        "stat": "Shield",
+        "lv1": "195",
+        "lvMax": "2448"
+      },
+      {
+        "stat": "DEF",
+        "lv1": "285",
+        "lvMax": "285"
+      },
+      {
+        "stat": "Max Sanity",
+        "lv1": "120",
+        "lvMax": "120"
+      },
+      {
+        "stat": "Weapon Proficiency",
+        "lv1": "Dual Blades / Dual Pistols",
+        "lvMax": "—"
+      },
+      {
+        "stat": "Skill DMG",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "lv1": "100%",
+        "lvMax": "115%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Morale",
+        "lv1": "0%",
+        "lvMax": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "lv1": "0%",
+        "lvMax": "0%"
+      }
+    ],
+    "passiveUpgrades": [
+      {
+        "upgrade": "ATK",
+        "value": "+30%"
+      },
+      {
+        "upgrade": "Skill Duration",
+        "value": "+6%"
+      },
+      {
+        "upgrade": "Skill Duration",
+        "value": "+9%"
+      },
+      {
+        "upgrade": "Ravenous Gnaw",
+        "value": "When not in **[Relentless Hunt]**, 20% chance to generate **1 [Fang Spike]** on melee hit (1s ICD)."
+      },
+      {
+        "upgrade": "Air Dominance",
+        "value": "*(Partner)* Increase ATK (+40%) for the character and nearby Anemo teammate(s)."
+      }
+    ],
+    "skills": [
+      {
+        "name": {
+          "en": "Predator’s Pounce",
+          "vi": "Predator’s Pounce"
+        },
+        "description": {
+          "en": "Retracts all **[Fang Spikes]** and enters **[Relentless Hunt]**. For each spike retracted: lose HP (min HP won’t drop below 1), convert to equivalent **Ultra Shield**, and extend duration. In **[Relentless Hunt]**: immune to Hitstun, gain weapon ATK SPD and Resolve boosts; cannot be healed (healing converts to Ultra Shield).",
+          "vi": "Retracts all **[Fang Spikes]** and enters **[Relentless Hunt]**. For each spike retracted: lose HP (min HP won’t drop below 1), convert to equivalent **Ultra Shield**, and extend duration. In **[Relentless Hunt]**: immune to Hitstun, gain weapon ATK SPD and Resolve boosts; cannot be healed (healing converts to Ultra Shield)."
+        },
+        "type": "ultimate",
+        "skillDMG": "Lv.1: Sanity Cost **60**; Base Duration **5s**; +**2s** per spike; Max Extended Duration **50s**; HP Lost/spike **10% Max HP**; ATK SPD **18%**; Resolve **9%**",
+        "misc": "Lv.Max: Sanity Cost **60**; Base Duration **5.75s**; +**2.3s** per spike; Max Extended **50s**; HP Lost/spike **10% Max HP**; ATK SPD **45%**; Resolve **18%**"
+      },
+      {
+        "name": {
+          "en": "Fang for Fang",
+          "vi": "Fang for Fang"
+        },
+        "description": {
+          "en": "When taking damage, generate **1 [Fang Spike]** to attack the damage dealer (1s ICD). **[Fang Spike]**: flies to target, dealing Anemo DMG along the path and inflicting **[Throatcutter]** (takes increased damage from Outsider), then falls and persists (max 10 spikes).",
+          "vi": "When taking damage, generate **1 [Fang Spike]** to attack the damage dealer (1s ICD). **[Fang Spike]**: flies to target, dealing Anemo DMG along the path and inflicting **[Throatcutter]** (takes increased damage from Outsider), then falls and persists (max 10 spikes)."
+        },
+        "type": "passive",
+        "skillDMG": "Lv.1: DMG Taken from **Outsider** +**18%**; **[Throatcutter]** Duration **15s**; **[Fang Spike]** DMG **675%**",
+        "misc": "Lv.Max: DMG Taken +**54%**; Duration **17.25s**; **2016%**"
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 2",
+          "vi": "Intron Lv. 2"
+        },
+        "description": {
+          "en": "When **[Fang for Fang]**/**[Ravenous Gnaw]** generates a **[Fang Spike]**, 50% chance to generate 1 additional spike.",
+          "vi": "When **[Fang for Fang]**/**[Ravenous Gnaw]** generates a **[Fang Spike]**, 50% chance to generate 1 additional spike."
+        },
+        "type": "intron",
+        "level": 2
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 3",
+          "vi": "Intron Lv. 3"
+        },
+        "description": {
+          "en": "**[Stealthy Prowl]** +2; **[Fang Spike]** +1.",
+          "vi": "**[Stealthy Prowl]** +2; **[Fang Spike]** +1."
+        },
+        "type": "intron",
+        "level": 3
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 4",
+          "vi": "Intron Lv. 4"
+        },
+        "description": {
+          "en": "While in **[Stealth]**, Movement Speed +35%.",
+          "vi": "While in **[Stealth]**, Movement Speed +35%."
+        },
+        "type": "intron",
+        "level": 4
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 5",
+          "vi": "Intron Lv. 5"
+        },
+        "description": {
+          "en": "**[Predator’s Pounce]** +2; **[Fang Spike]** +1.",
+          "vi": "**[Predator’s Pounce]** +2; **[Fang Spike]** +1."
+        },
+        "type": "intron",
+        "level": 5
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 6",
+          "vi": "Intron Lv. 6"
+        },
+        "description": {
+          "en": "While in **[Relentless Hunt]**, deal additional Anemo Damage +20%.",
+          "vi": "While in **[Relentless Hunt]**, deal additional Anemo Damage +20%."
+        },
+        "type": "intron",
+        "level": 6
+      }
+    ],
+    "slug": "outsider",
+    "role": "DPS",
+    "element": "Anemo",
+    "weapon": "Dual Blades",
+    "profile": {
+      "birthplace": "Hyperborean Empire",
+      "birthday": "1 April",
+      "allegiance": "The Noctoyagers"
+    }
+  },
+  {
+    "name": {
+      "en": "Phantasio",
+      "vi": "Phantasio"
+    },
+    "overview": {
+      "en": "",
+      "vi": ""
+    },
+    "rarity": "5★",
+    "traits": [
+      {
+        "name": "Name",
+        "effect": "Effect"
+      },
+      {
+        "name": "Adventurer",
+        "effect": "Skilled in Combat."
+      },
+      {
+        "name": "Impression: Chaos",
+        "effect": "Values spontaneity and personal freedom over order."
+      },
+      {
+        "name": "Impression: Chaos *(duplicate removed in CMS step if needed)*",
+        "effect": "Values spontaneity and personal freedom over order."
+      }
+    ],
+    "baseStats": [
+      {
+        "stat": "Umbro ATK",
+        "lv1": "21",
+        "lvMax": "395.39"
+      },
+      {
+        "stat": "HP",
+        "lv1": "130",
+        "lvMax": "1632"
+      },
+      {
+        "stat": "Shield",
+        "lv1": "130",
+        "lvMax": "1632"
+      },
+      {
+        "stat": "DEF",
+        "lv1": "330",
+        "lvMax": "330"
+      },
+      {
+        "stat": "Max Sanity",
+        "lv1": "180",
+        "lvMax": "180"
+      },
+      {
+        "stat": "Weapon Proficiency",
+        "lv1": "Greatsword / Shotgun",
+        "lvMax": "—"
+      },
+      {
+        "stat": "Skill DMG",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "lv1": "100%",
+        "lvMax": "112.5%"
+      },
+      {
+        "stat": "Morale",
+        "lv1": "0%",
+        "lvMax": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "lv1": "0%",
+        "lvMax": "0%"
+      }
+    ],
+    "passiveUpgrades": [
+      {
+        "upgrade": "ATK",
+        "value": "+30%"
+      },
+      {
+        "upgrade": "Skill Efficiency",
+        "value": "+5%"
+      },
+      {
+        "upgrade": "Skill Efficiency",
+        "value": "+7.5%"
+      },
+      {
+        "upgrade": "Concerto",
+        "value": "When the 3‑hit of **[Furious Claws]** or **[Mournful Howl]** deals damage, **66.7%** chance to inflict 1 **[Adagio]** stack."
+      },
+      {
+        "upgrade": "Scale of Justice",
+        "value": "*(Partner)* Increase ATK (+50%) for the character and nearby Umbro teammate(s)."
+      }
+    ],
+    "skills": [
+      {
+        "name": {
+          "en": "Curtain Up",
+          "vi": "Curtain Up"
+        },
+        "description": {
+          "en": "Enter **[Bestial Fury]**; consumes Sanity per second and ends at 0. Melee becomes **[Furious Claws]** (4‑hit string; Plunging Attack in air). Ranged becomes **[Mournful Howl]** (beam). 3rd hit of **[Furious Claws]** and **[Mournful Howl]** triggers **[Duo]**; 4th hit / Plunge triggers **[Fermata]**. **[Duo]**: Grants **[Immersion]** (0.1s ICD). **[Fermata]**: DMG ↑ based on target **[Adagio]** stacks, then removes stacks; at 10 stacks, restore Sanity and grant **[Immersion]**.",
+          "vi": "Enter **[Bestial Fury]**; consumes Sanity per second and ends at 0. Melee becomes **[Furious Claws]** (4‑hit string; Plunging Attack in air). Ranged becomes **[Mournful Howl]** (beam). 3rd hit of **[Furious Claws]** and **[Mournful Howl]** triggers **[Duo]**; 4th hit / Plunge triggers **[Fermata]**. **[Duo]**: Grants **[Immersion]** (0.1s ICD). **[Fermata]**: DMG ↑ based on target **[Adagio]** stacks, then removes stacks; at 10 stacks, restore Sanity and grant **[Immersion]**."
+        },
+        "type": "ultimate",
+        "skillDMG": "Lv.1: Sanity **10**; Cost/s **30**; **[Furious Claws]** 1‑Hit **725%**, 2‑Hit **725%**, 3‑Hit **486%**, 4‑Hit **1872%**, Plunge **1935%**; Radius **6m**; **[Mournful Howl]** **428%**; Beam **20m**; **[Duo] Immersion** **0.6% Max Sanity**; DMG/Adagio **91%**; **[Fermata]** Sanity +**10**; **[Fermata] Immersion** **6% Max Sanity**",
+        "misc": "Lv.Max: Sanity **9**; Cost/s **27**; 1‑Hit **2174%**, 2‑Hit **2174%**, 3‑Hit **1449%**, 4‑Hit **5616%**, Plunge **5796%**; Radius **6m**; Beam **1274%**; **[Duo] Immersion** **0.6%**; DMG/Adagio **280%**; **[Fermata]** Sanity +**10**; **[Fermata] Immersion** **6%**"
+      },
+      {
+        "name": {
+          "en": "On Stage",
+          "vi": "On Stage"
+        },
+        "description": {
+          "en": "In **[Bestial Fury]**, ATK increases based on Max Sanity. Gains **[Immersion]** by using skills; cap equals Max Sanity. **[Recitativo]**/**[Aria]** grant **[Immersion]**; while in **[Bestial Fury]**, gain **[Immersion]** per second. At max **[Immersion]** during **[Bestial Fury]**, enter **[Bestial Fury: Devotion]**: consumes **[Immersion]** instead of Sanity to sustain the form; Movement Speed, Skill Speed, and ATK increase based on Max Sanity; **[Immersion]** generation from sustaining form is disabled.",
+          "vi": "In **[Bestial Fury]**, ATK increases based on Max Sanity. Gains **[Immersion]** by using skills; cap equals Max Sanity. **[Recitativo]**/**[Aria]** grant **[Immersion]**; while in **[Bestial Fury]**, gain **[Immersion]** per second. At max **[Immersion]** during **[Bestial Fury]**, enter **[Bestial Fury: Devotion]**: consumes **[Immersion]** instead of Sanity to sustain the form; Movement Speed, Skill Speed, and ATK increase based on Max Sanity; **[Immersion]** generation from sustaining form is disabled."
+        },
+        "type": "passive",
+        "skillDMG": "Lv.1: ATK Boost **25% Max Sanity** (cap **315**); **[Immersion]** from **[Recitativo]/[Aria]** **20**; **[Immersion]**/s in **[Bestial Fury]** **30**; **Devotion** ATK **25% Max Sanity** (cap **315**); **Devotion** Immersion Cost/s **30**; Skill SPD **+30%**",
+        "misc": "Lv.Max: ATK Boost **70% Max Sanity** (cap **315**); other values as listed"
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 2",
+          "vi": "Intron Lv. 2"
+        },
+        "description": {
+          "en": "On 3‑hit **[Furious Claws]**/**[Mournful Howl]**: Damage Taken −25% and **[Concerto]** inflict chance becomes **100%**.",
+          "vi": "On 3‑hit **[Furious Claws]**/**[Mournful Howl]**: Damage Taken −25% and **[Concerto]** inflict chance becomes **100%**."
+        },
+        "type": "intron",
+        "level": 2
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 3",
+          "vi": "Intron Lv. 3"
+        },
+        "description": {
+          "en": "**[Recitativo]** +2; **[On Stage]** +1.",
+          "vi": "**[Recitativo]** +2; **[On Stage]** +1."
+        },
+        "type": "intron",
+        "level": 3
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 4",
+          "vi": "Intron Lv. 4"
+        },
+        "description": {
+          "en": "When 4‑hit **[Furious Claws]** or Plunging Attack hits, DMG +110% if target has **10 [Adagio]** stacks.",
+          "vi": "When 4‑hit **[Furious Claws]** or Plunging Attack hits, DMG +110% if target has **10 [Adagio]** stacks."
+        },
+        "type": "intron",
+        "level": 4
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 5",
+          "vi": "Intron Lv. 5"
+        },
+        "description": {
+          "en": "**[Curtain Up]** +2; **[On Stage]** +1.",
+          "vi": "**[Curtain Up]** +2; **[On Stage]** +1."
+        },
+        "type": "intron",
+        "level": 5
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 6",
+          "vi": "Intron Lv. 6"
+        },
+        "description": {
+          "en": "**[Presto]** additionally grants **+90% Morale**; when **[Duo]** grants **[Immersion]**, extend **[Presto]** by **0.2s**.",
+          "vi": "**[Presto]** additionally grants **+90% Morale**; when **[Duo]** grants **[Immersion]**, extend **[Presto]** by **0.2s**."
+        },
+        "type": "intron",
+        "level": 6
+      }
+    ],
+    "slug": "phantasio",
+    "role": "DPS",
+    "element": "Umbro",
+    "weapon": "Greatsword",
+    "profile": {
+      "birthplace": "Hyperborean Empire",
+      "birthday": "9 October",
+      "allegiance": "Unaffiliated"
+    }
+  },
+  {
+    "name": {
+      "en": "Randy",
+      "vi": "Randy"
+    },
+    "overview": {
+      "en": "",
+      "vi": ""
+    },
+    "rarity": "5★",
+    "traits": [
+      {
+        "name": "Name",
+        "effect": "Effect"
+      },
+      {
+        "name": "Adventurer",
+        "effect": "Skilled in Combat."
+      },
+      {
+        "name": "Impression: Wisdom",
+        "effect": "Quick‑witted or highly respectable in specific fields."
+      },
+      {
+        "name": "Keen Insight",
+        "effect": "Attentive to detail, increasing the chance of success."
+      }
+    ],
+    "baseStats": [
+      {
+        "stat": "Electro ATK",
+        "lv1": "14",
+        "lvMax": "175.73"
+      },
+      {
+        "stat": "HP",
+        "lv1": "105",
+        "lvMax": "1318"
+      },
+      {
+        "stat": "Shield",
+        "lv1": "105",
+        "lvMax": "1318"
+      },
+      {
+        "stat": "DEF",
+        "lv1": "510",
+        "lvMax": "765"
+      },
+      {
+        "stat": "Max Sanity",
+        "lv1": "120",
+        "lvMax": "120"
+      },
+      {
+        "stat": "Weapon Proficiency",
+        "lv1": "Sword / Pistol",
+        "lvMax": "—"
+      },
+      {
+        "stat": "Skill DMG",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "lv1": "100%",
+        "lvMax": "115%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Morale",
+        "lv1": "0%",
+        "lvMax": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "lv1": "0%",
+        "lvMax": "0%"
+      }
+    ],
+    "passiveUpgrades": [
+      {
+        "upgrade": "DEF",
+        "value": "+30%"
+      },
+      {
+        "upgrade": "Skill Duration",
+        "value": "+6%"
+      },
+      {
+        "upgrade": "Skill Duration",
+        "value": "+9%"
+      },
+      {
+        "upgrade": "Well‑Deserved Break",
+        "value": "When **[Barrier]** has absorbed **70%** of Randy’s Max HP, consume **20 Sanity** to reset **[Barrier]** and deal **Legitimate Slackness** deployment damage once."
+      },
+      {
+        "upgrade": "Holdfast",
+        "value": "*(Partner)* Increase DEF (+40%) for the character and nearby teammate(s)."
+      }
+    ],
+    "skills": [
+      {
+        "name": {
+          "en": "Special Gift",
+          "vi": "Special Gift"
+        },
+        "description": {
+          "en": "Throw **1 [Bespoke Shield]** forward, causing **[Impact]** when it halts. **[Bespoke Shield]** triggers **[Impact]** every 3s while on the field. **[Impact]**: damages only target shields (scales with Randy’s DEF) and grants Ultra Shield (scales with DEF) to teammates in range; paralyses targets with **0 Shield**.",
+          "vi": "Throw **1 [Bespoke Shield]** forward, causing **[Impact]** when it halts. **[Bespoke Shield]** triggers **[Impact]** every 3s while on the field. **[Impact]**: damages only target shields (scales with Randy’s DEF) and grants Ultra Shield (scales with DEF) to teammates in range; paralyses targets with **0 Shield**."
+        },
+        "type": "ultimate",
+        "skillDMG": "Lv.1: Sanity **30**; Duration **12s**; Paralysis **2s**; Radius **6m**; **[Impact]** DMG **119% DEF + 30**; Ultra Shield **0.37% DEF + 10**",
+        "misc": "Lv.Max: Sanity **30**; Duration **13.8s**; Paralysis **2s**; Radius **6m**; **[Impact]** DMG **344% DEF + 93**; Ultra Shield **1% DEF + 10**"
+      },
+      {
+        "name": {
+          "en": "Cavalier Composure",
+          "vi": "Cavalier Composure"
+        },
+        "description": {
+          "en": "When Randy grants an Ultra Shield to a teammate, apply **1 stack** increasing their DEF based on Randy’s DEF (max 10 stacks).",
+          "vi": "When Randy grants an Ultra Shield to a teammate, apply **1 stack** increasing their DEF based on Randy’s DEF (max 10 stacks)."
+        },
+        "type": "passive",
+        "skillDMG": "Lv.1: DEF/stack **0.37% DEF** (cap **20**); Duration **10s**",
+        "misc": "Lv.Max: DEF/stack **1% DEF** (cap **20**); Duration **11.5s**"
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 2",
+          "vi": "Intron Lv. 2"
+        },
+        "description": {
+          "en": "Each **level** increases Randy’s Ultra Shield cap by **50** points.",
+          "vi": "Each **level** increases Randy’s Ultra Shield cap by **50** points."
+        },
+        "type": "intron",
+        "level": 2
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 3",
+          "vi": "Intron Lv. 3"
+        },
+        "description": {
+          "en": "**[Legitimate Slackness]** +2; **[Cavalier Composure]** +1.",
+          "vi": "**[Legitimate Slackness]** +2; **[Cavalier Composure]** +1."
+        },
+        "type": "intron",
+        "level": 3
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 4",
+          "vi": "Intron Lv. 4"
+        },
+        "description": {
+          "en": "Targets hit by **[Impact]** immediately take their **[Overwork Grudge]** damage once.",
+          "vi": "Targets hit by **[Impact]** immediately take their **[Overwork Grudge]** damage once."
+        },
+        "type": "intron",
+        "level": 4
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 5",
+          "vi": "Intron Lv. 5"
+        },
+        "description": {
+          "en": "**[Special Gift]** +2; **[Cavalier Composure]** +1.",
+          "vi": "**[Special Gift]** +2; **[Cavalier Composure]** +1."
+        },
+        "type": "intron",
+        "level": 5
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 6",
+          "vi": "Intron Lv. 6"
+        },
+        "description": {
+          "en": "When **[Impact]** hits, also deal extra Electro DMG equal to **1200%** of **(Shield Points + Ultra Shield Points)** on the target.",
+          "vi": "When **[Impact]** hits, also deal extra Electro DMG equal to **1200%** of **(Shield Points + Ultra Shield Points)** on the target."
+        },
+        "type": "intron",
+        "level": 6
+      }
+    ],
+    "slug": "randy",
+    "role": "Support",
+    "element": "Electro",
+    "weapon": "Sword",
+    "profile": {
+      "birthplace": "Hyperborean Empire",
+      "birthday": "14 March",
+      "allegiance": "The 13th Legion"
+    }
+  },
+  {
+    "name": {
+      "en": "Rebecca",
+      "vi": "Rebecca"
+    },
+    "overview": {
+      "en": "",
+      "vi": ""
+    },
+    "rarity": "5★",
+    "traits": [
+      {
+        "name": "Name",
+        "effect": "Effect"
+      },
+      {
+        "name": "Piscator",
+        "effect": "Skilled in fishing."
+      },
+      {
+        "name": "Impression: Empathy",
+        "effect": "Deeply sensitive and emotionally perceptive."
+      },
+      {
+        "name": "Impression: Empathy *(duplicate removed in CMS step if needed)*",
+        "effect": "Deeply sensitive and emotionally perceptive."
+      }
+    ],
+    "baseStats": [
+      {
+        "stat": "Hydro ATK",
+        "lv1": "25",
+        "lvMax": "470.71"
+      },
+      {
+        "stat": "HP",
+        "lv1": "100",
+        "lvMax": "1255"
+      },
+      {
+        "stat": "Shield",
+        "lv1": "100",
+        "lvMax": "1255"
+      },
+      {
+        "stat": "DEF",
+        "lv1": "252",
+        "lvMax": "252"
+      },
+      {
+        "stat": "Max Sanity",
+        "lv1": "150",
+        "lvMax": "150"
+      },
+      {
+        "stat": "Weapon Proficiency",
+        "lv1": "Polearm / Grenade Launcher",
+        "lvMax": "—"
+      },
+      {
+        "stat": "Skill DMG",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "lv1": "100%",
+        "lvMax": "130%"
+      },
+      {
+        "stat": "Skill Duration",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Morale",
+        "lv1": "0%",
+        "lvMax": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "lv1": "0%",
+        "lvMax": "0%"
+      }
+    ],
+    "passiveUpgrades": [
+      {
+        "upgrade": "ATK",
+        "value": "+30%"
+      },
+      {
+        "upgrade": "Skill Range",
+        "value": "+12%"
+      },
+      {
+        "upgrade": "Skill Range",
+        "value": "+18%"
+      },
+      {
+        "upgrade": "Lovesick Energy",
+        "value": "On melee Normal hit, **25%** chance to trigger **[Poison of Love]** once; **[Lada Lovedew]** always triggers this effect."
+      },
+      {
+        "upgrade": "Seven‑Day Spread",
+        "value": "*(Partner)* Increase ATK (+50%) for the character and nearby Hydro teammate(s)."
+      }
+    ],
+    "skills": [
+      {
+        "name": {
+          "en": "Lada Lovedew",
+          "vi": "Lada Lovedew"
+        },
+        "description": {
+          "en": "Deal Hydro DMG to nearby enemies; DMG increases with number of **[Poison of Love]** stacks on targets.",
+          "vi": "Deal Hydro DMG to nearby enemies; DMG increases with number of **[Poison of Love]** stacks on targets."
+        },
+        "type": "ultimate",
+        "skillDMG": "Lv.1: Sanity **75**; DMG **924%**; DMG/stack **358%**; Radius **20m**",
+        "misc": "Lv.Max: Sanity **75**; DMG **2769%**; DMG/stack **1078%**; Radius **26m**"
+      },
+      {
+        "name": {
+          "en": "Truelove Trial",
+          "vi": "Truelove Trial"
+        },
+        "description": {
+          "en": "Melee hits or **[Aurelia Aurita]** attacks inflict **1 [Poison of Love]** stack (max 6). **[Poison of Love]**: deals Hydro DMG every 2s; on enemy defeat, transfers stacks to nearby enemies proportional to current stacks and remaining duration.",
+          "vi": "Melee hits or **[Aurelia Aurita]** attacks inflict **1 [Poison of Love]** stack (max 6). **[Poison of Love]**: deals Hydro DMG every 2s; on enemy defeat, transfers stacks to nearby enemies proportional to current stacks and remaining duration."
+        },
+        "type": "passive",
+        "skillDMG": "Lv.1: Duration **6s**; DoT **71%**; Transfer Radius **10m**",
+        "misc": "Lv.Max: Duration **6s**; DoT **224%**; Transfer Radius **13m**"
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 2",
+          "vi": "Intron Lv. 2"
+        },
+        "description": {
+          "en": "Max **[Aurelia Aurita]** on field **→ 5**; **[Poison of Love]** stack cap **→ 8**.",
+          "vi": "Max **[Aurelia Aurita]** on field **→ 5**; **[Poison of Love]** stack cap **→ 8**."
+        },
+        "type": "intron",
+        "level": 2
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 3",
+          "vi": "Intron Lv. 3"
+        },
+        "description": {
+          "en": "**[Aurelian Caress]** +2; **[Truelove Trial]** +1.",
+          "vi": "**[Aurelian Caress]** +2; **[Truelove Trial]** +1."
+        },
+        "type": "intron",
+        "level": 3
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 4",
+          "vi": "Intron Lv. 4"
+        },
+        "description": {
+          "en": "Take **−30%** damage from targets inflicted with **[Poison of Love]**.",
+          "vi": "Take **−30%** damage from targets inflicted with **[Poison of Love]**."
+        },
+        "type": "intron",
+        "level": 4
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 5",
+          "vi": "Intron Lv. 5"
+        },
+        "description": {
+          "en": "**[Lada Lovedew]** +2; **[Truelove Trial]** +1.",
+          "vi": "**[Lada Lovedew]** +2; **[Truelove Trial]** +1."
+        },
+        "type": "intron",
+        "level": 5
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 6",
+          "vi": "Intron Lv. 6"
+        },
+        "description": {
+          "en": "On defeating a target with **[Poison of Love]**, gain **+3% ATK** for **15s** (max **50** stacks; duration refreshes on new stack).",
+          "vi": "On defeating a target with **[Poison of Love]**, gain **+3% ATK** for **15s** (max **50** stacks; duration refreshes on new stack)."
+        },
+        "type": "intron",
+        "level": 6
+      }
+    ],
+    "slug": "rebecca",
+    "role": "DPS",
+    "element": "Hydro",
+    "weapon": "Polearm",
+    "profile": {
+      "birthplace": "Republic of Luca",
+      "birthday": "20 March",
+      "allegiance": "Unaffiliated"
+    }
+  },
+  {
+    "name": {
+      "en": "Rhythm",
+      "vi": "Rhythm"
+    },
+    "overview": {
+      "en": "",
+      "vi": ""
+    },
+    "rarity": "5★",
+    "traits": [
+      {
+        "name": "Name",
+        "effect": "Effect"
+      },
+      {
+        "name": "Adventurer",
+        "effect": "Skilled in Combat."
+      },
+      {
+        "name": "Impression: Morality",
+        "effect": "Upholds justice and integrity."
+      },
+      {
+        "name": "Rapt Attention",
+        "effect": "Handles tasks with heightened efficiency, reducing completion time."
+      }
+    ],
+    "baseStats": [
+      {
+        "stat": "Electro ATK",
+        "lv1": "22",
+        "lvMax": "412.22"
+      },
+      {
+        "stat": "HP",
+        "lv1": "94",
+        "lvMax": "1180"
+      },
+      {
+        "stat": "Shield",
+        "lv1": "94",
+        "lvMax": "1180"
+      },
+      {
+        "stat": "DEF",
+        "lv1": "276",
+        "lvMax": "276"
+      },
+      {
+        "stat": "Max Sanity",
+        "lv1": "150",
+        "lvMax": "150"
+      },
+      {
+        "stat": "Weapon Proficiency",
+        "lv1": "Katana / Assault Rifle",
+        "lvMax": "—"
+      },
+      {
+        "stat": "Skill DMG",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "lv1": "100%",
+        "lvMax": "130%"
+      },
+      {
+        "stat": "Skill Duration",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Morale",
+        "lv1": "0%",
+        "lvMax": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "lv1": "0%",
+        "lvMax": "0%"
+      }
+    ],
+    "passiveUpgrades": [
+      {
+        "upgrade": "ATK",
+        "value": "+30%"
+      },
+      {
+        "upgrade": "Skill Range",
+        "value": "+12%"
+      },
+      {
+        "upgrade": "Skill Range",
+        "value": "+18%"
+      },
+      {
+        "upgrade": "Poweroff Anxiety",
+        "value": "When consuming **[Electric Energy]**, convert **50%** of consumed amount back into Sanity."
+      },
+      {
+        "upgrade": "Thundering Nightbreaker",
+        "value": "*(Partner)* Increase ATK (+40%) for the character and nearby Electro teammate(s)."
+      }
+    ],
+    "skills": [
+      {
+        "name": {
+          "en": "Electro Vortex",
+          "vi": "Electro Vortex"
+        },
+        "description": {
+          "en": "Deal Electro DMG in an area and enter **[Electro Surge]** state; consumes Sanity over time and ends at 0 or re‑cast. **[Electro Surge]**: Movement Speed ↑ for Rhythm & nearby allies; per second, deals Electro DMG to **1** random enemy in range and alternately applies **[Positive Charge]**/**[Negative Charge]**, prioritizing uncharged targets. **[Electric Charge]**: every **3s**, a **Positive** target pulls a **Negative** target to midpoint; both take DMG. Reapplying same charge refreshes duration and blocks opposite charge.",
+          "vi": "Deal Electro DMG in an area and enter **[Electro Surge]** state; consumes Sanity over time and ends at 0 or re‑cast. **[Electro Surge]**: Movement Speed ↑ for Rhythm & nearby allies; per second, deals Electro DMG to **1** random enemy in range and alternately applies **[Positive Charge]**/**[Negative Charge]**, prioritizing uncharged targets. **[Electric Charge]**: every **3s**, a **Positive** target pulls a **Negative** target to midpoint; both take DMG. Reapplying same charge refreshes duration and blocks opposite charge."
+        },
+        "type": "ultimate",
+        "skillDMG": "Lv.1: Sanity **10**; Cost/s **20**; Initial DMG **413%**; Radius **10m**; Move SPD **+25%**; Surge Radius **50m**; Surge DMG **126%/s**; Charge Radius **20m**; **Electric Charge** DMG **1243%**; Charge Duration **6s**",
+        "misc": "Lv.Max: Sanity **10**; Cost/s **20**; Initial DMG **1250%**; Radius **13m**; Move SPD **+25%**; Surge Radius **50m**; Surge DMG **387%/s**; Charge Radius **20m**; **Electric Charge** DMG **3718%**; Charge Duration **6s**"
+      },
+      {
+        "name": {
+          "en": "Tactical Preservation",
+          "vi": "Tactical Preservation"
+        },
+        "description": {
+          "en": "When consuming Sanity, convert a percentage into **[Electric Energy]** (cap = Max Sanity).",
+          "vi": "When consuming Sanity, convert a percentage into **[Electric Energy]** (cap = Max Sanity)."
+        },
+        "type": "passive",
+        "skillDMG": "Lv.1: Conversion **37%**",
+        "misc": "Lv.Max: Conversion **100%**"
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 2",
+          "vi": "Intron Lv. 2"
+        },
+        "description": {
+          "en": "On enemy defeat with **[Electric Charge]**, transfer the **Charge** to a random target within **20m**, keeping remaining duration.",
+          "vi": "On enemy defeat with **[Electric Charge]**, transfer the **Charge** to a random target within **20m**, keeping remaining duration."
+        },
+        "type": "intron",
+        "level": 2
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 3",
+          "vi": "Intron Lv. 3"
+        },
+        "description": {
+          "en": "**[Volt Rush]** +2; **[Tactical Preservation]** +1.",
+          "vi": "**[Volt Rush]** +2; **[Tactical Preservation]** +1."
+        },
+        "type": "intron",
+        "level": 3
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 4",
+          "vi": "Intron Lv. 4"
+        },
+        "description": {
+          "en": "At battle start, gain **[Electric Energy] = 50%** of Max Sanity.",
+          "vi": "At battle start, gain **[Electric Energy] = 50%** of Max Sanity."
+        },
+        "type": "intron",
+        "level": 4
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 5",
+          "vi": "Intron Lv. 5"
+        },
+        "description": {
+          "en": "**[Electro Vortex]** +2; **[Tactical Preservation]** +1.",
+          "vi": "**[Electro Vortex]** +2; **[Tactical Preservation]** +1."
+        },
+        "type": "intron",
+        "level": 5
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 6",
+          "vi": "Intron Lv. 6"
+        },
+        "description": {
+          "en": "**[Electro Surge]** hits **2** enemies per second.",
+          "vi": "**[Electro Surge]** hits **2** enemies per second."
+        },
+        "type": "intron",
+        "level": 6
+      }
+    ],
+    "slug": "rhythm",
+    "role": "DPS",
+    "element": "Electro",
+    "weapon": "Katana",
+    "profile": {
+      "birthplace": "Hyperborean Empire",
+      "birthday": "19 August",
+      "allegiance": "The 6th Legion"
+    }
+  },
+  {
+    "name": {
+      "en": "Sibylle",
+      "vi": "Sibylle"
+    },
+    "overview": {
+      "en": "",
+      "vi": ""
+    },
+    "rarity": "5★",
+    "traits": [
+      {
+        "name": "Name",
+        "effect": "Effect"
+      },
+      {
+        "name": "Piscator",
+        "effect": "Skilled in fishing."
+      },
+      {
+        "name": "Impression: Benefit",
+        "effect": "Prioritises gains and trade‑offs."
+      },
+      {
+        "name": "Rapt Attention",
+        "effect": "Handles tasks with heightened efficiency, reducing completion time."
+      }
+    ],
+    "baseStats": [
+      {
+        "stat": "Electro ATK",
+        "lv1": "13",
+        "lvMax": "163.18"
+      },
+      {
+        "stat": "HP",
+        "lv1": "185",
+        "lvMax": "3483"
+      },
+      {
+        "stat": "Shield",
+        "lv1": "120",
+        "lvMax": "1506"
+      },
+      {
+        "stat": "DEF",
+        "lv1": "345",
+        "lvMax": "345"
+      },
+      {
+        "stat": "Max Sanity",
+        "lv1": "200",
+        "lvMax": "200"
+      },
+      {
+        "stat": "Weapon Proficiency",
+        "lv1": "Whipsword / Pistol",
+        "lvMax": "—"
+      },
+      {
+        "stat": "Skill DMG",
+        "lv1": "100%",
+        "lvMax": "120%"
+      },
+      {
+        "stat": "Skill Range",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Morale",
+        "lv1": "0%",
+        "lvMax": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "lv1": "0%",
+        "lvMax": "0%"
+      }
+    ],
+    "passiveUpgrades": [
+      {
+        "upgrade": "HP",
+        "value": "+30%"
+      },
+      {
+        "upgrade": "Skill DMG",
+        "value": "+8%"
+      },
+      {
+        "upgrade": "Skill DMG",
+        "value": "+12%"
+      },
+      {
+        "upgrade": "Master of Stormclouds",
+        "value": "DMG from **[Divine Conqueror]**/**[Legion’s Punishment]** has a chance (equals **Melee Weapon Trigger Probability**) to trigger Bonus Effect based on Sibylle’s melee Trigger Probability."
+      },
+      {
+        "upgrade": "Divine Retribution",
+        "value": "*(Partner)* Increase ATK (+50%) for the character and nearby Electro teammate(s)."
+      }
+    ],
+    "skills": [
+      {
+        "name": {
+          "en": "Stormcaller",
+          "vi": "Stormcaller"
+        },
+        "description": {
+          "en": "Summon **[Chaotic Thunderorb]** (max 1). Consuming **[Might of Thunder]** summons an **enhanced** Thunderorb: its **[Devastating Storm]** interval reduces to **2s** and its **Link DMG** increases. **[Chaotic Thunderorb]**: inherits a % of Sibylle’s Max HP, **0 DEF**, considered **enemy**. Every **3s** it calls **[Devastating Storm]** and links to the furthest enemies in range; links +1 enemy per second (up to **10**), dealing Electro DMG **once per second** to linked targets. When Thunderorb takes damage, transfers a % of that damage to linked targets. **[Devastating Storm]**: deals Electro AoE DMG.",
+          "vi": "Summon **[Chaotic Thunderorb]** (max 1). Consuming **[Might of Thunder]** summons an **enhanced** Thunderorb: its **[Devastating Storm]** interval reduces to **2s** and its **Link DMG** increases. **[Chaotic Thunderorb]**: inherits a % of Sibylle’s Max HP, **0 DEF**, considered **enemy**. Every **3s** it calls **[Devastating Storm]** and links to the furthest enemies in range; links +1 enemy per second (up to **10**), dealing Electro DMG **once per second** to linked targets. When Thunderorb takes damage, transfers a % of that damage to linked targets. **[Devastating Storm]**: deals Electro AoE DMG."
+        },
+        "type": "ultimate",
+        "skillDMG": "Lv.1: Sanity **50**; **[Might of Thunder]** Cost **100**; Duration **30s**; Radius **10m**; Link DMG **2.5% Max HP + 6**; Enhanced Link DMG **5.1% Max HP + 8**; DMG Transfer **10%**; **[Devastating Storm]** **26% Max HP + 59**; Storm Radius **10m**",
+        "misc": "Lv.Max: Sanity **50**; **[Might of Thunder]** **100**; Duration **30s**; Radius **10m**; Link DMG **8.4% Max HP + 18**; Enhanced **18% Max HP + 42**; DMG Transfer **10%**; **[Devastating Storm]** **96% Max HP + 222**; Storm Radius **10m**"
+      },
+      {
+        "name": {
+          "en": "Might of Thunder",
+          "vi": "Might of Thunder"
+        },
+        "description": {
+          "en": "When damage dealt triggers **Bonus Effect**, gain **[Might of Thunder]** points (cap **300**). **[Divine Conqueror]** and **[Stormcaller]** can be empowered by consuming **[Might of Thunder]**.",
+          "vi": "When damage dealt triggers **Bonus Effect**, gain **[Might of Thunder]** points (cap **300**). **[Divine Conqueror]** and **[Stormcaller]** can be empowered by consuming **[Might of Thunder]**."
+        },
+        "type": "passive",
+        "skillDMG": "Lv.1: Points Gained **6**",
+        "misc": "Lv.Max: Points Gained **15**"
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 2",
+          "vi": "Intron Lv. 2"
+        },
+        "description": {
+          "en": "**[Might of Thunder]** cap **→ 600**. Each point increases **[Legion’s Punishment]** DMG by **0.1%** and Thunderorb damage‑taken transfer ratio by **0.01%**.",
+          "vi": "**[Might of Thunder]** cap **→ 600**. Each point increases **[Legion’s Punishment]** DMG by **0.1%** and Thunderorb damage‑taken transfer ratio by **0.01%**."
+        },
+        "type": "intron",
+        "level": 2
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 3",
+          "vi": "Intron Lv. 3"
+        },
+        "description": {
+          "en": "**[Divine Conqueror]** +2; **[Might of Thunder]** +1.",
+          "vi": "**[Divine Conqueror]** +2; **[Might of Thunder]** +1."
+        },
+        "type": "intron",
+        "level": 3
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 4",
+          "vi": "Intron Lv. 4"
+        },
+        "description": {
+          "en": "When **[Legion’s Punishment]** deals damage, **20%** chance to trigger its effect once more.",
+          "vi": "When **[Legion’s Punishment]** deals damage, **20%** chance to trigger its effect once more."
+        },
+        "type": "intron",
+        "level": 4
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 5",
+          "vi": "Intron Lv. 5"
+        },
+        "description": {
+          "en": "**[Stormcaller]** +2; **[Might of Thunder]** +1.",
+          "vi": "**[Stormcaller]** +2; **[Might of Thunder]** +1."
+        },
+        "type": "intron",
+        "level": 5
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 6",
+          "vi": "Intron Lv. 6"
+        },
+        "description": {
+          "en": "When an enemy is first linked to **[Chaotic Thunderorb]**, deal an additional instance of **[Legion’s Punishment]** DMG to that target at **500%** of the original multiplier and **guarantee** Bonus Effect: Electro.",
+          "vi": "When an enemy is first linked to **[Chaotic Thunderorb]**, deal an additional instance of **[Legion’s Punishment]** DMG to that target at **500%** of the original multiplier and **guarantee** Bonus Effect: Electro."
+        },
+        "type": "intron",
+        "level": 6
+      }
+    ],
+    "slug": "sibylle",
+    "role": "DPS",
+    "element": "Electro",
+    "weapon": "Whipsword",
+    "profile": {
+      "birthplace": "Hyperborean Empire",
+      "birthday": "5 September",
+      "allegiance": "The 13th Legion"
+    }
+  },
+  {
+    "name": {
+      "en": "Tabethe",
+      "vi": "Tabethe"
+    },
+    "overview": {
+      "en": "",
+      "vi": ""
+    },
+    "rarity": "5★",
+    "traits": [
+      {
+        "name": "Name",
+        "effect": "Effect"
+      },
+      {
+        "name": "Piscator",
+        "effect": "Skilled in Fishing."
+      },
+      {
+        "name": "Impression: Chaos",
+        "effect": "Values spontaneity and personal freedom over order."
+      },
+      {
+        "name": "Astute Mind",
+        "effect": "Adapts quickly and may obtain bonus rewards."
+      }
+    ],
+    "baseStats": [
+      {
+        "stat": "Hydro ATK",
+        "lv1": "17",
+        "lvMax": "320"
+      },
+      {
+        "stat": "HP",
+        "lv1": "115",
+        "lvMax": "1444"
+      },
+      {
+        "stat": "Shield",
+        "lv1": "115",
+        "lvMax": "1444"
+      },
+      {
+        "stat": "DEF",
+        "lv1": "300",
+        "lvMax": "300"
+      },
+      {
+        "stat": "Max Sanity",
+        "lv1": "150",
+        "lvMax": "150"
+      },
+      {
+        "stat": "Weapon Proficiency",
+        "lv1": "Sword / Bow",
+        "lvMax": "—"
+      },
+      {
+        "stat": "Skill DMG",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "lv1": "100%",
+        "lvMax": "115%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Morale",
+        "lv1": "0%",
+        "lvMax": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "lv1": "0%",
+        "lvMax": "0%"
+      }
+    ],
+    "passiveUpgrades": [
+      {
+        "upgrade": "ATK",
+        "value": "+30%"
+      },
+      {
+        "upgrade": "Skill Duration",
+        "value": "+6%"
+      },
+      {
+        "upgrade": "Skill Duration",
+        "value": "+9%"
+      },
+      {
+        "upgrade": "Tentacles Abound!",
+        "value": "When summoning **[Tentacles]**, gain **+8% CRIT Chance** (12s, stacks up to 10)."
+      },
+      {
+        "upgrade": "Edge",
+        "value": "*(Partner)* Increase Skill DMG (+8%) for the character and nearby teammate(s)."
+      }
+    ],
+    "skills": [
+      {
+        "name": {
+          "en": "Brawl for Justice!",
+          "vi": "Brawl for Justice!"
+        },
+        "description": {
+          "en": "Summon **9 [Tentacles]** around Tabethe. **[Tentacles]** inherit **100%** of Tabethe’s stats, dealing Hydro DMG to nearby enemies and immobilizing up to **2** of them.",
+          "vi": "Summon **9 [Tentacles]** around Tabethe. **[Tentacles]** inherit **100%** of Tabethe’s stats, dealing Hydro DMG to nearby enemies and immobilizing up to **2** of them."
+        },
+        "type": "ultimate",
+        "skillDMG": "Lv.1: Sanity **50**; Summon DMG **53%**; Duration **12s**",
+        "misc": "Lv.Max: Sanity **50**; Summon DMG **170%**; Duration **13.8s**"
+      },
+      {
+        "name": {
+          "en": "Have Tricks, Will Travel!",
+          "vi": "Have Tricks, Will Travel!"
+        },
+        "description": {
+          "en": "On CRIT with ranged weapon, **summon 1 [Tentacle]** near target (1s ICD, max 18 Tentacles). **[Tentacles]** inherit 100% stats, dealing Hydro DMG and immobilizing up to 2 enemies.",
+          "vi": "On CRIT with ranged weapon, **summon 1 [Tentacle]** near target (1s ICD, max 18 Tentacles). **[Tentacles]** inherit 100% stats, dealing Hydro DMG and immobilizing up to 2 enemies."
+        },
+        "type": "passive",
+        "skillDMG": "Lv.1: Trigger Chance **6.5%**; DMG **53%**; Duration **12s**",
+        "misc": "Lv.Max: Trigger Chance **20%**; DMG **170%**; Duration **13.8s**"
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 2",
+          "vi": "Intron Lv. 2"
+        },
+        "description": {
+          "en": "When **[Tentacle]** deals damage, **10%** chance to reload **1 projectile** for Tabethe (1s ICD).",
+          "vi": "When **[Tentacle]** deals damage, **10%** chance to reload **1 projectile** for Tabethe (1s ICD)."
+        },
+        "type": "intron",
+        "level": 2
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 3",
+          "vi": "Intron Lv. 3"
+        },
+        "description": {
+          "en": "**[Tabethe’s Speciality]** +2; **[Have Tricks, Will Travel!]** +1.",
+          "vi": "**[Tabethe’s Speciality]** +2; **[Have Tricks, Will Travel!]** +1."
+        },
+        "type": "intron",
+        "level": 3
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 4",
+          "vi": "Intron Lv. 4"
+        },
+        "description": {
+          "en": "+**2% CRIT Chance** per **[Tentacle]** active.",
+          "vi": "+**2% CRIT Chance** per **[Tentacle]** active."
+        },
+        "type": "intron",
+        "level": 4
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 5",
+          "vi": "Intron Lv. 5"
+        },
+        "description": {
+          "en": "**[Brawl for Justice!]** +2; **[Have Tricks, Will Travel!]** +1.",
+          "vi": "**[Brawl for Justice!]** +2; **[Have Tricks, Will Travel!]** +1."
+        },
+        "type": "intron",
+        "level": 5
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 6",
+          "vi": "Intron Lv. 6"
+        },
+        "description": {
+          "en": "Enemies captured by **[Tentacle]** take Hydro DMG = **280% [Tentacle] ATK** every 2s.",
+          "vi": "Enemies captured by **[Tentacle]** take Hydro DMG = **280% [Tentacle] ATK** every 2s."
+        },
+        "type": "intron",
+        "level": 6
+      }
+    ],
+    "slug": "tabethe",
+    "role": "Support",
+    "element": "Hydro",
+    "weapon": "Sword",
+    "profile": {
+      "birthplace": "Republic of Luca",
+      "birthday": "10 December",
+      "allegiance": "Unaffiliated"
+    }
+  },
+  {
+    "name": {
+      "en": "Fina",
+      "vi": "Fina"
+    },
+    "overview": {
+      "en": "",
+      "vi": ""
+    },
+    "rarity": "5★",
+    "traits": [
+      {
+        "name": "Name",
+        "effect": "Effect"
+      },
+      {
+        "name": "Impression: Empathy",
+        "effect": "Deeply sensitive and emotionally perceptive."
+      },
+      {
+        "name": "Fortune Favour",
+        "effect": "Favoured by luck – more likely to receive unexpected gains."
+      },
+      {
+        "name": "Tamer",
+        "effect": "Skilled in training Geniemons."
+      }
+    ],
+    "baseStats": [
+      {
+        "stat": "Lumino ATK",
+        "lv1": "22",
+        "lvMax": "276.15"
+      },
+      {
+        "stat": "HP",
+        "lv1": "105",
+        "lvMax": "1318"
+      },
+      {
+        "stat": "Shield",
+        "lv1": "105",
+        "lvMax": "1318"
+      },
+      {
+        "stat": "DEF",
+        "lv1": "315",
+        "lvMax": "315"
+      },
+      {
+        "stat": "Max Sanity",
+        "lv1": "160",
+        "lvMax": "160"
+      },
+      {
+        "stat": "Weapon Proficiency",
+        "lv1": "Sword / Assault Rifle",
+        "lvMax": "—"
+      },
+      {
+        "stat": "Skill DMG",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "lv1": "100%",
+        "lvMax": "130%"
+      },
+      {
+        "stat": "Skill Duration",
+        "lv1": "118%",
+        "lvMax": "133%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Morale",
+        "lv1": "0%",
+        "lvMax": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "lv1": "0%",
+        "lvMax": "0%"
+      }
+    ],
+    "passiveUpgrades": [
+      {
+        "upgrade": "Skill Range",
+        "value": "+18%"
+      },
+      {
+        "upgrade": "Skill Duration",
+        "value": "+6%"
+      },
+      {
+        "upgrade": "Skill Duration",
+        "value": "+9%"
+      },
+      {
+        "upgrade": "To Be Continued",
+        "value": "[On a Warm Afternoon] increases DMG for self/allies (1% × [Taleweaver Quill] stacks, 14.16s)."
+      },
+      {
+        "upgrade": "Advance, Poker Card Soldiers!",
+        "value": "(Partner) Increase Weapon DMG (+10%) for allies using Sword or Assault Rifle."
+      }
+    ],
+    "skills": [
+      {
+        "name": {
+          "en": "Let the Tea Party Begin!",
+          "vi": "Let the Tea Party Begin!"
+        },
+        "description": {
+          "en": "Creates [Boisterous Tea Party] field consuming Sanity. Ends when Sanity = 0 or skill held. Can switch field element: [Nightingale] (Hydro), [Hound] (Pyro), [Unicorn] (Electro), [Butterfly] (Anemo). Field grants allies matching elemental bonus DMG and deals periodic elemental DMG every 2s.",
+          "vi": "Creates [Boisterous Tea Party] field consuming Sanity. Ends when Sanity = 0 or skill held. Can switch field element: [Nightingale] (Hydro), [Hound] (Pyro), [Unicorn] (Electro), [Butterfly] (Anemo). Field grants allies matching elemental bonus DMG and deals periodic elemental DMG every 2s."
+        },
+        "type": "ultimate",
+        "skillDMG": "Lv.1: Sanity 10; Cost/s 11; Radius 10m; DoT 349%; Bonus DMG 5.1% (14s)",
+        "misc": "Lv.Max: Cost/s 10; Radius 13m; DoT 1060%; Bonus DMG 15% (16s)"
+      },
+      {
+        "name": {
+          "en": "Bad Sorcerers Hate Sunlight!",
+          "vi": "Bad Sorcerers Hate Sunlight!"
+        },
+        "description": {
+          "en": "Grants bonus Lumino DMG throughout battle. Each [On a Warm Afternoon] grants 6 [Taleweaver Quill] stacks; while [Boisterous Tea Party] active, gains +1 stack/s (max 30). Each stack deals bonus Lumino DMG.",
+          "vi": "Grants bonus Lumino DMG throughout battle. Each [On a Warm Afternoon] grants 6 [Taleweaver Quill] stacks; while [Boisterous Tea Party] active, gains +1 stack/s (max 30). Each stack deals bonus Lumino DMG."
+        },
+        "type": "passive",
+        "skillDMG": "Lv.1: Bonus Lumino DMG 6%; Quill +0.37% per stack (17.7s)",
+        "misc": "Lv.Max: Bonus Lumino DMG 15%; Quill +1% per stack (19.95s)"
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 2",
+          "vi": "Intron Lv. 2"
+        },
+        "description": {
+          "en": "Max [Taleweaver Quill] stacks +45; [On a Warm Afternoon] grants +3 stacks; while [Tea Party] active, +1 extra/s.",
+          "vi": "Max [Taleweaver Quill] stacks +45; [On a Warm Afternoon] grants +3 stacks; while [Tea Party] active, +1 extra/s."
+        },
+        "type": "intron",
+        "level": 2
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 3",
+          "vi": "Intron Lv. 3"
+        },
+        "description": {
+          "en": "[On a Warm Afternoon] +2; [Bad Sorcerers Hate Sunlight!] +1.",
+          "vi": "[On a Warm Afternoon] +2; [Bad Sorcerers Hate Sunlight!] +1."
+        },
+        "type": "intron",
+        "level": 3
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 4",
+          "vi": "Intron Lv. 4"
+        },
+        "description": {
+          "en": "Each [Taleweaver Quill] stack +2% Skill DMG, +1% Skill Range.",
+          "vi": "Each [Taleweaver Quill] stack +2% Skill DMG, +1% Skill Range."
+        },
+        "type": "intron",
+        "level": 4
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 5",
+          "vi": "Intron Lv. 5"
+        },
+        "description": {
+          "en": "[Let the Tea Party Begin!] +2; [Bad Sorcerers Hate Sunlight!] +1.",
+          "vi": "[Let the Tea Party Begin!] +2; [Bad Sorcerers Hate Sunlight!] +1."
+        },
+        "type": "intron",
+        "level": 5
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 6",
+          "vi": "Intron Lv. 6"
+        },
+        "description": {
+          "en": "During [Tea Party], each Bonus Effect on target increases CRIT Chance +24%; converts damage element to target weakness.",
+          "vi": "During [Tea Party], each Bonus Effect on target increases CRIT Chance +24%; converts damage element to target weakness."
+        },
+        "type": "intron",
+        "level": 6
+      }
+    ],
+    "slug": "fina",
+    "role": "Support",
+    "element": "Lumino",
+    "weapon": "Sword",
+    "profile": {
+      "birthplace": "Hyperborean Empire",
+      "birthday": "2 April",
+      "allegiance": "Unaffiliated"
+    }
+  },
+  {
+    "name": {
+      "en": "Fushu",
+      "vi": "Fushu"
+    },
+    "overview": {
+      "en": "",
+      "vi": ""
+    },
+    "rarity": "5★",
+    "traits": [
+      {
+        "name": "Name",
+        "effect": "Effect"
+      },
+      {
+        "name": "Impression: Morality",
+        "effect": "—"
+      },
+      {
+        "name": "Keen Insight",
+        "effect": "—"
+      },
+      {
+        "name": "Keen Insight",
+        "effect": "—"
+      }
+    ],
+    "baseStats": [
+      {
+        "stat": "Hydro ATK",
+        "lv1": "23"
+      },
+      {
+        "stat": "HP",
+        "lv1": "105"
+      },
+      {
+        "stat": "Shield",
+        "lv1": "105"
+      },
+      {
+        "stat": "DEF",
+        "lv1": "315"
+      },
+      {
+        "stat": "Max Sanity",
+        "lv1": "150"
+      },
+      {
+        "stat": "Weapon Proficiency",
+        "lv1": "Whipsword / Bow",
+        "lvMax": "—"
+      },
+      {
+        "stat": "Skill DMG",
+        "lv1": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "lv1": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "lv1": "100%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "lv1": "100%"
+      },
+      {
+        "stat": "Morale",
+        "lv1": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "lv1": "0%"
+      }
+    ],
+    "passiveUpgrades": [
+      {
+        "upgrade": "Skill DMG",
+        "value": "+12%"
+      },
+      {
+        "upgrade": "Skill Duration",
+        "value": "+6%"
+      },
+      {
+        "upgrade": "Skill DMG",
+        "value": "+12%"
+      },
+      {
+        "upgrade": "Brimful of Vitality",
+        "value": "Increases Skill DMG (+33% per active [Yunchi])."
+      },
+      {
+        "upgrade": "Meridian Synergy",
+        "value": "(Partner) Increase Skill DMG (+10%) for character and allies if ≥2 share same element."
+      }
+    ],
+    "skills": [
+      {
+        "name": {
+          "en": "Holistic Harmony",
+          "vi": "Holistic Harmony"
+        },
+        "description": {
+          "en": "Deals Hydro DMG to nearby enemies, grants Ultra Shield & ATK SPD boost to Fushu and nearby allies. Allies also gain [Nine-Needle Therapy]: increases Skill DMG based on Fushu’s Skill DMG.",
+          "vi": "Deals Hydro DMG to nearby enemies, grants Ultra Shield & ATK SPD boost to Fushu and nearby allies. Allies also gain [Nine-Needle Therapy]: increases Skill DMG based on Fushu’s Skill DMG."
+        },
+        "type": "ultimate",
+        "skillDMG": "Lv.1: Sanity 75; DMG 524%; Radius 6m; Ultra Shield 2.7% ATK + 80; ATK SPD +25% (12s); [Nine-Needle Therapy] +12.8% Skill DMG (Cap 120%, 12s)"
+      },
+      {
+        "name": {
+          "en": "Archaeus Revival",
+          "vi": "Archaeus Revival"
+        },
+        "description": {
+          "en": "When Fushu or allies use Combat/Ultimate Skill, gain 1 stack (+Skill SPD), up to 10. Duration refreshes with new stacks.",
+          "vi": "When Fushu or allies use Combat/Ultimate Skill, gain 1 stack (+Skill SPD), up to 10. Duration refreshes with new stacks."
+        },
+        "type": "passive",
+        "skillDMG": "Lv.1: +0.65% Skill SPD/stack (6s)"
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 2",
+          "vi": "Intron Lv. 2"
+        },
+        "description": {
+          "en": "Max [Yunchi] +1 (now 3).",
+          "vi": "Max [Yunchi] +1 (now 3)."
+        },
+        "type": "intron",
+        "level": 2
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 3",
+          "vi": "Intron Lv. 3"
+        },
+        "description": {
+          "en": "[Subcelestial Solace] +2; [Archaeus Revival] +1.",
+          "vi": "[Subcelestial Solace] +2; [Archaeus Revival] +1."
+        },
+        "type": "intron",
+        "level": 3
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 4",
+          "vi": "Intron Lv. 4"
+        },
+        "description": {
+          "en": "[Archaeus Revival] stack cap +15.",
+          "vi": "[Archaeus Revival] stack cap +15."
+        },
+        "type": "intron",
+        "level": 4
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 5",
+          "vi": "Intron Lv. 5"
+        },
+        "description": {
+          "en": "[Holistic Harmony] +2; [Archaeus Revival] +1.",
+          "vi": "[Holistic Harmony] +2; [Archaeus Revival] +1."
+        },
+        "type": "intron",
+        "level": 5
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 6",
+          "vi": "Intron Lv. 6"
+        },
+        "description": {
+          "en": "During [Holistic Harmony] ATK SPD boost, Fushu deals +240% Hydro DMG.",
+          "vi": "During [Holistic Harmony] ATK SPD boost, Fushu deals +240% Hydro DMG."
+        },
+        "type": "intron",
+        "level": 6
+      }
+    ],
+    "slug": "fushu",
+    "role": "Support",
+    "element": "Hydro",
+    "weapon": "Whipsword",
+    "profile": {
+      "birthplace": "Huaxu",
+      "birthday": "31 August",
+      "allegiance": "Hall of Ephemerality"
+    }
+  },
+  {
+    "name": {
+      "en": "Hellfire",
+      "vi": "Hellfire"
+    },
+    "overview": {
+      "en": "",
+      "vi": ""
+    },
+    "rarity": "5★",
+    "traits": [
+      {
+        "name": "Name",
+        "effect": "Effect"
+      },
+      {
+        "name": "Geologist",
+        "effect": "Skilled in Mining."
+      },
+      {
+        "name": "Impression: Morality",
+        "effect": "Upholds justice and integrity."
+      },
+      {
+        "name": "Rapt Attention",
+        "effect": "Handles tasks with heightened efficiency, reducing completion time."
+      }
+    ],
+    "baseStats": [
+      {
+        "stat": "Pyro ATK",
+        "lv1": "15",
+        "lvMax": "188.28"
+      },
+      {
+        "stat": "HP",
+        "lv1": "183",
+        "lvMax": "3446"
+      },
+      {
+        "stat": "Shield",
+        "lv1": "0",
+        "lvMax": "0"
+      },
+      {
+        "stat": "DEF",
+        "lv1": "345",
+        "lvMax": "345"
+      },
+      {
+        "stat": "Max Sanity",
+        "lv1": "120",
+        "lvMax": "120"
+      },
+      {
+        "stat": "Weapon Proficiency",
+        "lv1": "Greatsword / Grenade Launcher",
+        "lvMax": "—"
+      },
+      {
+        "stat": "Skill DMG",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "lv1": "100%",
+        "lvMax": "115%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Morale",
+        "lv1": "0%",
+        "lvMax": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "lv1": "0%",
+        "lvMax": "0%"
+      }
+    ],
+    "passiveUpgrades": [
+      {
+        "upgrade": "HP",
+        "value": "+30%"
+      },
+      {
+        "upgrade": "Skill Duration",
+        "value": "+6%"
+      },
+      {
+        "upgrade": "Skill Duration",
+        "value": "+9%"
+      },
+      {
+        "upgrade": "Guilty Verdict",
+        "value": "Increases DMG dealt (+50%) to enemies Taunted by Hellfire."
+      },
+      {
+        "upgrade": "Aetherflame",
+        "value": "(Partner) Increases ATK (+40%) for the character and their nearby Pyro teammates."
+      }
+    ],
+    "skills": [
+      {
+        "name": {
+          "en": "Cage of Despair",
+          "vi": "Cage of Despair"
+        },
+        "description": {
+          "en": "Deals Pyro DMG to surrounding enemies and Taunts them.",
+          "vi": "Deals Pyro DMG to surrounding enemies and Taunts them."
+        },
+        "type": "ultimate",
+        "skillDMG": "Lv.1: Sanity 50; DMG 67% Max HP +110; Radius 20m; Taunt 5s",
+        "misc": "Lv.Max: DMG 202% Max HP +317; Radius 20m; Taunt 5s"
+      },
+      {
+        "name": {
+          "en": "Retributive Resolve",
+          "vi": "Retributive Resolve"
+        },
+        "description": {
+          "en": "Increases Max HP and continuously restores HP.",
+          "vi": "Increases Max HP and continuously restores HP."
+        },
+        "type": "passive",
+        "skillDMG": "Lv.1: +39% Max HP; 0.3% Max HP recovery per second",
+        "misc": "Lv.Max: +120% Max HP; 0.3% Max HP recovery per second"
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 2",
+          "vi": "Intron Lv. 2"
+        },
+        "description": {
+          "en": "Increases HP recovery by [Retributive Resolve] to 0.4%.",
+          "vi": "Increases HP recovery by [Retributive Resolve] to 0.4%."
+        },
+        "type": "intron",
+        "level": 2
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 3",
+          "vi": "Intron Lv. 3"
+        },
+        "description": {
+          "en": "[Raging Inferno] +2; [Retributive Resolve] +1.",
+          "vi": "[Raging Inferno] +2; [Retributive Resolve] +1."
+        },
+        "type": "intron",
+        "level": 3
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 4",
+          "vi": "Intron Lv. 4"
+        },
+        "description": {
+          "en": "Decreases [Puncture Retribution] interval to 1.4s.",
+          "vi": "Decreases [Puncture Retribution] interval to 1.4s."
+        },
+        "type": "intron",
+        "level": 4
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 5",
+          "vi": "Intron Lv. 5"
+        },
+        "description": {
+          "en": "[Cage of Despair] +2; [Retributive Resolve] +1.",
+          "vi": "[Cage of Despair] +2; [Retributive Resolve] +1."
+        },
+        "type": "intron",
+        "level": 5
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 6",
+          "vi": "Intron Lv. 6"
+        },
+        "description": {
+          "en": "Every 5 sanity-consuming skills used by allies triggers [Cage of Despair] automatically (CD 5s).",
+          "vi": "Every 5 sanity-consuming skills used by allies triggers [Cage of Despair] automatically (CD 5s)."
+        },
+        "type": "intron",
+        "level": 6
+      }
+    ],
+    "slug": "hellfire",
+    "role": "DPS",
+    "element": "Pyro",
+    "weapon": "Greatsword",
+    "profile": {
+      "birthplace": "Hyperborean Empire",
+      "birthday": "18 August",
+      "allegiance": "Imperial Military Prison"
+    }
+  },
+  {
+    "name": {
+      "en": "Hilda",
+      "vi": "Hilda"
+    },
+    "overview": {
+      "en": "",
+      "vi": ""
+    },
+    "rarity": "5★",
+    "traits": [
+      {
+        "name": "Name",
+        "effect": "Effect"
+      },
+      {
+        "name": "Tamer",
+        "effect": "—"
+      },
+      {
+        "name": "Impression: Wisdom",
+        "effect": "—"
+      },
+      {
+        "name": "Fortune Favour",
+        "effect": "—"
+      }
+    ],
+    "baseStats": [
+      {
+        "stat": "Pyro ATK",
+        "lv1": "27"
+      },
+      {
+        "stat": "HP",
+        "lv1": "90"
+      },
+      {
+        "stat": "Shield",
+        "lv1": "90"
+      },
+      {
+        "stat": "DEF",
+        "lv1": "265"
+      },
+      {
+        "stat": "Max Sanity",
+        "lv1": "200"
+      },
+      {
+        "stat": "Weapon Proficiency",
+        "lv1": "Dual Blades / Grenade Launcher",
+        "lvMax": "—"
+      },
+      {
+        "stat": "Skill DMG",
+        "lv1": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "lv1": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "lv1": "100%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "lv1": "100%"
+      },
+      {
+        "stat": "Morale",
+        "lv1": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "lv1": "0%"
+      }
+    ],
+    "passiveUpgrades": [
+      {
+        "upgrade": "Weapon Multishoot",
+        "value": "+22.5%"
+      },
+      {
+        "upgrade": "ATK",
+        "value": "+20%"
+      },
+      {
+        "upgrade": "Weapon Multishoot",
+        "value": "+22.5%"
+      },
+      {
+        "upgrade": "Multitasking",
+        "value": "[Dirtexpeller] has a chance to fire 1 additional projectile = 30% + 20% × Ranged Multishot. Also increases [Hyperthermal Purgejet] DMG by 30% + 20% × Ranged Multishot."
+      },
+      {
+        "upgrade": "Hellforge",
+        "value": "(Partner) Increase ATK (+50%) for the character and nearby Pyro teammates."
+      }
+    ],
+    "skills": [
+      {
+        "name": {
+          "en": "Wholehearted Service",
+          "vi": "Wholehearted Service"
+        },
+        "description": {
+          "en": "Deals Pyro DMG in an area and inflicts [Disarm] (permanently disables ranged weapons). For each target hit, summons 1 [Light Dirtexpeller] and resets duration of all Light units. Carries 2 [Heavy Dirtexpellers]; both types auto-target & shoot every 3s (max 6 Light).",
+          "vi": "Deals Pyro DMG in an area and inflicts [Disarm] (permanently disables ranged weapons). For each target hit, summons 1 [Light Dirtexpeller] and resets duration of all Light units. Carries 2 [Heavy Dirtexpellers]; both types auto-target & shoot every 3s (max 6 Light)."
+        },
+        "type": "ultimate",
+        "skillDMG": "Lv.1: Sanity 30; DMG 353%; Radius 20m; Light DMG 238%; Heavy DMG 367%; Targeting Radius 15m; Light Duration 12s"
+      },
+      {
+        "name": {
+          "en": "Automatic Sanitizing",
+          "vi": "Automatic Sanitizing"
+        },
+        "description": {
+          "en": "Always carries 2 [Heavy Dirtexpellers] that auto-fire every 3s. Dodging reloads ranged weapon to full and grants [Elegant Anger] for a time. [Elegant Anger]: increases Dirtexpeller ATK SPD, Pyrolytic Cleaning rotation speed, and ranged ATK SPD.",
+          "vi": "Always carries 2 [Heavy Dirtexpellers] that auto-fire every 3s. Dodging reloads ranged weapon to full and grants [Elegant Anger] for a time. [Elegant Anger]: increases Dirtexpeller ATK SPD, Pyrolytic Cleaning rotation speed, and ranged ATK SPD."
+        },
+        "type": "passive",
+        "skillDMG": "Lv.1: [Elegant Anger] +13% (6s)"
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 2",
+          "vi": "Intron Lv. 2"
+        },
+        "description": {
+          "en": "[Hyperthermal Purgejet] length +50%. On hit, target takes +90% DMG from Hilda for 2s.",
+          "vi": "[Hyperthermal Purgejet] length +50%. On hit, target takes +90% DMG from Hilda for 2s."
+        },
+        "type": "intron",
+        "level": 2
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 3",
+          "vi": "Intron Lv. 3"
+        },
+        "description": {
+          "en": "[Pyrolytic Cleaning] +2; [Automatic Sanitizing] +1.",
+          "vi": "[Pyrolytic Cleaning] +2; [Automatic Sanitizing] +1."
+        },
+        "type": "intron",
+        "level": 3
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 4",
+          "vi": "Intron Lv. 4"
+        },
+        "description": {
+          "en": "On [Wholehearted Service], summon +2 Light Dirtexpellers; target DMG −25% for 12s.",
+          "vi": "On [Wholehearted Service], summon +2 Light Dirtexpellers; target DMG −25% for 12s."
+        },
+        "type": "intron",
+        "level": 4
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 5",
+          "vi": "Intron Lv. 5"
+        },
+        "description": {
+          "en": "[Wholehearted Service] +2; [Automatic Sanitizing] +1.",
+          "vi": "[Wholehearted Service] +2; [Automatic Sanitizing] +1."
+        },
+        "type": "intron",
+        "level": 5
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 6",
+          "vi": "Intron Lv. 6"
+        },
+        "description": {
+          "en": "During [Pyrolytic Cleaning], +50% PEN stats.",
+          "vi": "During [Pyrolytic Cleaning], +50% PEN stats."
+        },
+        "type": "intron",
+        "level": 6
+      }
+    ],
+    "slug": "hilda",
+    "role": "DPS",
+    "element": "Pyro",
+    "weapon": "Dual Blades",
+    "profile": {
+      "birthplace": "Hyperborean Empire",
+      "birthday": "19 July",
+      "allegiance": "Unaffiliated"
+    }
+  },
+  {
+    "name": {
+      "en": "Kezhou",
+      "vi": "Kezhou"
+    },
+    "overview": {
+      "en": "",
+      "vi": ""
+    },
+    "rarity": "5★",
+    "traits": [
+      {
+        "name": "Name",
+        "effect": "Effect"
+      },
+      {
+        "name": "Adventurer",
+        "effect": "—"
+      },
+      {
+        "name": "Impression: Chaos",
+        "effect": "—"
+      },
+      {
+        "name": "Rapt Attention",
+        "effect": "—"
+      }
+    ],
+    "baseStats": [
+      {
+        "stat": "Lumino ATK",
+        "lv1": "25"
+      },
+      {
+        "stat": "HP",
+        "lv1": "110"
+      },
+      {
+        "stat": "Shield",
+        "lv1": "110"
+      },
+      {
+        "stat": "DEF",
+        "lv1": "315"
+      },
+      {
+        "stat": "Max Sanity",
+        "lv1": "180"
+      },
+      {
+        "stat": "Weapon Proficiency",
+        "lv1": "All Types",
+        "lvMax": "—"
+      },
+      {
+        "stat": "Skill DMG",
+        "lv1": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "lv1": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "lv1": "100%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "lv1": "100%"
+      },
+      {
+        "stat": "Morale",
+        "lv1": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "lv1": "0%"
+      }
+    ],
+    "passiveUpgrades": [
+      {
+        "upgrade": "Weapon CRIT Chance",
+        "value": "+30%"
+      },
+      {
+        "upgrade": "ATK",
+        "value": "+20%"
+      },
+      {
+        "upgrade": "Weapon CRIT Chance",
+        "value": "+30%"
+      },
+      {
+        "upgrade": "Yet the Drifter Marks the Change",
+        "value": "[Aspect Manifestation] records current Intent points; keeps recorded value for 15s after switching forms, ensuring effect stability."
+      },
+      {
+        "upgrade": "Crimson Radiance",
+        "value": "(Partner) Increases ATK (+40%) for character and Lumino teammates."
+      }
+    ],
+    "skills": [
+      {
+        "name": {
+          "en": "Lightswords Slice Starry Streams",
+          "vi": "Lightswords Slice Starry Streams"
+        },
+        "description": {
+          "en": "Enters [Aspect Manifestation] and summons [Edges of All Times] from the sky. While active, melee weapon becomes [Phanosword]; generating [Phanoplume]s when triggering Bonus Effect. Skill changes to [Feather Chase Dust in Dreams]. Costs scale with [Sword/String Intent].",
+          "vi": "Enters [Aspect Manifestation] and summons [Edges of All Times] from the sky. While active, melee weapon becomes [Phanosword]; generating [Phanoplume]s when triggering Bonus Effect. Skill changes to [Feather Chase Dust in Dreams]. Costs scale with [Sword/String Intent]."
+        },
+        "type": "ultimate",
+        "skillDMG": "Lv.1: Sanity 100; Edges DMG 387%; Phanosword Range +1m; Edges Radius 6m; Phanoplume DMG 68%; Phanoplume Effect 3.7% Trigger Prob.; Feather Chase DMG 674%; Radius 10m"
+      },
+      {
+        "name": {
+          "en": "Life Drifts, Tides Rearrange",
+          "vi": "Life Drifts, Tides Rearrange"
+        },
+        "description": {
+          "en": "Starts with 50 points each of [Sword Intent] and [String Intent] (max 100). Increases melee and ranged performance based on each type. Converting 1 point per hit between them.",
+          "vi": "Starts with 50 points each of [Sword Intent] and [String Intent] (max 100). Increases melee and ranged performance based on each type. Converting 1 point per hit between them."
+        },
+        "type": "passive",
+        "skillDMG": "Lv.1: [Sword/String Intent] Effect +0.39%"
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 2",
+          "vi": "Intron Lv. 2"
+        },
+        "description": {
+          "en": "Restores 3 Sanity per 0.5s when triggering Bonus Effect.",
+          "vi": "Restores 3 Sanity per 0.5s when triggering Bonus Effect."
+        },
+        "type": "intron",
+        "level": 2
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 3",
+          "vi": "Intron Lv. 3"
+        },
+        "description": {
+          "en": "[Wanderings of Youth] +2; [Life’s A Fleeting, Shifting Tide] +1.",
+          "vi": "[Wanderings of Youth] +2; [Life’s A Fleeting, Shifting Tide] +1."
+        },
+        "type": "intron",
+        "level": 3
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 4",
+          "vi": "Intron Lv. 4"
+        },
+        "description": {
+          "en": "Using [Lightswords Slice Starry Streams] grants [Blessed by Wind and Moon]: Hitstun immunity + 25% DMG reduction (15s).",
+          "vi": "Using [Lightswords Slice Starry Streams] grants [Blessed by Wind and Moon]: Hitstun immunity + 25% DMG reduction (15s)."
+        },
+        "type": "intron",
+        "level": 4
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 5",
+          "vi": "Intron Lv. 5"
+        },
+        "description": {
+          "en": "[Lightswords Slice Starry Streams] +2; [Life’s A Fleeting, Shifting Tide] +1.",
+          "vi": "[Lightswords Slice Starry Streams] +2; [Life’s A Fleeting, Shifting Tide] +1."
+        },
+        "type": "intron",
+        "level": 5
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 6",
+          "vi": "Intron Lv. 6"
+        },
+        "description": {
+          "en": "Triggering Bonus Effect grants +9% PEN (5s), stackable ×6.",
+          "vi": "Triggering Bonus Effect grants +9% PEN (5s), stackable ×6."
+        },
+        "type": "intron",
+        "level": 6
+      }
+    ],
+    "slug": "kezhou",
+    "role": "DPS",
+    "element": "Lumino",
+    "weapon": "All Types",
+    "profile": {
+      "birthplace": "Huaxu",
+      "birthday": "31 October",
+      "allegiance": "Outer Peaks"
+    }
+  },
+  {
+    "name": {
+      "en": "Lady Nifle",
+      "vi": "Lady Nifle"
+    },
+    "overview": {
+      "en": "",
+      "vi": ""
+    },
+    "rarity": "5★",
+    "traits": [
+      {
+        "name": "Name",
+        "effect": "Effect"
+      },
+      {
+        "name": "Impression: Empathy",
+        "effect": "Deeply sensitive and emotionally perceptive."
+      },
+      {
+        "name": "Fortune Favour",
+        "effect": "Favoured by luck - more likely to receive unexpected gains."
+      }
+    ],
+    "baseStats": [
+      {
+        "stat": "Lumino ATK",
+        "lv1": "21",
+        "lvMax": "395.39"
+      },
+      {
+        "stat": "HP",
+        "lv1": "105",
+        "lvMax": "1318"
+      },
+      {
+        "stat": "Shield",
+        "lv1": "105",
+        "lvMax": "1318"
+      },
+      {
+        "stat": "DEF",
+        "lv1": "255",
+        "lvMax": "255"
+      },
+      {
+        "stat": "Max Sanity",
+        "lv1": "180",
+        "lvMax": "180"
+      },
+      {
+        "stat": "Weapon Proficiency",
+        "lv1": "Katana / Pistol",
+        "lvMax": "—"
+      },
+      {
+        "stat": "Skill DMG",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "lv1": "100%",
+        "lvMax": "130%"
+      },
+      {
+        "stat": "Skill Duration",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Morale",
+        "lv1": "0%",
+        "lvMax": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "lv1": "0%",
+        "lvMax": "0%"
+      },
+      {
+        "stat": "Max Trigger Probability",
+        "lv1": "50%",
+        "lvMax": "50%"
+      }
+    ],
+    "passiveUpgrades": [
+      {
+        "upgrade": "ATK",
+        "value": "+20%"
+      },
+      {
+        "upgrade": "Skill Range",
+        "value": "+12%"
+      },
+      {
+        "upgrade": "Skill Range",
+        "value": "+18%"
+      },
+      {
+        "upgrade": "Nightfall",
+        "value": "[Lunar Hunt] can trigger 50% Umbro Bonus Effects, [Solar Eclipse] 50% Lumino Bonus Effects."
+      },
+      {
+        "upgrade": "Crimson Radiance",
+        "value": "(Partner) Increases ATK (+50%) for character and Lumino teammates."
+      }
+    ],
+    "skills": [
+      {
+        "name": {
+          "en": "Solar Eclipse",
+          "vi": "Solar Eclipse"
+        },
+        "description": {
+          "en": "Creates [Solar Eclipse], deals Lumino DMG and reduces ATK; replaces with [Lunar Hunt].",
+          "vi": "Creates [Solar Eclipse], deals Lumino DMG and reduces ATK; replaces with [Lunar Hunt]."
+        },
+        "type": "active",
+        "skillDMG": "Lv.1: Sanity 12; DMG 1132%; Radius 3m; ATK −25% (3s)",
+        "misc": "Lv.Max: DMG 3400%; Radius 3.9m; ATK −25% (3s)"
+      },
+      {
+        "name": {
+          "en": "Misty Sea Requiem",
+          "vi": "Misty Sea Requiem"
+        },
+        "description": {
+          "en": "Enters [Funeral Rite]. If Skill Range > 100%, excess converts to Skill DMG. While active: Ranged Trigger Prob. +60%, Skills cost no Sanity, [Lunar Hunt] pulls enemies, [Solar Eclipse] DMG boosted. Ends after 12s or 6 casts.",
+          "vi": "Enters [Funeral Rite]. If Skill Range > 100%, excess converts to Skill DMG. While active: Ranged Trigger Prob. +60%, Skills cost no Sanity, [Lunar Hunt] pulls enemies, [Solar Eclipse] DMG boosted. Ends after 12s or 6 casts."
+        },
+        "type": "ultimate",
+        "skillDMG": "Lv.1: Sanity 120; Duration 12s; Trigger Prob. +60%; Enhanced Solar Eclipse DMG 2264%→6800% (Radius 6→7.8m); Enhanced Lunar Hunt Radius 10→13m",
+        "misc": "Lv.Max: —"
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 2",
+          "vi": "Intron Lv. 2"
+        },
+        "description": {
+          "en": "[Lunar Hunt] → target takes +75% DMG from [Solar Eclipse] (3s); [Solar Eclipse] → target takes +75% DMG from [Lunar Hunt] (3s).",
+          "vi": "[Lunar Hunt] → target takes +75% DMG from [Solar Eclipse] (3s); [Solar Eclipse] → target takes +75% DMG from [Lunar Hunt] (3s)."
+        },
+        "type": "intron",
+        "level": 2
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 3",
+          "vi": "Intron Lv. 3"
+        },
+        "description": {
+          "en": "[Solar Eclipse] +2; [Interwoven Cries] +1.",
+          "vi": "[Solar Eclipse] +2; [Interwoven Cries] +1."
+        },
+        "type": "intron",
+        "level": 3
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 4",
+          "vi": "Intron Lv. 4"
+        },
+        "description": {
+          "en": "Healing Received +50%, Sanity Recovery +25%.",
+          "vi": "Healing Received +50%, Sanity Recovery +25%."
+        },
+        "type": "intron",
+        "level": 4
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 5",
+          "vi": "Intron Lv. 5"
+        },
+        "description": {
+          "en": "[Misty Sea Requiem] +2; [Interwoven Cries] +1.",
+          "vi": "[Misty Sea Requiem] +2; [Interwoven Cries] +1."
+        },
+        "type": "intron",
+        "level": 5
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 6",
+          "vi": "Intron Lv. 6"
+        },
+        "description": {
+          "en": "25% chance when using ranged weapon to spawn [Lunar Hunt] or [Solar Eclipse] at target (CD 1s).",
+          "vi": "25% chance when using ranged weapon to spawn [Lunar Hunt] or [Solar Eclipse] at target (CD 1s)."
+        },
+        "type": "intron",
+        "level": 6
+      }
+    ],
+    "slug": "lady-nifle",
+    "role": "DPS",
+    "element": "Lumino",
+    "weapon": "Katana",
+    "profile": {
+      "birthplace": "The Elysian Church",
+      "birthday": "29 February",
+      "allegiance": "Unaffiliated"
+    }
+  },
+  {
+    "name": {
+      "en": "Lisbell",
+      "vi": "Lisbell"
+    },
+    "overview": {
+      "en": "",
+      "vi": ""
+    },
+    "rarity": "5★",
+    "traits": [
+      {
+        "name": "Name",
+        "effect": "Effect"
+      },
+      {
+        "name": "Adventurer",
+        "effect": "Skilled in combat."
+      },
+      {
+        "name": "Impression: Empathy",
+        "effect": "Deeply sensitive and emotionally perceptive."
+      }
+    ],
+    "baseStats": [
+      {
+        "stat": "Lumino ATK",
+        "lv1": "24",
+        "lvMax": "451.88"
+      },
+      {
+        "stat": "HP",
+        "lv1": "90",
+        "lvMax": "1130"
+      },
+      {
+        "stat": "Shield",
+        "lv1": "90",
+        "lvMax": "1130"
+      },
+      {
+        "stat": "DEF",
+        "lv1": "240",
+        "lvMax": "240"
+      },
+      {
+        "stat": "Max Sanity",
+        "lv1": "150",
+        "lvMax": "150"
+      },
+      {
+        "stat": "Weapon Proficiency",
+        "lv1": "Greatsword / Shotgun",
+        "lvMax": "—"
+      },
+      {
+        "stat": "Skill DMG",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "lv1": "100%",
+        "lvMax": "115%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Morale",
+        "lv1": "0%",
+        "lvMax": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "lv1": "0%",
+        "lvMax": "0%"
+      }
+    ],
+    "passiveUpgrades": [
+      {
+        "upgrade": "ATK",
+        "value": "+30%"
+      },
+      {
+        "upgrade": "Skill Duration",
+        "value": "+6%"
+      },
+      {
+        "upgrade": "Skill Duration",
+        "value": "+9%"
+      },
+      {
+        "upgrade": "Can't Keep My Cool!!",
+        "value": "[Samael]'s Charged Attack at Combo Lv.S extends [Impatience] duration by 12s."
+      },
+      {
+        "upgrade": "Crimson Radiance",
+        "value": "(Partner) Increases ATK (+40%) for self and Lumino allies."
+      }
+    ],
+    "skills": [
+      {
+        "name": {
+          "en": "That's It!",
+          "vi": "That's It!"
+        },
+        "description": {
+          "en": "Switches melee weapon to [Samael]. Reuse to withdraw. Normal attacks chain 4 hits; holding attack consumes Sanity and builds combo points every 0.5s. On release or max combo, unleashes Charged Attack. While charging, gains [Impatience] (Hitstun immunity, −30% DMG taken).",
+          "vi": "Switches melee weapon to [Samael]. Reuse to withdraw. Normal attacks chain 4 hits; holding attack consumes Sanity and builds combo points every 0.5s. On release or max combo, unleashes Charged Attack. While charging, gains [Impatience] (Hitstun immunity, −30% DMG taken)."
+        },
+        "type": "ultimate",
+        "skillDMG": "Lv.1: Sanity 10; Normal Hits 346%/409%/200%x2/189%+556%; Charged 848%; Charged(S) 179%+848%; Radius 10m; Sanity drain 25/s",
+        "misc": "Lv.Max: Normal Hits 697%/814%/407%x2/378%+1133%; Charged 1703%; Charged(S) 359%+1703%"
+      },
+      {
+        "name": {
+          "en": "Hmph!!",
+          "vi": "Hmph!!"
+        },
+        "description": {
+          "en": "When Combo Level rises, deals Lumino DMG to nearby enemies and enhances [Samael]. Combo Levels C/B/A/S grant Enhancement Lv.1/2/3/4. Enhancement boosts Weapon ATK Range and Trigger Probability.",
+          "vi": "When Combo Level rises, deals Lumino DMG to nearby enemies and enhances [Samael]. Combo Levels C/B/A/S grant Enhancement Lv.1/2/3/4. Enhancement boosts Weapon ATK Range and Trigger Probability."
+        },
+        "type": "passive",
+        "skillDMG": "Lv.1: DMG 204%; Radius 6m; ATK Range +1.2×Lv; Trigger Prob. +14%×Lv (12s)",
+        "misc": "Lv.Max: DMG 600%; Radius 6m; ATK Range +1.2×Lv; Trigger Prob. +50%×Lv (13.8s)"
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 2",
+          "vi": "Intron Lv. 2"
+        },
+        "description": {
+          "en": "When triggering Bonus Effect, gain 1 extra Combo Point.",
+          "vi": "When triggering Bonus Effect, gain 1 extra Combo Point."
+        },
+        "type": "intron",
+        "level": 2
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 3",
+          "vi": "Intron Lv. 3"
+        },
+        "description": {
+          "en": "[In the Name of Patience] +2; [Hmph!!] +1.",
+          "vi": "[In the Name of Patience] +2; [Hmph!!] +1."
+        },
+        "type": "intron",
+        "level": 3
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 4",
+          "vi": "Intron Lv. 4"
+        },
+        "description": {
+          "en": "On Combo Level increase, gain +5 Combo Points.",
+          "vi": "On Combo Level increase, gain +5 Combo Points."
+        },
+        "type": "intron",
+        "level": 4
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 5",
+          "vi": "Intron Lv. 5"
+        },
+        "description": {
+          "en": "[That's It!] +2; [Hmph!!] +1.",
+          "vi": "[That's It!] +2; [Hmph!!] +1."
+        },
+        "type": "intron",
+        "level": 5
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 6",
+          "vi": "Intron Lv. 6"
+        },
+        "description": {
+          "en": "After using [That's It!] or [Samael]'s Charged Attack, gain +30% Lumino DMG for 15s.",
+          "vi": "After using [That's It!] or [Samael]'s Charged Attack, gain +30% Lumino DMG for 15s."
+        },
+        "type": "intron",
+        "level": 6
+      }
+    ],
+    "slug": "lisbell",
+    "role": "DPS",
+    "element": "Lumino",
+    "weapon": "Greatsword",
+    "profile": {
+      "birthplace": "The Elysian Church",
+      "birthday": "8 August",
+      "allegiance": "The Elysian Church"
+    }
+  },
+  {
+    "name": {
+      "en": "Margie",
+      "vi": "Margie"
+    },
+    "overview": {
+      "en": "",
+      "vi": ""
+    },
+    "rarity": "5★",
+    "traits": [
+      {
+        "name": "Name",
+        "effect": "Effect"
+      },
+      {
+        "name": "Gleaner",
+        "effect": "Skilled in gathering resources."
+      },
+      {
+        "name": "Impression: Empathy",
+        "effect": "Deeply sensitive and emotionally perceptive."
+      },
+      {
+        "name": "Fortune Favour",
+        "effect": "Favoured by luck – more likely to receive unexpected gains."
+      }
+    ],
+    "baseStats": [
+      {
+        "stat": "Pyro ATK",
+        "lv1": "21",
+        "lvMax": "395.39"
+      },
+      {
+        "stat": "HP",
+        "lv1": "83",
+        "lvMax": "1042"
+      },
+      {
+        "stat": "Shield",
+        "lv1": "83",
+        "lvMax": "1042"
+      },
+      {
+        "stat": "DEF",
+        "lv1": "264",
+        "lvMax": "264"
+      },
+      {
+        "stat": "Max Sanity",
+        "lv1": "160",
+        "lvMax": "160"
+      },
+      {
+        "stat": "Weapon Proficiency",
+        "lv1": "Polearm / Shotgun",
+        "lvMax": "—"
+      },
+      {
+        "stat": "Skill DMG",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "lv1": "100%",
+        "lvMax": "130%"
+      },
+      {
+        "stat": "Skill Duration",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Morale",
+        "lv1": "0%",
+        "lvMax": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "lv1": "0%",
+        "lvMax": "0%"
+      }
+    ],
+    "passiveUpgrades": [
+      {
+        "upgrade": "ATK",
+        "value": "+30%"
+      },
+      {
+        "upgrade": "Skill Range",
+        "value": "+12%"
+      },
+      {
+        "upgrade": "Skill Range",
+        "value": "+18%"
+      },
+      {
+        "upgrade": "Margie’s Pep Song",
+        "value": "Increases nearby allies’ ATK by +45%."
+      },
+      {
+        "upgrade": "Strike (Partner)",
+        "value": "Increase ATK (+40%) for the character and nearby teammates."
+      }
+    ],
+    "skills": [
+      {
+        "name": {
+          "en": "Margie’s Combustible Bin",
+          "vi": "Margie’s Combustible Bin"
+        },
+        "description": {
+          "en": "Casts 3 bins forward; they explode on hit, dealing AOE Pyro DMG and consuming [Jackpot!] stacks. Consuming 3 stacks: larger explosion & higher DMG. Consuming 6 stacks: creates a Zealous Zone (DoT every 2s). Consuming 9 stacks: deals 2 additional AOE Pyro hits.",
+          "vi": "Casts 3 bins forward; they explode on hit, dealing AOE Pyro DMG and consuming [Jackpot!] stacks. Consuming 3 stacks: larger explosion & higher DMG. Consuming 6 stacks: creates a Zealous Zone (DoT every 2s). Consuming 9 stacks: deals 2 additional AOE Pyro hits."
+        },
+        "type": "ultimate",
+        "skillDMG": "Lv.1: Sanity 50; Explosion 126% (6m); Enhanced Explosion 187% (10m); Zealous Zone 49%/2s (10m, 10s); Extra DMG 127% ×2 (6m)",
+        "misc": "Lv.Max: Explosion 378% (7.8m); Enhanced 556% (13m); Zone 139%/2s (13m, 10s); Extra 370% ×2 (7.8m)"
+      },
+      {
+        "name": {
+          "en": "Margie’s Recycling Sack",
+          "vi": "Margie’s Recycling Sack"
+        },
+        "description": {
+          "en": "Picking up loot by the user or nearby allies grants 1 stack of [Jackpot!] (persists for battle). Each stack increases Skill DMG, up to 20 stacks.",
+          "vi": "Picking up loot by the user or nearby allies grants 1 stack of [Jackpot!] (persists for battle). Each stack increases Skill DMG, up to 20 stacks."
+        },
+        "type": "passive",
+        "skillDMG": "Lv.1: +2.4% Skill DMG/stack",
+        "misc": "Lv.Max: +6% Skill DMG/stack"
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 2",
+          "vi": "Intron Lv. 2"
+        },
+        "description": {
+          "en": "Using [Margie’s Treasure Shovel] has a 12% chance to deal extra damage to 1 random enemy within range once.",
+          "vi": "Using [Margie’s Treasure Shovel] has a 12% chance to deal extra damage to 1 random enemy within range once."
+        },
+        "type": "intron",
+        "level": 2
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 3",
+          "vi": "Intron Lv. 3"
+        },
+        "description": {
+          "en": "[Margie’s Treasure Shovel] +2; [Margie’s Recycling Sack] +1.",
+          "vi": "[Margie’s Treasure Shovel] +2; [Margie’s Recycling Sack] +1."
+        },
+        "type": "intron",
+        "level": 3
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 4",
+          "vi": "Intron Lv. 4"
+        },
+        "description": {
+          "en": "Zealous Zone duration from [Margie’s Combustible Bin] increased to 20s.",
+          "vi": "Zealous Zone duration from [Margie’s Combustible Bin] increased to 20s."
+        },
+        "type": "intron",
+        "level": 4
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 5",
+          "vi": "Intron Lv. 5"
+        },
+        "description": {
+          "en": "[Margie’s Combustible Bin] +2; [Margie’s Recycling Sack] +1.",
+          "vi": "[Margie’s Combustible Bin] +2; [Margie’s Recycling Sack] +1."
+        },
+        "type": "intron",
+        "level": 5
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 6",
+          "vi": "Intron Lv. 6"
+        },
+        "description": {
+          "en": "After [Margie’s Combustible Bin] deals damage, Margie’s damage to that target is increased by 60% for 5s.",
+          "vi": "After [Margie’s Combustible Bin] deals damage, Margie’s damage to that target is increased by 60% for 5s."
+        },
+        "type": "intron",
+        "level": 6
+      }
+    ],
+    "slug": "margie",
+    "role": "DPS / Control",
+    "element": "Pyro",
+    "weapon": "Polearm",
+    "profile": {
+      "birthplace": "Hyperborean Empire",
+      "birthday": "20 September",
+      "allegiance": "Unaffiliated"
+    }
+  },
+  {
+    "name": {
+      "en": "Protagonist",
+      "vi": "Protagonist"
+    },
+    "overview": {
+      "en": "",
+      "vi": ""
+    },
+    "rarity": "5★",
+    "traits": [
+      {
+        "name": "Name",
+        "effect": "Effect"
+      },
+      {
+        "name": "—",
+        "effect": "—"
+      }
+    ],
+    "baseStats": [
+      {
+        "stat": "Lumino ATK",
+        "lv1": "22",
+        "lvMax": "276.15"
+      },
+      {
+        "stat": "HP",
+        "lv1": "120",
+        "lvMax": "1506"
+      },
+      {
+        "stat": "Shield",
+        "lv1": "120",
+        "lvMax": "1506"
+      },
+      {
+        "stat": "DEF",
+        "lv1": "300",
+        "lvMax": "300"
+      },
+      {
+        "stat": "Max Sanity",
+        "lv1": "100",
+        "lvMax": "100"
+      },
+      {
+        "stat": "Weapon Proficiency",
+        "lv1": "Sword / Assault Rifle",
+        "lvMax": "—"
+      },
+      {
+        "stat": "Skill DMG",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "lv1": "100%",
+        "lvMax": "130%"
+      },
+      {
+        "stat": "Skill Duration",
+        "lv1": "100%",
+        "lvMax": "115%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Morale",
+        "lv1": "0%",
+        "lvMax": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "lv1": "0%",
+        "lvMax": "0%"
+      }
+    ],
+    "passiveUpgrades": [
+      {
+        "upgrade": "Skill Duration",
+        "value": "+9%"
+      },
+      {
+        "upgrade": "Skill Range",
+        "value": "+12%"
+      },
+      {
+        "upgrade": "Skill Range",
+        "value": "+18%"
+      },
+      {
+        "upgrade": "Radiant Grace",
+        "value": "Using [Flare] grants Trigger Probability Increase (+100%) for self and allies (13.8s)."
+      },
+      {
+        "upgrade": "Edge (Partner)",
+        "value": "Increases Weapon DMG (+8%) for self and allies."
+      }
+    ],
+    "skills": [
+      {
+        "name": {
+          "en": "Flare",
+          "vi": "Flare"
+        },
+        "description": {
+          "en": "Deals Lumino DMG to nearby enemies and grants self and allies Ultra Shields and [Incandescence]. [Incandescence]: Increases Weapon DMG.",
+          "vi": "Deals Lumino DMG to nearby enemies and grants self and allies Ultra Shields and [Incandescence]. [Incandescence]: Increases Weapon DMG."
+        },
+        "type": "ultimate",
+        "skillDMG": "Lv.1: Sanity 35; DMG 702%; Radius 10m; Ultra Shield 5% Max Shield; Duration 12s; Weapon DMG +15%",
+        "misc": "Lv.Max: DMG 2115%; Radius 13m; Ultra Shield 5%; Duration 13.8s; Weapon DMG +51%"
+      },
+      {
+        "name": {
+          "en": "Diffusion",
+          "vi": "Diffusion"
+        },
+        "description": {
+          "en": "When a Lumino bonus effect is triggered, deals additional Lumino AoE DMG at the target’s location.",
+          "vi": "When a Lumino bonus effect is triggered, deals additional Lumino AoE DMG at the target’s location."
+        },
+        "type": "passive",
+        "skillDMG": "Lv.1: DMG 201%; Radius 3m",
+        "misc": "Lv.Max: DMG 705%; Radius 3.9m"
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 2",
+          "vi": "Intron Lv. 2"
+        },
+        "description": {
+          "en": "Casting [Flare] creates a 10m-radius [Prism] field for 10s, reducing enemy Movement SPD by 50%.",
+          "vi": "Casting [Flare] creates a 10m-radius [Prism] field for 10s, reducing enemy Movement SPD by 50%."
+        },
+        "type": "intron",
+        "level": 2
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 3",
+          "vi": "Intron Lv. 3"
+        },
+        "description": {
+          "en": "[Dawn Beyond Night] +2; [Diffusion] +1.",
+          "vi": "[Dawn Beyond Night] +2; [Diffusion] +1."
+        },
+        "type": "intron",
+        "level": 3
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 4",
+          "vi": "Intron Lv. 4"
+        },
+        "description": {
+          "en": "Using a skill grants +9% ATK Speed for 12s (stacks ×4).",
+          "vi": "Using a skill grants +9% ATK Speed for 12s (stacks ×4)."
+        },
+        "type": "intron",
+        "level": 4
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 5",
+          "vi": "Intron Lv. 5"
+        },
+        "description": {
+          "en": "[Flare] +2; [Diffusion] +1.",
+          "vi": "[Flare] +2; [Diffusion] +1."
+        },
+        "type": "intron",
+        "level": 5
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 6",
+          "vi": "Intron Lv. 6"
+        },
+        "description": {
+          "en": "[Incandescence] grants +54% CRIT Chance.",
+          "vi": "[Incandescence] grants +54% CRIT Chance."
+        },
+        "type": "intron",
+        "level": 6
+      }
+    ],
+    "slug": "protagonist",
+    "role": "Support",
+    "element": "Lumino",
+    "weapon": "Sword",
+    "profile": {
+      "birthplace": "—",
+      "birthday": "—",
+      "allegiance": "—"
+    }
+  },
+  {
+    "name": {
+      "en": "Psyche",
+      "vi": "Psyche"
+    },
+    "overview": {
+      "en": "",
+      "vi": ""
+    },
+    "rarity": "5★",
+    "traits": [
+      {
+        "name": "Name",
+        "effect": "Effect"
+      },
+      {
+        "name": "Impression: Empathy",
+        "effect": "Deeply sensitive and emotionally perceptive."
+      },
+      {
+        "name": "Gleaner",
+        "effect": "Skilled in gathering resources."
+      }
+    ],
+    "baseStats": [
+      {
+        "stat": "Anemo ATK",
+        "lv1": "28",
+        "lvMax": "351.46"
+      },
+      {
+        "stat": "HP",
+        "lv1": "70",
+        "lvMax": "879"
+      },
+      {
+        "stat": "Shield",
+        "lv1": "140",
+        "lvMax": "1757"
+      },
+      {
+        "stat": "DEF",
+        "lv1": "252",
+        "lvMax": "252"
+      },
+      {
+        "stat": "Max Sanity",
+        "lv1": "150",
+        "lvMax": "150"
+      },
+      {
+        "stat": "Weapon Proficiency",
+        "lv1": "Polearm / Assault Rifle",
+        "lvMax": "—"
+      },
+      {
+        "stat": "Skill DMG",
+        "lv1": "100%",
+        "lvMax": "120%"
+      },
+      {
+        "stat": "Skill Range",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Morale",
+        "lv1": "0%",
+        "lvMax": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "lv1": "0%",
+        "lvMax": "5%"
+      }
+    ],
+    "passiveUpgrades": [
+      {
+        "upgrade": "Resolve",
+        "value": "+3%"
+      },
+      {
+        "upgrade": "Skill DMG",
+        "value": "+8%"
+      },
+      {
+        "upgrade": "Skill DMG",
+        "value": "+12%"
+      },
+      {
+        "upgrade": "Ephemeral As Dew",
+        "value": "When using [Fluorescent Eclosion] with HP ≥75%, gains [Ephemeral as Dew] (30s). When triggering Morale/Resolve, treats HP% as 1%. CD: 120s."
+      },
+      {
+        "upgrade": "Mirth Carries",
+        "value": "(Partner) Increase ATK (+50%) for the character and nearby Anemo teammates."
+      }
+    ],
+    "skills": [
+      {
+        "name": {
+          "en": "Fluorescent Eclosion",
+          "vi": "Fluorescent Eclosion"
+        },
+        "description": {
+          "en": "Enters [Flamboyance] state and gains flight. Can only use Skills/Shoot. Continuously consumes Sanity; when Sanity = 0 or reused, ends. If HP% > 15%, consumes HP instead and converts to Ultra Shield.",
+          "vi": "Enters [Flamboyance] state and gains flight. Can only use Skills/Shoot. Continuously consumes Sanity; when Sanity = 0 or reused, ends. If HP% > 15%, consumes HP instead and converts to Ultra Shield."
+        },
+        "type": "ultimate",
+        "skillDMG": "Lv.1: Sanity 10; Cost/s 30; Shooting DMG 66.4%; Radius 3m; HP Loss 5%/s; Shield Conversion 150%",
+        "misc": "Lv.Max: Shooting DMG 159.6%; same cost values"
+      },
+      {
+        "name": {
+          "en": "Amberlight",
+          "vi": "Amberlight"
+        },
+        "description": {
+          "en": "On CRIT, gain one of ATK, Skill DMG, or Resolve boosts (random). Increases total DMG for each buff gained (max 12).",
+          "vi": "On CRIT, gain one of ATK, Skill DMG, or Resolve boosts (random). Increases total DMG for each buff gained (max 12)."
+        },
+        "type": "passive",
+        "skillDMG": "Lv.1: ATK +7.9%, Skill DMG +7.9%, Resolve +3.7%; DMG +1.2%/buff (10s)",
+        "misc": "Lv.Max: ATK +25%, Skill DMG +25%, Resolve +10%; DMG +3%/buff (10s)"
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 2",
+          "vi": "Intron Lv. 2"
+        },
+        "description": {
+          "en": "While in [Flamboyance], fires 16 [Ethereal Powders] every 5s. [Powder Stigma] DMG has 35% chance to spawn [Phantasm] at target.",
+          "vi": "While in [Flamboyance], fires 16 [Ethereal Powders] every 5s. [Powder Stigma] DMG has 35% chance to spawn [Phantasm] at target."
+        },
+        "type": "intron",
+        "level": 2
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 3",
+          "vi": "Intron Lv. 3"
+        },
+        "description": {
+          "en": "[Chrysalis Dreamweave] +2; [Amberlight] +1.",
+          "vi": "[Chrysalis Dreamweave] +2; [Amberlight] +1."
+        },
+        "type": "intron",
+        "level": 3
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 4",
+          "vi": "Intron Lv. 4"
+        },
+        "description": {
+          "en": "In [Flamboyance], gains [Eclosion]: Hitstun immune, −25% DMG Taken, +15 Auto Pick-up Range.",
+          "vi": "In [Flamboyance], gains [Eclosion]: Hitstun immune, −25% DMG Taken, +15 Auto Pick-up Range."
+        },
+        "type": "intron",
+        "level": 4
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 5",
+          "vi": "Intron Lv. 5"
+        },
+        "description": {
+          "en": "[Fluorescent Eclosion] +2; [Amberlight] +1.",
+          "vi": "[Fluorescent Eclosion] +2; [Amberlight] +1."
+        },
+        "type": "intron",
+        "level": 5
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 6",
+          "vi": "Intron Lv. 6"
+        },
+        "description": {
+          "en": "In [Flamboyance], +50% PEN stats.",
+          "vi": "In [Flamboyance], +50% PEN stats."
+        },
+        "type": "intron",
+        "level": 6
+      }
+    ],
+    "slug": "psyche",
+    "role": "DPS",
+    "element": "Anemo",
+    "weapon": "Polearm",
+    "profile": {
+      "birthplace": "Hyperborean Empire",
+      "birthday": "22 June",
+      "allegiance": "Unaffiliated"
+    }
+  },
+  {
+    "name": {
+      "en": "Truffle and Filbert",
+      "vi": "Truffle and Filbert"
+    },
+    "overview": {
+      "en": "",
+      "vi": ""
+    },
+    "rarity": "5★",
+    "traits": [
+      {
+        "name": "Name",
+        "effect": "Effect"
+      },
+      {
+        "name": "Impression: Empathy",
+        "effect": "Deeply sensitive and emotionally perceptive."
+      },
+      {
+        "name": "Tamer",
+        "effect": "Skilled in training Geniemons."
+      },
+      {
+        "name": "Fortune Favour",
+        "effect": "Favoured by luck – more likely to receive unexpected gains."
+      }
+    ],
+    "baseStats": [
+      {
+        "stat": "Anemo ATK",
+        "lv1": "12",
+        "lvMax": "150.63"
+      },
+      {
+        "stat": "HP",
+        "lv1": "185",
+        "lvMax": "3483"
+      },
+      {
+        "stat": "Shield",
+        "lv1": "150",
+        "lvMax": "1883"
+      },
+      {
+        "stat": "DEF",
+        "lv1": "310",
+        "lvMax": "310"
+      },
+      {
+        "stat": "Max Sanity",
+        "lv1": "120",
+        "lvMax": "120"
+      },
+      {
+        "stat": "Weapon Proficiency",
+        "lv1": "Polearm / Bow",
+        "lvMax": "—"
+      },
+      {
+        "stat": "Skill DMG",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "lv1": "100%",
+        "lvMax": "115%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Morale",
+        "lv1": "0%",
+        "lvMax": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "lv1": "0%",
+        "lvMax": "0%"
+      }
+    ],
+    "passiveUpgrades": [
+      {
+        "upgrade": "HP",
+        "value": "+30%"
+      },
+      {
+        "upgrade": "Skill Duration",
+        "value": "+6%"
+      },
+      {
+        "upgrade": "Skill Duration",
+        "value": "+9%"
+      },
+      {
+        "upgrade": "Combat Supply",
+        "value": "10% chance to drop [Ammo Supply Chest] on Skill DMG."
+      },
+      {
+        "upgrade": "Peep & Peck",
+        "value": "(Partner) Increase Resolve (+5%) for team when ≥2 share same element."
+      }
+    ],
+    "skills": [
+      {
+        "name": {
+          "en": "Tummy Full, Hands Full",
+          "vi": "Tummy Full, Hands Full"
+        },
+        "description": {
+          "en": "Rides [Filbert], gaining 100 [Passion for Work] and Movement Speed. Deals Anemo DMG when moving. Cannot use weapons while mounted. Reuse to dismount and unleash [Trotters Trot-Trot]. [Passion for Work] decreases 5/s, restores 1 per hit, paused during Charge; ends when 0.",
+          "vi": "Rides [Filbert], gaining 100 [Passion for Work] and Movement Speed. Deals Anemo DMG when moving. Cannot use weapons while mounted. Reuse to dismount and unleash [Trotters Trot-Trot]. [Passion for Work] decreases 5/s, restores 1 per hit, paused during Charge; ends when 0."
+        },
+        "type": "ultimate",
+        "skillDMG": "Lv.1: Sanity 60; Path DMG 119% Max HP + 125; Filbert Hit 126%; 2-Hit 158%; Plunge 122%",
+        "misc": "Lv.Max: Path DMG 362% Max HP + 368; Filbert 387%, 473%, 374%"
+      },
+      {
+        "name": {
+          "en": "Chop-Chop, Commissaries!",
+          "vi": "Chop-Chop, Commissaries!"
+        },
+        "description": {
+          "en": "Gains 1 [Heavyweight] stack every second while moving (max 10). Each stack increases DMG and reduces DMG taken.",
+          "vi": "Gains 1 [Heavyweight] stack every second while moving (max 10). Each stack increases DMG and reduces DMG taken."
+        },
+        "type": "passive",
+        "skillDMG": "Lv.1: DMG +3.7%/stack; DMG Taken −0.65%/stack; Duration 18s",
+        "misc": "Lv.Max: DMG +10%/stack; DMG Taken −2%/stack; Duration 20.7s"
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 2",
+          "vi": "Intron Lv. 2"
+        },
+        "description": {
+          "en": "Using Skill grants teammates ATK = 3% Max HP (max 300) for 10s.",
+          "vi": "Using Skill grants teammates ATK = 3% Max HP (max 300) for 10s."
+        },
+        "type": "intron",
+        "level": 2
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 3",
+          "vi": "Intron Lv. 3"
+        },
+        "description": {
+          "en": "[Trotters Trot-Trot] +2; [Chop-Chop, Commissaries!] +1.",
+          "vi": "[Trotters Trot-Trot] +2; [Chop-Chop, Commissaries!] +1."
+        },
+        "type": "intron",
+        "level": 3
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 4",
+          "vi": "Intron Lv. 4"
+        },
+        "description": {
+          "en": "Increase [Heavyweight] cap to 20; gain 20 stacks on mount.",
+          "vi": "Increase [Heavyweight] cap to 20; gain 20 stacks on mount."
+        },
+        "type": "intron",
+        "level": 4
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 5",
+          "vi": "Intron Lv. 5"
+        },
+        "description": {
+          "en": "[Tummy Full, Hands Full] +2; [Chop-Chop, Commissaries!] +1.",
+          "vi": "[Tummy Full, Hands Full] +2; [Chop-Chop, Commissaries!] +1."
+        },
+        "type": "intron",
+        "level": 5
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 6",
+          "vi": "Intron Lv. 6"
+        },
+        "description": {
+          "en": "Picking up [Activated Sal Volatile], [Tranquilizer Dewdrop], or [Ammo Supply Chest] grants +45% Skill DMG for 15s (max 3 stacks).",
+          "vi": "Picking up [Activated Sal Volatile], [Tranquilizer Dewdrop], or [Ammo Supply Chest] grants +45% Skill DMG for 15s (max 3 stacks)."
+        },
+        "type": "intron",
+        "level": 6
+      }
+    ],
+    "slug": "truffle-filbert",
+    "role": "Support",
+    "element": "Anemo",
+    "weapon": "Polearm",
+    "profile": {
+      "birthplace": "The Elysian Church",
+      "birthday": "1 June",
+      "allegiance": "The Elysian Church"
+    }
+  },
+  {
+    "name": {
+      "en": "Yale and Oliver",
+      "vi": "Yale and Oliver"
+    },
+    "overview": {
+      "en": "",
+      "vi": ""
+    },
+    "rarity": "5★",
+    "traits": [
+      {
+        "name": "Name",
+        "effect": "Effect"
+      },
+      {
+        "name": "Tamer",
+        "effect": "Skilled in training Geniemons."
+      },
+      {
+        "name": "Impression: Wisdom",
+        "effect": "Quick-witted or highly knowledgeable in specific fields."
+      },
+      {
+        "name": "Astute Mind",
+        "effect": "Adapts quickly and may obtain bonus rewards."
+      }
+    ],
+    "baseStats": [
+      {
+        "stat": "Pyro ATK",
+        "lv1": "21",
+        "lvMax": "395.39"
+      },
+      {
+        "stat": "HP",
+        "lv1": "96",
+        "lvMax": "1205"
+      },
+      {
+        "stat": "Shield",
+        "lv1": "96",
+        "lvMax": "1205"
+      },
+      {
+        "stat": "DEF",
+        "lv1": "288",
+        "lvMax": "288"
+      },
+      {
+        "stat": "Max Sanity",
+        "lv1": "180",
+        "lvMax": "180"
+      },
+      {
+        "stat": "Weapon Proficiency",
+        "lv1": "Sword / Shotgun",
+        "lvMax": "—"
+      },
+      {
+        "stat": "Skill DMG",
+        "lv1": "100%",
+        "lvMax": "120%"
+      },
+      {
+        "stat": "Skill Range",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "lv1": "100%",
+        "lvMax": "100%"
+      },
+      {
+        "stat": "Morale",
+        "lv1": "0%",
+        "lvMax": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "lv1": "0%",
+        "lvMax": "0%"
+      }
+    ],
+    "passiveUpgrades": [
+      {
+        "upgrade": "ATK",
+        "value": "+30%"
+      },
+      {
+        "upgrade": "Skill DMG",
+        "value": "+8%"
+      },
+      {
+        "upgrade": "Skill DMG",
+        "value": "+12%"
+      },
+      {
+        "upgrade": "Bombing Memories",
+        "value": "Each [Tot Popper] grants 1 [Bombing Frenzy] (max 3 stacks, +8% Skill Efficiency, 5s)."
+      },
+      {
+        "upgrade": "Aetherflame",
+        "value": "(Partner) Increase ATK (+40%) for the character and nearby Pyro teammates."
+      }
+    ],
+    "skills": [
+      {
+        "name": {
+          "en": "Nightmare’s Grasp",
+          "vi": "Nightmare’s Grasp"
+        },
+        "description": {
+          "en": "Creates [Nightmare Lab]. Re-cast to close early. Inside, enemies’ Move SPD ↓; Poppers' timers pause. On close, detonates all within range, dealing Pyro DMG scaling per Popper; restores Sanity.",
+          "vi": "Creates [Nightmare Lab]. Re-cast to close early. Inside, enemies’ Move SPD ↓; Poppers' timers pause. On close, detonates all within range, dealing Pyro DMG scaling per Popper; restores Sanity."
+        },
+        "type": "ultimate",
+        "skillDMG": "Lv.1: Sanity 30; Duration 15s; Radius 20m; SPD ↓40%; Explosion 695%; Bonus +278%/Pop; Sanity +2/Pop",
+        "misc": "Lv.Max: Sanity 30; Duration 15s; Radius 20m; SPD ↓40%; Explosion 2508%; Bonus +1003%/Pop; Sanity +2/Pop"
+      },
+      {
+        "name": {
+          "en": "The Rules of Bomb",
+          "vi": "The Rules of Bomb"
+        },
+        "description": {
+          "en": "When a [Tot Popper] is deployed ≥2m above ground, it deals Pyro DMG to nearby enemies upon landing.",
+          "vi": "When a [Tot Popper] is deployed ≥2m above ground, it deals Pyro DMG to nearby enemies upon landing."
+        },
+        "type": "passive",
+        "skillDMG": "Lv.1: Landing DMG 213%; Radius 6m",
+        "misc": "Lv.Max: Landing DMG 752.4%; Radius 6m"
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 2",
+          "vi": "Intron Lv. 2"
+        },
+        "description": {
+          "en": "[Nightmare Lab] Move SPD ↓ increases to 60%.",
+          "vi": "[Nightmare Lab] Move SPD ↓ increases to 60%."
+        },
+        "type": "intron",
+        "level": 2
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 3",
+          "vi": "Intron Lv. 3"
+        },
+        "description": {
+          "en": "[Tot Popper] +2; [The Rules of Bomb] +1.",
+          "vi": "[Tot Popper] +2; [The Rules of Bomb] +1."
+        },
+        "type": "intron",
+        "level": 3
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 4",
+          "vi": "Intron Lv. 4"
+        },
+        "description": {
+          "en": "In [Nightmare Lab], 45% chance to deploy 1 extra [Tot Popper].",
+          "vi": "In [Nightmare Lab], 45% chance to deploy 1 extra [Tot Popper]."
+        },
+        "type": "intron",
+        "level": 4
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 5",
+          "vi": "Intron Lv. 5"
+        },
+        "description": {
+          "en": "[Nightmare’s Grasp] +2; [The Rules of Bomb] +1.",
+          "vi": "[Nightmare’s Grasp] +2; [The Rules of Bomb] +1."
+        },
+        "type": "intron",
+        "level": 5
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 6",
+          "vi": "Intron Lv. 6"
+        },
+        "description": {
+          "en": "While affected by [Bombing Frenzy], [Tot Popper] combines both types’ traits (higher DMG & stance reduction).",
+          "vi": "While affected by [Bombing Frenzy], [Tot Popper] combines both types’ traits (higher DMG & stance reduction)."
+        },
+        "type": "intron",
+        "level": 6
+      }
+    ],
+    "slug": "yale-oliver",
+    "role": "DPS",
+    "element": "Pyro",
+    "weapon": "Sword",
+    "profile": {
+      "birthplace": "Hyperborean Empire",
+      "birthday": "21 December",
+      "allegiance": "Unaffiliated"
+    }
+  },
+  {
+    "name": {
+      "en": "Yuming",
+      "vi": "Yuming"
+    },
+    "overview": {
+      "en": "",
+      "vi": ""
+    },
+    "rarity": "5★",
+    "traits": [
+      {
+        "name": "Name",
+        "effect": "Effect"
+      },
+      {
+        "name": "Impression: Morality",
+        "effect": "—"
+      },
+      {
+        "name": "Rapt Attention",
+        "effect": "—"
+      },
+      {
+        "name": "Rapt Attention",
+        "effect": "—"
+      }
+    ],
+    "baseStats": [
+      {
+        "stat": "Electro ATK",
+        "lv1": "22"
+      },
+      {
+        "stat": "HP",
+        "lv1": "130"
+      },
+      {
+        "stat": "Shield",
+        "lv1": "30"
+      },
+      {
+        "stat": "DEF",
+        "lv1": "300"
+      },
+      {
+        "stat": "Max Sanity",
+        "lv1": "200"
+      },
+      {
+        "stat": "Weapon Proficiency",
+        "lv1": "Polearm / Assault Rifle",
+        "lvMax": "—"
+      },
+      {
+        "stat": "Skill DMG",
+        "lv1": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "lv1": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "lv1": "100%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "lv1": "100%"
+      },
+      {
+        "stat": "Morale",
+        "lv1": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "lv1": "0%"
+      }
+    ],
+    "passiveUpgrades": [
+      {
+        "upgrade": "Weapon CRIT Chance",
+        "value": "+30%"
+      },
+      {
+        "upgrade": "ATK",
+        "value": "+20%"
+      },
+      {
+        "upgrade": "Weapon CRIT Chance",
+        "value": "+30%"
+      },
+      {
+        "upgrade": "Thunder Roars",
+        "value": "Gains 6 [Reverse Scales] when using [Grimscales]."
+      },
+      {
+        "upgrade": "Gallop Northwestward",
+        "value": "(Partner) Increase Morale (+15%) for the character and nearby Electro teammates."
+      }
+    ],
+    "skills": [
+      {
+        "name": {
+          "en": "Grimscales",
+          "vi": "Grimscales"
+        },
+        "description": {
+          "en": "Deals Electro DMG forward and enters [Xuanjiao Manifest]. [Xuanjiao Manifest]: Hitstun immune; Xuanjiao hovers, dealing Electro DMG on contact (1 hit/2s). When Yuming or nearby allies consume Sanity to use Skills, next Skill DMG triggers [Fish-Dragon Dance] for AOE Electro DMG (1/2s). Absorbs HP DMG; when absorption reaches % of Max HP, ends.",
+          "vi": "Deals Electro DMG forward and enters [Xuanjiao Manifest]. [Xuanjiao Manifest]: Hitstun immune; Xuanjiao hovers, dealing Electro DMG on contact (1 hit/2s). When Yuming or nearby allies consume Sanity to use Skills, next Skill DMG triggers [Fish-Dragon Dance] for AOE Electro DMG (1/2s). Absorbs HP DMG; when absorption reaches % of Max HP, ends."
+        },
+        "type": "ultimate",
+        "skillDMG": "Lv.1: Sanity 100; Skill DMG 289%; Radius 10m; [Manifest] DMG 113%; Absorb 37% Max HP; [Fish-Dragon Dance] 349%; Radius 3m"
+      },
+      {
+        "name": {
+          "en": "Soaring Sky-High",
+          "vi": "Soaring Sky-High"
+        },
+        "description": {
+          "en": "On Skill DMG, inflicts [Thunderous Onslaught] (max 3 stacks): reduces target Electro RES.",
+          "vi": "On Skill DMG, inflicts [Thunderous Onslaught] (max 3 stacks): reduces target Electro RES."
+        },
+        "type": "passive",
+        "skillDMG": "Lv.1: [Thunderous Onslaught] RES ↓1.3%/stack (6s)"
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 2",
+          "vi": "Intron Lv. 2"
+        },
+        "description": {
+          "en": "When Yuming or allies trigger [Fish-Dragon Dance], releases +2 extra strikes within 10m.",
+          "vi": "When Yuming or allies trigger [Fish-Dragon Dance], releases +2 extra strikes within 10m."
+        },
+        "type": "intron",
+        "level": 2
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 3",
+          "vi": "Intron Lv. 3"
+        },
+        "description": {
+          "en": "[Precipitous Thunderfall] +2; [Soaring Sky-High] +1.",
+          "vi": "[Precipitous Thunderfall] +2; [Soaring Sky-High] +1."
+        },
+        "type": "intron",
+        "level": 3
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 4",
+          "vi": "Intron Lv. 4"
+        },
+        "description": {
+          "en": "Plunging ATK deals +10% Skill DMG (max +36%).",
+          "vi": "Plunging ATK deals +10% Skill DMG (max +36%)."
+        },
+        "type": "intron",
+        "level": 4
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 5",
+          "vi": "Intron Lv. 5"
+        },
+        "description": {
+          "en": "[Grimscales] +2; [Soaring Sky-High] +1.",
+          "vi": "[Grimscales] +2; [Soaring Sky-High] +1."
+        },
+        "type": "intron",
+        "level": 5
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 6",
+          "vi": "Intron Lv. 6"
+        },
+        "description": {
+          "en": "[Starlight/Starstorm Descent] DMG +50% per [Thunderous Onslaught] stack; [Starstorm Descent] restores 1.8% [Xuanjiao] absorption.",
+          "vi": "[Starlight/Starstorm Descent] DMG +50% per [Thunderous Onslaught] stack; [Starstorm Descent] restores 1.8% [Xuanjiao] absorption."
+        },
+        "type": "intron",
+        "level": 6
+      }
+    ],
+    "slug": "yuming",
+    "role": "DPS",
+    "element": "Electro",
+    "weapon": "Polearm",
+    "profile": {
+      "birthplace": "Huaxu",
+      "birthday": "10 November",
+      "allegiance": "Huaxu"
+    }
+  },
+  {
+    "name": {
+      "en": "Zhiliu",
+      "vi": "Zhiliu"
+    },
+    "overview": {
+      "en": "",
+      "vi": ""
+    },
+    "rarity": "5★",
+    "traits": [
+      {
+        "name": "Name",
+        "effect": "Effect"
+      },
+      {
+        "name": "Impression: Wisdom",
+        "effect": "—"
+      },
+      {
+        "name": "Impression: Wisdom",
+        "effect": "—"
+      },
+      {
+        "name": "Astute Mind",
+        "effect": "—"
+      }
+    ],
+    "baseStats": [
+      {
+        "stat": "Electro ATK",
+        "lv1": "24"
+      },
+      {
+        "stat": "HP",
+        "lv1": "80"
+      },
+      {
+        "stat": "Shield",
+        "lv1": "140"
+      },
+      {
+        "stat": "DEF",
+        "lv1": "252"
+      },
+      {
+        "stat": "Max Sanity",
+        "lv1": "240"
+      },
+      {
+        "stat": "Weapon Proficiency",
+        "lv1": "Greatsword / Dual Pistols",
+        "lvMax": "—"
+      },
+      {
+        "stat": "Skill DMG",
+        "lv1": "100%"
+      },
+      {
+        "stat": "Skill Range",
+        "lv1": "100%"
+      },
+      {
+        "stat": "Skill Duration",
+        "lv1": "100%"
+      },
+      {
+        "stat": "Skill Efficiency",
+        "lv1": "100%"
+      },
+      {
+        "stat": "Morale",
+        "lv1": "0%"
+      },
+      {
+        "stat": "Resolve",
+        "lv1": "0%"
+      }
+    ],
+    "passiveUpgrades": [
+      {
+        "upgrade": "Skill DMG",
+        "value": "+12%"
+      },
+      {
+        "upgrade": "Morale",
+        "value": "+6%"
+      },
+      {
+        "upgrade": "Skill DMG",
+        "value": "+12%"
+      },
+      {
+        "upgrade": "Mutual Generation",
+        "value": "When Zhiliu or allies deal Electro Skill DMG, gain stack (+5% Morale, max 12, 6s)."
+      },
+      {
+        "upgrade": "Divine Retribution",
+        "value": "(Partner) Increase ATK (+50%) for the character and nearby Electro teammates."
+      }
+    ],
+    "skills": [
+      {
+        "name": {
+          "en": "Heaven-Earth Divination",
+          "vi": "Heaven-Earth Divination"
+        },
+        "description": {
+          "en": "If <2 [Talismans], deals Electro DMG. If 2 [Talismans], transforms based on type: **[Thunder’s Oracle Peal]** (2x Zhen): consumes all, deals line Electro DMG. **[Myriad Things Thrive]** (1 Zhen + 1 Xun): consumes all, periodic DMG then creates [Four Realms Align] field (triggers [Zhen-Xun Convergence] every 3s). **[Fortune’s Clarity]** (2x Xun): consumes all, AoE Electro DMG and increases Skill DMG.",
+          "vi": "If <2 [Talismans], deals Electro DMG. If 2 [Talismans], transforms based on type: **[Thunder’s Oracle Peal]** (2x Zhen): consumes all, deals line Electro DMG. **[Myriad Things Thrive]** (1 Zhen + 1 Xun): consumes all, periodic DMG then creates [Four Realms Align] field (triggers [Zhen-Xun Convergence] every 3s). **[Fortune’s Clarity]** (2x Xun): consumes all, AoE Electro DMG and increases Skill DMG."
+        },
+        "type": "ultimate",
+        "skillDMG": "Lv.1: [Heaven-Earth Divination] Sanity 20; DMG 717%; Radius 10m; [Thunder’s Oracle Peal] Sanity 30; DMG 2307%; 12×6m; [Myriad Things Thrive] Sanity 40; DMG 521%×3+1898%; Radius 10m; [Four Realms Align] Radius 20m, Duration 24s, [Zhen-Xun Convergence] 900%, Radius 6m; [Fortune’s Clarity] Sanity 25; DMG 1154%; Radius 4m; Skill DMG +27% (24s)"
+      },
+      {
+        "name": {
+          "en": "Talismans Coalescence",
+          "vi": "Talismans Coalescence"
+        },
+        "description": {
+          "en": "Obtains up to 2 [Talismans] via [Celestial Revelation]; oldest is removed if over limit. When consuming [Talisman] via Ultimate, each has a chance to be retained (based on Melee Weapon Trigger Probability).",
+          "vi": "Obtains up to 2 [Talismans] via [Celestial Revelation]; oldest is removed if over limit. When consuming [Talisman] via Ultimate, each has a chance to be retained (based on Melee Weapon Trigger Probability)."
+        },
+        "type": "passive",
+        "skillDMG": "Lv.1: Trigger Chance 17%"
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 2",
+          "vi": "Intron Lv. 2"
+        },
+        "description": {
+          "en": "Using Ultimate increases [Talisman] retention +50%; [Mutual Generation] stack cap +20.",
+          "vi": "Using Ultimate increases [Talisman] retention +50%; [Mutual Generation] stack cap +20."
+        },
+        "type": "intron",
+        "level": 2
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 3",
+          "vi": "Intron Lv. 3"
+        },
+        "description": {
+          "en": "[Celestial Revelation] +2; [Talismans Coalescence] +1.",
+          "vi": "[Celestial Revelation] +2; [Talismans Coalescence] +1."
+        },
+        "type": "intron",
+        "level": 3
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 4",
+          "vi": "Intron Lv. 4"
+        },
+        "description": {
+          "en": "Using [Celestial Revelation] grants +30% ATK to Zhiliu & allies (30s).",
+          "vi": "Using [Celestial Revelation] grants +30% ATK to Zhiliu & allies (30s)."
+        },
+        "type": "intron",
+        "level": 4
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 5",
+          "vi": "Intron Lv. 5"
+        },
+        "description": {
+          "en": "[Heaven-Earth Divination] +2; [Talismans Coalescence] +1.",
+          "vi": "[Heaven-Earth Divination] +2; [Talismans Coalescence] +1."
+        },
+        "type": "intron",
+        "level": 5
+      },
+      {
+        "name": {
+          "en": "Intron Lv. 6",
+          "vi": "Intron Lv. 6"
+        },
+        "description": {
+          "en": "Within [Four Realms Align], +55% PEN stats.",
+          "vi": "Within [Four Realms Align], +55% PEN stats."
+        },
+        "type": "intron",
+        "level": 6
+      }
+    ],
+    "slug": "zhiliu",
+    "role": "DPS",
+    "element": "Electro",
+    "weapon": "Greatsword",
+    "profile": {
+      "birthplace": "Huaxu",
+      "birthday": "18 December",
+      "allegiance": "EverSpring"
+    }
+  }
+]

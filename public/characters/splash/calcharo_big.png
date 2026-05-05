@@ -1,0 +1,7 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#1e293b"/>
+  <rect x="20" y="20" width="160" height="160" rx="8" fill="#334155"/>
+  <circle cx="100" cy="80" r="20" fill="#64748b"/>
+  <path d="M60 140c0-22 18-40 40-40s40 18 40 40" stroke="#64748b" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <text x="100" y="180" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif" font-size="12">Character Image</text>
+</svg>

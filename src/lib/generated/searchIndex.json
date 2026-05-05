@@ -1,0 +1,142 @@
+{
+  "characters": [
+    {
+      "name": "berenica",
+      "nameVi": "berenica",
+      "role": "vanguard",
+      "element": "unknown",
+      "weapon": "sword"
+    },
+    {
+      "name": "daphne",
+      "nameVi": "daphne",
+      "role": "vanguard",
+      "element": "unknown",
+      "weapon": "sword"
+    },
+    {
+      "name": "fina",
+      "nameVi": "fina",
+      "role": "vanguard",
+      "element": "unknown",
+      "weapon": "sword"
+    },
+    {
+      "name": "fushu",
+      "nameVi": "fushu",
+      "role": "support",
+      "element": "unknown",
+      "weapon": "sword"
+    },
+    {
+      "name": "hellfire",
+      "nameVi": "hellfire",
+      "role": "vanguard",
+      "element": "unknown",
+      "weapon": "sword"
+    },
+    {
+      "name": "lady nifle",
+      "nameVi": "lady nifle",
+      "role": "vanguard",
+      "element": "unknown",
+      "weapon": "sword"
+    },
+    {
+      "name": "lynn",
+      "nameVi": "lynn",
+      "role": "vanguard",
+      "element": "unknown",
+      "weapon": "sword"
+    },
+    {
+      "name": "margie",
+      "nameVi": "margie",
+      "role": "vanguard",
+      "element": "ice",
+      "weapon": "sword"
+    },
+    {
+      "name": "outsider",
+      "nameVi": "outsider",
+      "role": "vanguard",
+      "element": "unknown",
+      "weapon": "sword"
+    },
+    {
+      "name": "phantasio",
+      "nameVi": "phantasio",
+      "role": "vanguard",
+      "element": "unknown",
+      "weapon": "sword"
+    },
+    {
+      "name": "psyche",
+      "nameVi": "psyche",
+      "role": "vanguard",
+      "element": "unknown",
+      "weapon": "sword"
+    },
+    {
+      "name": "randy",
+      "nameVi": "randy",
+      "role": "vanguard",
+      "element": "light",
+      "weapon": "sword"
+    },
+    {
+      "name": "rebecca",
+      "nameVi": "rebecca",
+      "role": "vanguard",
+      "element": "water",
+      "weapon": "sword"
+    },
+    {
+      "name": "rhythm",
+      "nameVi": "rhythm",
+      "role": "vanguard",
+      "element": "unknown",
+      "weapon": "sword"
+    },
+    {
+      "name": "sibylle",
+      "nameVi": "sibylle",
+      "role": "vanguard",
+      "element": "unknown",
+      "weapon": "sword"
+    },
+    {
+      "name": "tabethe",
+      "nameVi": "tabethe",
+      "role": "vanguard",
+      "element": "unknown",
+      "weapon": "sword"
+    },
+    {
+      "name": "truffle and filbert",
+      "nameVi": "truffle and filbert",
+      "role": "vanguard",
+      "element": "unknown",
+      "weapon": "sword"
+    },
+    {
+      "name": "yale and oliver",
+      "nameVi": "yale and oliver",
+      "role": "vanguard",
+      "element": "unknown",
+      "weapon": "sword"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "judgement edge",
+      "nameVi": "lưỡi kiếm phán xét",
+      "type": "sword"
+    },
+    {
+      "name": "windcaller bow",
+      "nameVi": "cung gọi gió",
+      "type": "bow"
+    }
+  ]
+}

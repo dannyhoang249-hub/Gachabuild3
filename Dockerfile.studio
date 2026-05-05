@@ -1,0 +1,74 @@
+# Build stage
+FROM node:20-alpine AS builder
+
+# Build arguments with defaults (hardcoded for reliability)
+ARG NEXT_PUBLIC_SANITY_PROJECT_ID=u9m27k7u
+ARG NEXT_PUBLIC_SANITY_DATASET=production
+
+RUN apk add --no-cache libc6-compat
+WORKDIR /app
+
+# Copy package files
+COPY package.json package-lock.json* ./
+RUN npm ci
+
+# Copy source code
+COPY . .
+
+# Set environment variables for build (with fallback to hardcoded defaults)
+ENV NEXT_PUBLIC_SANITY_PROJECT_ID=${NEXT_PUBLIC_SANITY_PROJECT_ID:-u9m27k7u}
+ENV NEXT_PUBLIC_SANITY_DATASET=${NEXT_PUBLIC_SANITY_DATASET:-production}
+
+# Create .env file for Vite to read during build
+RUN echo "NEXT_PUBLIC_SANITY_PROJECT_ID=${NEXT_PUBLIC_SANITY_PROJECT_ID}" > .env && \
+    echo "NEXT_PUBLIC_SANITY_DATASET=${NEXT_PUBLIC_SANITY_DATASET}" >> .env && \
+    echo "=== Build Configuration ===" && \
+    echo "Project ID: ${NEXT_PUBLIC_SANITY_PROJECT_ID}" && \
+    echo "Dataset: ${NEXT_PUBLIC_SANITY_DATASET}" && \
+    cat .env && \
+    echo "=========================="
+
+# Build Sanity Studio as static files (for subdomain - no basePath needed)
+# The .env file will be read by Vite during build
+RUN npx sanity build -y && \
+    echo "=== Build completed ===" && \
+    echo "=== Checking dist folder contents ===" && \
+    ls -la /app/dist/ || echo "ERROR: No dist folder created!" && \
+    echo "=== Verifying index.html exists ===" && \
+    test -f /app/dist/index.html && echo "✅ index.html found" || echo "❌ index.html missing!" && \
+    echo "=== Checking for projectId in built JavaScript ===" && \
+    find /app/dist/static -name "sanity-*.js" -exec grep -q "u9m27k7u" {} \; && \
+    echo "✅ projectId found in bundle" || echo "❌ WARNING: projectId not found in bundle!" && \
+    echo "=== First 200 bytes of index.html ===" && \
+    head -c 200 /app/dist/index.html
+
+# Production stage - serve static files
+FROM nginx:alpine
+
+# Copy built studio from builder (Sanity outputs to /app/dist)
+COPY --from=builder /app/dist /usr/share/nginx/html
+
+# Copy custom nginx config for SPA (no basePath)
+RUN echo 'server { \
+    listen 3333; \
+    root /usr/share/nginx/html; \
+    index index.html; \
+    \
+    # Serve static assets with caching \
+    location ~* \\.(js|css|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot)$ { \
+        expires 1y; \
+        add_header Cache-Control "public, immutable"; \
+    } \
+    \
+    # SPA fallback - serve index.html for all routes \
+    location / { \
+        try_files $uri $uri/ /index.html =404; \
+        \
+        # CSP to allow Sanity CDN and production domain for revalidation \
+        add_header Content-Security-Policy "default-src '\''self'\''; script-src '\''self'\'' '\''unsafe-inline'\'' '\''unsafe-eval'\'' https://*.sanity.io https://cdn.sanity.io https://*.sanity-cdn.com https://core.sanity-cdn.com; style-src '\''self'\'' '\''unsafe-inline'\'' https://*.sanity.io https://*.sanity-cdn.com; font-src '\''self'\'' data: https://*.sanity.io https://studio-static.sanity.io https://*.sanity-cdn.com; img-src '\''self'\'' data: https: blob:; connect-src '\''self'\'' https://*.sanity.io wss://*.sanity.io https://*.sanity-cdn.com https://duetnightabyss.gachabuild.com;" always; \
+    } \
+}' > /etc/nginx/conf.d/default.conf
+
+EXPOSE 3333
+
+CMD ["nginx", "-g", "daemon off;"]

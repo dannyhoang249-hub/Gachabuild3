@@ -1,0 +1,627 @@
+{
+  "Berenica": {
+    "activeAbilities": [
+      {
+        "name": "Basic Attack",
+        "description": "Performs a basic attack dealing damage to enemies.",
+        "cost": "N/A",
+        "skillDMG": "100% ATK",
+        "duration": "N/A",
+        "range": "Melee",
+        "misc": "N/A"
+      }
+    ],
+    "passiveAbilities": [
+      {
+        "name": "Passive Ability",
+        "description": "Provides a passive bonus to the character.",
+        "cost": "N/A",
+        "skillDMG": "N/A",
+        "duration": "N/A",
+        "range": "N/A",
+        "misc": "N/A"
+      }
+    ],
+    "intron": [
+      {
+        "level": 1,
+        "description": "Intron Lv. 1: Basic enhancement"
+      }
+    ],
+    "sourceUrl": "https://duet-night-abyss.fandom.com/wiki/Berenica"
+  },
+  "Daphne": {
+    "activeAbilities": [
+      {
+        "name": "Basic Attack",
+        "description": "Performs a basic attack dealing damage to enemies.",
+        "cost": "N/A",
+        "skillDMG": "100% ATK",
+        "duration": "N/A",
+        "range": "Melee",
+        "misc": "N/A"
+      }
+    ],
+    "passiveAbilities": [
+      {
+        "name": "Passive Ability",
+        "description": "Provides a passive bonus to the character.",
+        "cost": "N/A",
+        "skillDMG": "N/A",
+        "duration": "N/A",
+        "range": "N/A",
+        "misc": "N/A"
+      }
+    ],
+    "intron": [
+      {
+        "level": 1,
+        "description": "Intron Lv. 1: Basic enhancement"
+      }
+    ],
+    "sourceUrl": "https://duet-night-abyss.fandom.com/wiki/Daphne"
+  },
+  "Fina": {
+    "activeAbilities": [
+      {
+        "name": "Basic Attack",
+        "description": "Performs a basic attack dealing damage to enemies.",
+        "cost": "N/A",
+        "skillDMG": "100% ATK",
+        "duration": "N/A",
+        "range": "Melee",
+        "misc": "N/A"
+      }
+    ],
+    "passiveAbilities": [
+      {
+        "name": "Passive Ability",
+        "description": "Provides a passive bonus to the character.",
+        "cost": "N/A",
+        "skillDMG": "N/A",
+        "duration": "N/A",
+        "range": "N/A",
+        "misc": "N/A"
+      }
+    ],
+    "intron": [
+      {
+        "level": 1,
+        "description": "Intron Lv. 1: Basic enhancement"
+      }
+    ],
+    "sourceUrl": "https://duet-night-abyss.fandom.com/wiki/Fina"
+  },
+  "Fushu": {
+    "activeAbilities": [
+      {
+        "name": "Basic Attack",
+        "description": "Performs a basic attack dealing damage to enemies.",
+        "cost": "N/A",
+        "skillDMG": "100% ATK",
+        "duration": "N/A",
+        "range": "Melee",
+        "misc": "N/A"
+      }
+    ],
+    "passiveAbilities": [
+      {
+        "name": "Passive Ability",
+        "description": "Provides a passive bonus to the character.",
+        "cost": "N/A",
+        "skillDMG": "N/A",
+        "duration": "N/A",
+        "range": "N/A",
+        "misc": "N/A"
+      }
+    ],
+    "intron": [
+      {
+        "level": 1,
+        "description": "Intron Lv. 1: Basic enhancement"
+      }
+    ],
+    "sourceUrl": "https://duet-night-abyss.fandom.com/wiki/Fushu"
+  },
+  "Hellfire": {
+    "activeAbilities": [
+      {
+        "name": "Basic Attack",
+        "description": "Performs a basic attack dealing damage to enemies.",
+        "cost": "N/A",
+        "skillDMG": "100% ATK",
+        "duration": "N/A",
+        "range": "Melee",
+        "misc": "N/A"
+      }
+    ],
+    "passiveAbilities": [
+      {
+        "name": "Passive Ability",
+        "description": "Provides a passive bonus to the character.",
+        "cost": "N/A",
+        "skillDMG": "N/A",
+        "duration": "N/A",
+        "range": "N/A",
+        "misc": "N/A"
+      }
+    ],
+    "intron": [
+      {
+        "level": 1,
+        "description": "Intron Lv. 1: Basic enhancement"
+      }
+    ],
+    "sourceUrl": "https://duet-night-abyss.fandom.com/wiki/Hellfire"
+  },
+  "Lady Nifle": {
+    "activeAbilities": [
+      {
+        "name": "Basic Attack",
+        "description": "Performs a basic attack dealing damage to enemies.",
+        "cost": "N/A",
+        "skillDMG": "100% ATK",
+        "duration": "N/A",
+        "range": "Melee",
+        "misc": "N/A"
+      }
+    ],
+    "passiveAbilities": [
+      {
+        "name": "Passive Ability",
+        "description": "Provides a passive bonus to the character.",
+        "cost": "N/A",
+        "skillDMG": "N/A",
+        "duration": "N/A",
+        "range": "N/A",
+        "misc": "N/A"
+      }
+    ],
+    "intron": [
+      {
+        "level": 1,
+        "description": "Intron Lv. 1: Basic enhancement"
+      }
+    ],
+    "sourceUrl": "https://duet-night-abyss.fandom.com/wiki/Lady_Nifle"
+  },
+  "Lynn": {
+    "activeAbilities": [
+      {
+        "name": "Deadly Blossom",
+        "description": "Fires a specially enhanced projectile with Hansel and Gretel, dealing Pyro damage to enemies in the path and inflicting Laceration on them.",
+        "cost": "30",
+        "skillDMG": "???/???/675%/810% (Shooting DMG)\n???/???/88%/104% (Laceration DMG)",
+        "duration": "N/A",
+        "range": "N/A",
+        "misc": "8s (Laceration duration)\n9 (Laceration count cap)"
+      },
+      {
+        "name": "Gunpowder Revelry",
+        "description": "Switches the ranged weapon to Hansel and Gretel. In this state, Lynn can shoot and use skills but cannot move. Shooting deals damage to all enemies in front. During shooting, gains 1 stack that increases Lynn's ATK speed every 0.2s, up to 35 stacks. Using Hansel and Gretel continuously consumes Sanity, during which Lynn is immune to Hitstun when taking damage. When Sanity reaches 0 or the skill is used again, withdraws Hansel and Gretel.",
+        "cost": "10",
+        "skillDMG": "???/???/68%/77%",
+        "duration": "15/s",
+        "range": "50m (Max shooting range)",
+        "misc": "ATK speed increase/stack"
+      }
+    ],
+    "passiveAbilities": [
+      {
+        "name": "Tactical Rapid Fire",
+        "description": "When not firing, gains 1 stack of Preload per second, up to 6 stacks. When firing, consumes all Preload stacks to gain Suppressing Fire for a period of time. Suppressing Fire: Increases the damage based on the number of the consumed Preload stacks. Cannot gain preload stack during Suppressing Fire.",
+        "cost": "N/A",
+        "skillDMG": "N/A",
+        "duration": "6s",
+        "range": "N/A",
+        "misc": "4.4% (Damage increase/stack)"
+      },
+      {
+        "name": "The Unforgivable",
+        "description": "Immediately removes Laceration and deals damage once the Lacerated Wound count reaches its maximum.",
+        "cost": "N/A",
+        "skillDMG": "N/A",
+        "duration": "N/A",
+        "range": "N/A",
+        "misc": "N/A"
+      }
+    ],
+    "intron": [
+      {
+        "level": 1,
+        "description": "Gains 6 stacks of Preloaded upon entering combat, and increases Morale by 38% for 45s."
+      },
+      {
+        "level": 2,
+        "description": "During Gunpowder Revelry, reduces damage taken by 20%, and decreases the interval of gaining the ATK speed boost to 0.06s."
+      },
+      {
+        "level": 3,
+        "description": "Deadly Blossom Level +2; Tactical Rapid Fire Level +1."
+      },
+      {
+        "level": 4,
+        "description": "Increases damage dealt to targets with a HP percentage lower than 40% by 38%."
+      },
+      {
+        "level": 5,
+        "description": "Gunpowder Revelry Level +2; Tactical Rapid Fire Level +1."
+      },
+      {
+        "level": 6,
+        "description": "During Gunpowder Revelry, when triggering bonus effect using Hansel and Gretel, inflicts Laceration on the target(s) for 8s."
+      }
+    ],
+    "sourceUrl": "https://duet-night-abyss.fandom.com/wiki/Lynn"
+  },
+  "Margie": {
+    "activeAbilities": [
+      {
+        "name": "Basic Attack",
+        "description": "Performs a basic attack dealing damage to enemies.",
+        "cost": "N/A",
+        "skillDMG": "100% ATK",
+        "duration": "N/A",
+        "range": "Melee",
+        "misc": "N/A"
+      }
+    ],
+    "passiveAbilities": [
+      {
+        "name": "Passive Ability",
+        "description": "Provides a passive bonus to the character.",
+        "cost": "N/A",
+        "skillDMG": "N/A",
+        "duration": "N/A",
+        "range": "N/A",
+        "misc": "N/A"
+      }
+    ],
+    "intron": [
+      {
+        "level": 1,
+        "description": "Intron Lv. 1: Basic enhancement"
+      }
+    ],
+    "sourceUrl": "https://duet-night-abyss.fandom.com/wiki/Margie"
+  },
+  "Outsider": {
+    "activeAbilities": [
+      {
+        "name": "Basic Attack",
+        "description": "Performs a basic attack dealing damage to enemies.",
+        "cost": "N/A",
+        "skillDMG": "100% ATK",
+        "duration": "N/A",
+        "range": "Melee",
+        "misc": "N/A"
+      }
+    ],
+    "passiveAbilities": [
+      {
+        "name": "Passive Ability",
+        "description": "Provides a passive bonus to the character.",
+        "cost": "N/A",
+        "skillDMG": "N/A",
+        "duration": "N/A",
+        "range": "N/A",
+        "misc": "N/A"
+      }
+    ],
+    "intron": [
+      {
+        "level": 1,
+        "description": "Intron Lv. 1: Basic enhancement"
+      }
+    ],
+    "sourceUrl": "https://duet-night-abyss.fandom.com/wiki/Outsider"
+  },
+  "Phantasio": {
+    "activeAbilities": [
+      {
+        "name": "Basic Attack",
+        "description": "Performs a basic attack dealing damage to enemies.",
+        "cost": "N/A",
+        "skillDMG": "100% ATK",
+        "duration": "N/A",
+        "range": "Melee",
+        "misc": "N/A"
+      }
+    ],
+    "passiveAbilities": [
+      {
+        "name": "Passive Ability",
+        "description": "Provides a passive bonus to the character.",
+        "cost": "N/A",
+        "skillDMG": "N/A",
+        "duration": "N/A",
+        "range": "N/A",
+        "misc": "N/A"
+      }
+    ],
+    "intron": [
+      {
+        "level": 1,
+        "description": "Intron Lv. 1: Basic enhancement"
+      }
+    ],
+    "sourceUrl": "https://duet-night-abyss.fandom.com/wiki/Phantasio"
+  },
+  "Psyche": {
+    "activeAbilities": [
+      {
+        "name": "Chrysalis Dreamscape",
+        "description": "Creates 1 Phantasm and then flashes forward. This skill can be used at any time without interrupting Psyche's current action. In Flamboyance state, this skill is replaced with Phototaxis.",
+        "cost": "20",
+        "skillDMG": "???/145% (Phantasm)\n???/62% (Ethereal Powder and Powder stigma)",
+        "duration": "10s (Power stigma)",
+        "range": "6m (Phantasm effect radius)",
+        "misc": "20% (Phantasm slow effect)"
+      },
+      {
+        "name": "Fluorescent Eclosion",
+        "description": "Enters Flamboyance state and gains the ability to fly. When in Flamboyance state, Psyche can only use skills and shoot, and the skill Chrysalis Dreamscape is replaced with Phototaxis.",
+        "cost": "10 (Cost)\n15 (Cost/s)",
+        "skillDMG": "???/190% (Shooting DMG)",
+        "duration": "15 (Cost/s)",
+        "range": "N/A",
+        "misc": "3m (Shooting DMG Radius)"
+      }
+    ],
+    "passiveAbilities": [
+      {
+        "name": "Amberlight",
+        "description": "When dealing CRIT DMG, gains one of the following buffs at random: ATK increase, skill damage increase, or berserker increase. Increases damage dealt for each buff Psyche gains, up to 12 buffs.",
+        "cost": "N/A",
+        "skillDMG": "N/A",
+        "duration": "10s",
+        "range": "N/A",
+        "misc": "???/10.8% (ATK increase)\n???/13.4% (Skill DMG increase)\n???/7.1% (Berserker increase)\n???/1.8% (DMG dealt increase per buff)"
+      }
+    ],
+    "intron": [
+      {
+        "level": 1,
+        "description": "N/A"
+      },
+      {
+        "level": 2,
+        "description": "N/A"
+      },
+      {
+        "level": 3,
+        "description": "N/A"
+      },
+      {
+        "level": 4,
+        "description": "N/A"
+      },
+      {
+        "level": 5,
+        "description": "N/A"
+      },
+      {
+        "level": 6,
+        "description": "N/A"
+      }
+    ],
+    "sourceUrl": "https://duet-night-abyss.fandom.com/wiki/Psyche"
+  },
+  "Randy": {
+    "activeAbilities": [
+      {
+        "name": "Basic Attack",
+        "description": "Performs a basic attack dealing damage to enemies.",
+        "cost": "N/A",
+        "skillDMG": "100% ATK",
+        "duration": "N/A",
+        "range": "Melee",
+        "misc": "N/A"
+      }
+    ],
+    "passiveAbilities": [
+      {
+        "name": "Passive Ability",
+        "description": "Provides a passive bonus to the character.",
+        "cost": "N/A",
+        "skillDMG": "N/A",
+        "duration": "N/A",
+        "range": "N/A",
+        "misc": "N/A"
+      }
+    ],
+    "intron": [
+      {
+        "level": 1,
+        "description": "Intron Lv. 1: Basic enhancement"
+      }
+    ],
+    "sourceUrl": "https://duet-night-abyss.fandom.com/wiki/Randy"
+  },
+  "Rebecca": {
+    "activeAbilities": [
+      {
+        "name": "Basic Attack",
+        "description": "Performs a basic attack dealing damage to enemies.",
+        "cost": "N/A",
+        "skillDMG": "100% ATK",
+        "duration": "N/A",
+        "range": "Melee",
+        "misc": "N/A"
+      }
+    ],
+    "passiveAbilities": [
+      {
+        "name": "Passive Ability",
+        "description": "Provides a passive bonus to the character.",
+        "cost": "N/A",
+        "skillDMG": "N/A",
+        "duration": "N/A",
+        "range": "N/A",
+        "misc": "N/A"
+      }
+    ],
+    "intron": [
+      {
+        "level": 1,
+        "description": "Intron Lv. 1: Basic enhancement"
+      }
+    ],
+    "sourceUrl": "https://duet-night-abyss.fandom.com/wiki/Rebecca"
+  },
+  "Rhythm": {
+    "activeAbilities": [
+      {
+        "name": "Basic Attack",
+        "description": "Performs a basic attack dealing damage to enemies.",
+        "cost": "N/A",
+        "skillDMG": "100% ATK",
+        "duration": "N/A",
+        "range": "Melee",
+        "misc": "N/A"
+      }
+    ],
+    "passiveAbilities": [
+      {
+        "name": "Passive Ability",
+        "description": "Provides a passive bonus to the character.",
+        "cost": "N/A",
+        "skillDMG": "N/A",
+        "duration": "N/A",
+        "range": "N/A",
+        "misc": "N/A"
+      }
+    ],
+    "intron": [
+      {
+        "level": 1,
+        "description": "Intron Lv. 1: Basic enhancement"
+      }
+    ],
+    "sourceUrl": "https://duet-night-abyss.fandom.com/wiki/Rhythm"
+  },
+  "Sibylle": {
+    "activeAbilities": [
+      {
+        "name": "Basic Attack",
+        "description": "Performs a basic attack dealing damage to enemies.",
+        "cost": "N/A",
+        "skillDMG": "100% ATK",
+        "duration": "N/A",
+        "range": "Melee",
+        "misc": "N/A"
+      }
+    ],
+    "passiveAbilities": [
+      {
+        "name": "Passive Ability",
+        "description": "Provides a passive bonus to the character.",
+        "cost": "N/A",
+        "skillDMG": "N/A",
+        "duration": "N/A",
+        "range": "N/A",
+        "misc": "N/A"
+      }
+    ],
+    "intron": [
+      {
+        "level": 1,
+        "description": "Intron Lv. 1: Basic enhancement"
+      }
+    ],
+    "sourceUrl": "https://duet-night-abyss.fandom.com/wiki/Sibylle"
+  },
+  "Tabethe": {
+    "activeAbilities": [
+      {
+        "name": "Basic Attack",
+        "description": "Performs a basic attack dealing damage to enemies.",
+        "cost": "N/A",
+        "skillDMG": "100% ATK",
+        "duration": "N/A",
+        "range": "Melee",
+        "misc": "N/A"
+      }
+    ],
+    "passiveAbilities": [
+      {
+        "name": "Passive Ability",
+        "description": "Provides a passive bonus to the character.",
+        "cost": "N/A",
+        "skillDMG": "N/A",
+        "duration": "N/A",
+        "range": "N/A",
+        "misc": "N/A"
+      }
+    ],
+    "intron": [
+      {
+        "level": 1,
+        "description": "Intron Lv. 1: Basic enhancement"
+      }
+    ],
+    "sourceUrl": "https://duet-night-abyss.fandom.com/wiki/Tabethe"
+  },
+  "Truffle and Filbert": {
+    "activeAbilities": [
+      {
+        "name": "Basic Attack",
+        "description": "Performs a basic attack dealing damage to enemies.",
+        "cost": "N/A",
+        "skillDMG": "100% ATK",
+        "duration": "N/A",
+        "range": "Melee",
+        "misc": "N/A"
+      }
+    ],
+    "passiveAbilities": [
+      {
+        "name": "Passive Ability",
+        "description": "Provides a passive bonus to the character.",
+        "cost": "N/A",
+        "skillDMG": "N/A",
+        "duration": "N/A",
+        "range": "N/A",
+        "misc": "N/A"
+      }
+    ],
+    "intron": [
+      {
+        "level": 1,
+        "description": "Intron Lv. 1: Basic enhancement"
+      }
+    ],
+    "sourceUrl": "https://duet-night-abyss.fandom.com/wiki/Truffle_and_Filbert"
+  },
+  "Yale and Oliver": {
+    "activeAbilities": [
+      {
+        "name": "Basic Attack",
+        "description": "Performs a basic attack dealing damage to enemies.",
+        "cost": "N/A",
+        "skillDMG": "100% ATK",
+        "duration": "N/A",
+        "range": "Melee",
+        "misc": "N/A"
+      }
+    ],
+    "passiveAbilities": [
+      {
+        "name": "Passive Ability",
+        "description": "Provides a passive bonus to the character.",
+        "cost": "N/A",
+        "skillDMG": "N/A",
+        "duration": "N/A",
+        "range": "N/A",
+        "misc": "N/A"
+      }
+    ],
+    "intron": [
+      {
+        "level": 1,
+        "description": "Intron Lv. 1: Basic enhancement"
+      }
+    ],
+    "sourceUrl": "https://duet-night-abyss.fandom.com/wiki/Yale_and_Oliver"
+  }
+}

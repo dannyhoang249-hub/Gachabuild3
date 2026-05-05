@@ -1,0 +1,288 @@
+{
+  "characters": [
+    {
+      "name": {
+        "en": "Berenica",
+        "vi": "Berenica"
+      },
+      "slug": "berenica",
+      "_type": "character",
+      "image": "/characters/berenica.jpg",
+      "role": "Vanguard",
+      "weapon": "Sword",
+      "rarity": "4★",
+      "element": "Unknown",
+      "splash": "/characters/berenica.jpg"
+    },
+    {
+      "name": {
+        "en": "Daphne",
+        "vi": "Daphne"
+      },
+      "slug": "daphne",
+      "_type": "character",
+      "image": "/characters/webp/daphne.webp",
+      "role": "Vanguard",
+      "weapon": "Sword",
+      "rarity": "4★",
+      "element": "Unknown",
+      "splash": "/characters/webp/daphne.webp"
+    },
+    {
+      "name": {
+        "en": "Fina",
+        "vi": "Fina"
+      },
+      "slug": "fina",
+      "_type": "character",
+      "image": "/characters/fina.jpg",
+      "role": "Vanguard",
+      "weapon": "Sword",
+      "rarity": "4★",
+      "element": "Unknown",
+      "splash": "/characters/fina.jpg"
+    },
+    {
+      "name": {
+        "en": "Fushu",
+        "vi": "Fushu"
+      },
+      "slug": "fushu",
+      "_type": "character",
+      "image": "/characters/webp/fushu.webp",
+      "role": "Support",
+      "weapon": "Sword",
+      "rarity": "4★",
+      "element": "Unknown",
+      "splash": "/characters/webp/fushu.webp"
+    },
+    {
+      "name": {
+        "en": "Hellfire",
+        "vi": "Hellfire"
+      },
+      "slug": "hellfire",
+      "_type": "character",
+      "image": "/characters/webp/hellfire.webp",
+      "role": "Vanguard",
+      "weapon": "Sword",
+      "rarity": "4★",
+      "element": "Unknown",
+      "splash": "/characters/webp/hellfire.webp"
+    },
+    {
+      "name": {
+        "en": "Lady Nifle",
+        "vi": "Lady Nifle"
+      },
+      "slug": "lady-nifle",
+      "_type": "character",
+      "image": "/characters/webp/lady-nifle.webp",
+      "role": "Vanguard",
+      "weapon": "Sword",
+      "rarity": "4★",
+      "element": "Unknown",
+      "splash": "/characters/webp/lady-nifle.webp"
+    },
+    {
+      "name": {
+        "en": "Lynn",
+        "vi": "Lynn"
+      },
+      "slug": "lynn",
+      "_type": "character",
+      "image": "/characters/lynn.jpg",
+      "role": "Vanguard",
+      "weapon": "Sword",
+      "rarity": "4★",
+      "element": "Unknown",
+      "splash": "/characters/lynn.jpg"
+    },
+    {
+      "name": {
+        "en": "Margie",
+        "vi": "Margie"
+      },
+      "slug": "margie",
+      "_type": "character",
+      "image": "/characters/webp/margie.webp",
+      "role": "Vanguard",
+      "weapon": "Sword",
+      "rarity": "4★",
+      "element": "Ice",
+      "splash": "/characters/webp/margie.webp"
+    },
+    {
+      "name": {
+        "en": "Outsider",
+        "vi": "Outsider"
+      },
+      "slug": "outsider",
+      "_type": "character",
+      "image": "/characters/outsider.jpg",
+      "role": "Vanguard",
+      "weapon": "Sword",
+      "rarity": "4★",
+      "element": "Unknown",
+      "splash": "/characters/outsider.jpg"
+    },
+    {
+      "name": {
+        "en": "Phantasio",
+        "vi": "Phantasio"
+      },
+      "slug": "phantasio",
+      "_type": "character",
+      "image": "/characters/webp/phantasio.webp",
+      "role": "Vanguard",
+      "weapon": "Sword",
+      "rarity": "4★",
+      "element": "Unknown",
+      "splash": "/characters/webp/phantasio.webp"
+    },
+    {
+      "name": {
+        "en": "Psyche",
+        "vi": "Psyche"
+      },
+      "slug": "psyche",
+      "_type": "character",
+      "image": "/characters/psyche.jpg",
+      "role": "Vanguard",
+      "weapon": "Sword",
+      "rarity": "4★",
+      "element": "Unknown",
+      "splash": "/characters/psyche.jpg"
+    },
+    {
+      "name": {
+        "en": "Randy",
+        "vi": "Randy"
+      },
+      "slug": "randy",
+      "_type": "character",
+      "image": "/characters/webp/randy.webp",
+      "role": "Vanguard",
+      "weapon": "Sword",
+      "rarity": "4★",
+      "element": "Light",
+      "splash": "/characters/webp/randy.webp"
+    },
+    {
+      "name": {
+        "en": "Rebecca",
+        "vi": "Rebecca"
+      },
+      "slug": "rebecca",
+      "_type": "character",
+      "image": "/characters/webp/rebecca.webp",
+      "role": "Vanguard",
+      "weapon": "Sword",
+      "rarity": "4★",
+      "element": "Water",
+      "splash": "/characters/webp/rebecca.webp"
+    },
+    {
+      "name": {
+        "en": "Rhythm",
+        "vi": "Rhythm"
+      },
+      "slug": "rhythm",
+      "_type": "character",
+      "image": "/characters/webp/rhythm.webp",
+      "role": "Vanguard",
+      "weapon": "Sword",
+      "rarity": "4★",
+      "element": "Unknown",
+      "splash": "/characters/webp/rhythm.webp"
+    },
+    {
+      "name": {
+        "en": "Sibylle",
+        "vi": "Sibylle"
+      },
+      "slug": "sibylle",
+      "_type": "character",
+      "image": "/characters/webp/sibylle.webp",
+      "role": "Vanguard",
+      "weapon": "Sword",
+      "rarity": "4★",
+      "element": "Unknown",
+      "splash": "/characters/webp/sibylle.webp"
+    },
+    {
+      "name": {
+        "en": "Tabethe",
+        "vi": "Tabethe"
+      },
+      "slug": "tabethe",
+      "_type": "character",
+      "image": "/characters/tabethe.jpg",
+      "role": "Vanguard",
+      "weapon": "Sword",
+      "rarity": "4★",
+      "element": "Unknown",
+      "splash": "/characters/tabethe.jpg"
+    },
+    {
+      "name": {
+        "en": "Truffle and Filbert",
+        "vi": "Truffle and Filbert"
+      },
+      "slug": "truffle-and-filbert",
+      "_type": "character",
+      "image": "/characters/truffle-and-filbert.jpg",
+      "role": "Vanguard",
+      "weapon": "Sword",
+      "rarity": "4★",
+      "element": "Unknown",
+      "splash": "/characters/truffle-and-filbert.jpg"
+    },
+    {
+      "name": {
+        "en": "Yale and Oliver",
+        "vi": "Yale and Oliver"
+      },
+      "slug": "yale-and-oliver",
+      "_type": "character",
+      "image": "/characters/webp/yale-and-oliver.webp",
+      "role": "Vanguard",
+      "weapon": "Sword",
+      "rarity": "4★",
+      "element": "Unknown",
+      "splash": "/characters/webp/yale-and-oliver.webp"
+    }
+  ],
+  "weapons": [
+    {
+      "name": {
+        "en": "Judgement Edge",
+        "vi": "Lưỡi Kiếm Phán Xét"
+      },
+      "slug": "judgement-edge",
+      "_type": "weapon",
+      "type": "Sword",
+      "rarity": "SSR",
+      "description": {
+        "en": "A legendary sword forged from the essence of divine justice. Its blade gleams with an otherworldly light that pierces through darkness.",
+        "vi": "Một thanh kiếm huyền thoại được rèn từ tinh chất của công lý thần thánh. Lưỡi kiếm tỏa sáng với ánh sáng siêu nhiên xuyên thủng bóng tối."
+      }
+    },
+    {
+      "name": {
+        "en": "Windcaller Bow",
+        "vi": "Cung Gọi Gió"
+      },
+      "slug": "windcaller-bow",
+      "_type": "weapon",
+      "type": "Bow",
+      "rarity": "SSR",
+      "description": {
+        "en": "An ancient bow that commands the very winds themselves. Arrows fired from this bow never miss their mark.",
+        "vi": "Một cây cung cổ xưa điều khiển chính những cơn gió. Những mũi tên bắn từ cây cung này không bao giờ trượt mục tiêu."
+      }
+    }
+  ],
+  "generatedAt": "2026-03-30T10:00:00.000Z",
+  "version": "1.0.0"
+}
