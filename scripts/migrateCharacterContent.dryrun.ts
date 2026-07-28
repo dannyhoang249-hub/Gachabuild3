@@ -296,7 +296,7 @@ async function dryRunMigration() {
   console.log('This will NOT make any changes to Sanity CMS.\n');
   console.log('='.repeat(60) + '\n');
   
-  const contentDir = path.join(__dirname, '../Character_content_update');
+  const contentDir = path.join(__dirname, '../data/game-content');
   const files = fs.readdirSync(contentDir).filter(f => f.endsWith('.md'));
   
   console.log(`Found ${files.length} markdown files\n`);

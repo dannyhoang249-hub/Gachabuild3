@@ -158,7 +158,7 @@ async function verifyWeaponAvailability() {
   console.log('=' .repeat(60))
   
   // Paths
-  const weaponDir = path.join(process.cwd(), 'Character_content_update', 'Weapon_Update')
+  const weaponDir = path.join(process.cwd(), 'data/game-content', 'Weapon_Update')
   const imageDir = path.join(weaponDir, 'Weapon_update_PNG')
   
   // Check if directories exist

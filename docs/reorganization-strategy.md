@@ -4,7 +4,7 @@
 
 ### Large Files Identified (>400 lines):
 - `docs/SETUP_GUIDE.md` (472 lines) - Setup and deployment instructions
-- `PROJECT_OVERVIEW.md` (470 lines) - Architecture and project structure
+- `docs/architecture/PROJECT_OVERVIEW.md` (470 lines) - Architecture and project structure
 - `docs/asset-storage.md` (465 lines) - Asset storage system documentation
 - `I18N_AND_ASSETS_README.md` (462 lines) - Internationalization system
 - `HOW_TO_ADD_ENVIRONMENT_VARIABLES.md` (419 lines) - Environment configuration

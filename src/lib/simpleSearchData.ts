@@ -35,8 +35,8 @@ class StaticSearchCache {
     try {
       // Load from import JSON files
       const [charactersImport, weaponsImport] = await Promise.all([
-        import('../../import/character_import.json'),
-        import('../../import/weapon_import.json')
+        import('../../data/import/character_import.json'),
+        import('../../data/import/weapon_import.json')
       ])
 
       const charactersData = charactersImport.default

@@ -185,8 +185,8 @@ If new weapons are added or existing weapons are updated:
 - `src/data/filterConstants.ts` - Element color mapping (already includes Umbro)
 
 ### Documentation:
-- `WEAPON_ELEMENT_UPDATE_SUMMARY.md` - This file
-- `CSV_EXPORT_SUMMARY.md` - CSV export documentation
+- `docs/reports/WEAPON_ELEMENT_UPDATE_SUMMARY.md` - This file
+- `docs/reports/CSV_EXPORT_SUMMARY.md` - CSV export documentation
 
 ---
 

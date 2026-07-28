@@ -3,7 +3,7 @@
 /**
  * Upload Character Images to Sanity
  * 
- * This script uploads character portrait images from Character_content_update/PNG
+ * This script uploads character portrait images from data/game-content/PNG
  * to Sanity CMS and associates them with the corresponding character documents.
  */
 
@@ -148,7 +148,7 @@ async function main() {
   
   try {
     // Get images directory
-    const imagesDir = path.join(__dirname, '../Character_content_update/PNG');
+    const imagesDir = path.join(__dirname, '../data/game-content/PNG');
     
     // Check if directory exists
     if (!fs.existsSync(imagesDir)) {

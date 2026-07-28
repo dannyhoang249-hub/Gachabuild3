@@ -10,7 +10,7 @@
 
 ```bash
 # SSH to VPS, pull changes, and deploy
-ssh root@your-vps-ip "cd /root/Gachabuild3 && git pull origin main && docker-compose -f docker-compose.production.yml down && docker-compose -f docker-compose.production.yml up -d --build"
+ssh root@your-vps-ip "cd /path/to/gacha-guide-cms && git pull origin main && docker-compose -f docker-compose.production.yml down && docker-compose -f docker-compose.production.yml up -d --build"
 ```
 
 ---
@@ -24,7 +24,7 @@ ssh root@your-vps-ip
 
 ### 2. Navigate and Pull
 ```bash
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 git pull origin main
 ```
 
@@ -153,14 +153,14 @@ docker stats
 
 ### Quick Update (Code Changes Only)
 ```bash
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 git pull origin main
 docker-compose -f docker-compose.production.yml restart
 ```
 
 ### Full Update (With Rebuild)
 ```bash
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 git pull origin main
 docker-compose -f docker-compose.production.yml down
 docker-compose -f docker-compose.production.yml up -d --build
@@ -274,7 +274,7 @@ After deployment, verify:
 If something goes wrong:
 
 ```bash
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 
 # Check previous commit
 git log --oneline -5
@@ -292,8 +292,8 @@ docker-compose -f docker-compose.production.yml up -d --build
 ## 📞 Support
 
 ### Documentation
-- `DEPLOYMENT_SUMMARY_OCT_30_2025.md` - Full deployment guide
-- `SEO_AUDIT_REPORT.md` - SEO details
+- `docs/deployment/DEPLOYMENT_SUMMARY_OCT_30_2025.md` - Full deployment guide
+- `docs/reports/SEO_AUDIT_REPORT.md` - SEO details
 - `docs/deployment/DOCKER_DEPLOYMENT_GUIDE.md` - Docker guide
 - `docs/deployment/DEPLOYMENT_TROUBLESHOOTING.md` - Troubleshooting
 

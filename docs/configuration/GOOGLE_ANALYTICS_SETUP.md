@@ -154,7 +154,7 @@ npm run dev
 ssh root@your-vps-ip
 
 # Navigate to project
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 
 # Pull latest changes (after I commit)
 git pull origin master

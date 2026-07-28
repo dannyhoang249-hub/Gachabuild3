@@ -50,7 +50,7 @@ Certbot handles auto-renewal. To manually renew and apply:
 sudo certbot renew
 
 # 2. Copy the new certificates to the project's SSL directory
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 sudo cp /etc/letsencrypt/live/duetnightabyss.gachabuild.com/fullchain.pem ssl/cert.pem
 sudo cp /etc/letsencrypt/live/duetnightabyss.gachabuild.com/privkey.pem ssl/key.pem
 

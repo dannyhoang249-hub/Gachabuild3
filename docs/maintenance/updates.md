@@ -18,7 +18,7 @@ This document outlines the exact procedures for updating different components of
 
 **On VPS:**
 ```bash
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 git pull origin master
 docker compose -f docker-compose.production.yml restart
 ```
@@ -34,7 +34,7 @@ docker compose -f docker-compose.production.yml restart
 
 **On VPS:**
 ```bash
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 git pull origin master
 docker compose -f docker-compose.production.yml build frontend
 docker compose -f docker-compose.production.yml up -d frontend
@@ -55,7 +55,7 @@ docker compose -f docker-compose.production.yml up -d frontend
 
 **On VPS:**
 ```bash
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 git pull origin master
 docker compose -f docker-compose.production.yml build --no-cache sanity-studio
 docker compose -f docker-compose.production.yml up -d sanity-studio
@@ -72,7 +72,7 @@ docker compose -f docker-compose.production.yml up -d sanity-studio
 
 **On VPS:**
 ```bash
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 git pull origin master
 docker compose -f docker-compose.production.yml restart nginx
 
@@ -95,7 +95,7 @@ docker compose -f docker-compose.production.yml exec nginx nginx -t
 
 **On VPS:**
 ```bash
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 git pull origin master
 docker compose -f docker-compose.production.yml down
 docker compose -f docker-compose.production.yml build --no-cache
@@ -113,7 +113,7 @@ docker compose -f docker-compose.production.yml up -d
 
 **On VPS:**
 ```bash
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 git pull origin master
 
 # Rebuild affected services
@@ -129,7 +129,7 @@ docker compose -f docker-compose.production.yml up -d
 
 ## 🔑 Environment Variable Updates
 
-**Location:** `/root/Gachabuild3/.env` (on VPS)
+**Location:** `/path/to/gacha-guide-cms/.env` (on VPS)
 
 **Required Variables:**
 ```bash
@@ -140,7 +140,7 @@ SANITY_API_TOKEN=skxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 **How to Update:**
 ```bash
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 nano .env  # Edit variables
 docker compose -f docker-compose.production.yml restart  # Apply changes
 ```
@@ -183,7 +183,7 @@ If an update causes issues:
 
 ### 1. Quick Rollback (Git)
 ```bash
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 git log --oneline -5  # See recent commits
 git checkout HEAD~1   # Go back one commit
 docker compose -f docker-compose.production.yml restart
@@ -191,7 +191,7 @@ docker compose -f docker-compose.production.yml restart
 
 ### 2. Full Rollback with Rebuild
 ```bash
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 git checkout HEAD~1   # Or specific commit hash
 docker compose -f docker-compose.production.yml down
 docker compose -f docker-compose.production.yml build --no-cache

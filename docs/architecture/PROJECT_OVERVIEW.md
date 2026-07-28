@@ -166,7 +166,7 @@ User Request → Nginx (443) → Routes:
 
 **On VPS:**
 ```bash
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 git pull origin master
 docker compose -f docker-compose.production.yml restart
 ```
@@ -179,7 +179,7 @@ docker compose -f docker-compose.production.yml restart
 
 **On VPS:**
 ```bash
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 git pull origin master
 docker compose -f docker-compose.production.yml build frontend
 docker compose -f docker-compose.production.yml up -d frontend
@@ -199,7 +199,7 @@ docker compose -f docker-compose.production.yml up -d frontend
 
 **On VPS:**
 ```bash
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 git pull origin master
 docker compose -f docker-compose.production.yml build --no-cache sanity-studio
 docker compose -f docker-compose.production.yml up -d sanity-studio
@@ -213,7 +213,7 @@ docker compose -f docker-compose.production.yml up -d sanity-studio
 
 **On VPS:**
 ```bash
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 git pull origin master
 docker compose -f docker-compose.production.yml restart nginx
 
@@ -234,7 +234,7 @@ docker compose -f docker-compose.production.yml exec nginx nginx -t
 
 **On VPS:**
 ```bash
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 git pull origin master
 docker compose -f docker-compose.production.yml down
 docker compose -f docker-compose.production.yml build --no-cache
@@ -249,7 +249,7 @@ docker compose -f docker-compose.production.yml up -d
 
 **Package.json changed:**
 ```bash
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 git pull origin master
 
 # Rebuild affected services
@@ -262,7 +262,7 @@ docker compose -f docker-compose.production.yml up -d
 
 ## 🔑 Environment Variables
 
-**Location:** `/root/Gachabuild3/.env` (on VPS)
+**Location:** `/path/to/gacha-guide-cms/.env` (on VPS)
 
 **Required Variables:**
 ```bash
@@ -273,7 +273,7 @@ SANITY_API_TOKEN=skxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 **How to Update:**
 ```bash
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 nano .env  # Edit variables
 docker compose -f docker-compose.production.yml restart  # Apply changes
 ```
@@ -317,7 +317,7 @@ docker compose -f docker-compose.production.yml restart frontend
 sudo certbot renew
 
 # Copy new certs to project
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 sudo cp /etc/letsencrypt/live/duetnightabyss.gachabuild.com/fullchain.pem ssl/cert.pem
 sudo cp /etc/letsencrypt/live/duetnightabyss.gachabuild.com/privkey.pem ssl/key.pem
 
@@ -348,7 +348,7 @@ docker compose -f docker-compose.production.yml restart frontend
 
 **Fix:**
 ```bash
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 grep "basePath" sanity.config.ts  # Should show: basePath: '/studio',
 
 # If missing, pull latest code and rebuild
@@ -418,7 +418,7 @@ docker system prune  # Clean up unused data (use with caution)
 
 1. **SANITY_STUDIO_DEPLOYMENT_GUIDE.md** - Complete Sanity Studio setup
 2. **SANITY_STUDIO_QUICK_FIX.md** - Quick troubleshooting
-3. **PROJECT_OVERVIEW.md** - This file (architecture & updates)
+3. **docs/architecture/PROJECT_OVERVIEW.md** - This file (architecture & updates)
 4. **DEPLOYMENT_GUIDE.md** - Initial deployment instructions
 
 ---
@@ -437,7 +437,7 @@ docker system prune  # Clean up unused data (use with caution)
 
 ```bash
 # Common location
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 
 # Pull latest code
 git pull origin master

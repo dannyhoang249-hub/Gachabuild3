@@ -39,7 +39,7 @@ ssh root@your-vps-ip
 ### Step 3: Navigate to Project Directory
 
 ```bash
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 ```
 
 ### Step 4: Pull Latest Changes
@@ -215,7 +215,7 @@ docker-compose -f docker-compose.production.yml logs nginx
 ssh root@your-vps-ip
 
 # Navigate to project
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 
 # Pull changes
 git pull origin main

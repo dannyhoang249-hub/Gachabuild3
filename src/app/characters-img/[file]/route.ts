@@ -4,10 +4,10 @@ import { promises as fs } from 'fs'
 export const runtime = 'nodejs'
 
 // Serve character portrait images directly from the repo folder
-// URL: /characters-img/<slug>.png -> Character_content_update/PNG/<slug>.png
+// URL: /characters-img/<slug>.png -> data/game-content/PNG/<slug>.png
 // Includes a small fallback map for filename mismatches
 
-const PNG_DIR = path.join(process.cwd(), 'Character_content_update', 'PNG')
+const PNG_DIR = path.join(process.cwd(), 'data/game-content', 'PNG')
 
 const FALLBACK_MAP: Record<string, string> = {
   'protagonist.png': 'player.png',

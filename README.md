@@ -138,8 +138,8 @@ docker compose -f docker-compose.production.yml ps
 
 For deployment assumptions, SSL configuration, and operational scripts, see:
 
-- [`PROJECT_OVERVIEW.md`](PROJECT_OVERVIEW.md)
-- [`QUICK_DEPLOY_COMMANDS.md`](QUICK_DEPLOY_COMMANDS.md)
+- [`docs/architecture/PROJECT_OVERVIEW.md`](docs/architecture/PROJECT_OVERVIEW.md)
+- [`docs/deployment/QUICK_DEPLOY_COMMANDS.md`](docs/deployment/QUICK_DEPLOY_COMMANDS.md)
 - [`docs/SETUP_GUIDE.md`](docs/SETUP_GUIDE.md)
 
 **Security note:** never commit `.env.local`, production API tokens, private keys, or TLS certificates. Configure secrets in the deployment environment or your CI/CD provider.
@@ -163,13 +163,11 @@ Run `npm run` to view the full operational-script list.
 ## Repository map
 
 ```text
-src/app/              Routes, pages, metadata, and API endpoints
-src/components/       Guide UI, filters, navigation, tier-list components
-src/lib/              Sanity client, queries, search, and i18n helpers
-sanity/schemas/       CMS content models
-sanity/actions/       Editor actions for translation, review, and revalidation
-scripts/              Content import, migration, validation, and asset tools
-docs/                 Setup, architecture, deployment, and feature documentation
+src/                  Routes, UI components, application logic, and API endpoints
+sanity/               CMS schemas and editor actions
+data/                 Game content, build-guide data, and import fixtures
+scripts/              Content tooling; deployment helpers live in scripts/deployment/
+docs/                 Setup, architecture, deployment, reference material, and reports
 docker-compose*.yml   Local and production container orchestration
 ```
 

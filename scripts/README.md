@@ -35,4 +35,4 @@ npx tsx scripts/checkRequiredFields.ts
 3. Back up the target Sanity dataset before any bulk operation.
 4. Use generic deployment configuration for public forks—do not store VPS addresses, passwords, API tokens, or certificate files in this repository.
 
-For Docker deployment, see the root [`README.md`](../README.md), [`PROJECT_OVERVIEW.md`](../PROJECT_OVERVIEW.md), and [`docs/SETUP_GUIDE.md`](../docs/SETUP_GUIDE.md).
+For Docker deployment, see the root [`README.md`](../README.md), [`docs/architecture/PROJECT_OVERVIEW.md`](../docs/architecture/PROJECT_OVERVIEW.md), and [`docs/SETUP_GUIDE.md`](../docs/SETUP_GUIDE.md).

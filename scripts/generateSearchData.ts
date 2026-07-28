@@ -45,8 +45,8 @@ async function generateSearchData() {
       
       // Use fallback data from import files
       const [charactersImport, weaponsImport] = await Promise.all([
-        import('../import/character_import.json'),
-        import('../import/weapon_import.json')
+        import('../data/import/character_import.json'),
+        import('../data/import/weapon_import.json')
       ]);
       
       characters = charactersImport.default;

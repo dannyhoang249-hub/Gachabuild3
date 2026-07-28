@@ -10,7 +10,7 @@ Successfully completed all requested updates to the Duet Night Abyss character d
 
 ### 1. **Updated All Character Elements & Roles from Markdown Files**
 
-**Source:** `Character_content_update/` folder (23 character markdown files)
+**Source:** `data/game-content/` folder (23 character markdown files)
 
 **Method:** 
 - Extracted element from Base Stats table (e.g., "Pyro ATK" → Pyro element)
@@ -55,7 +55,7 @@ Successfully completed all requested updates to the Duet Night Abyss character d
 
 **Problem:** Protagonist character had wrong image
 
-**Solution:** Uploaded correct image from `Character_content_update/PNG/Protagonist.png`
+**Solution:** Uploaded correct image from `data/game-content/PNG/Protagonist.png`
 
 **Results:**
 - ✅ **Old Image:** 4d4acef4da962287a2b48883f7e40f8972c8bbbb-2600x2160.png
@@ -285,7 +285,7 @@ If you want to continue improving the application:
 
 1. **Verify all character images** - Check that all 24 characters have correct images matching PNG files
 2. **Add Feature field** - Your screenshot showed a "Feature" filter (DPS, Support, Control, Heal, etc.) - this could be added to the schema
-3. **Update weapon data** - Similar process could be done for weapons using markdown files in `Character_content_update/Weapon_Update/`
+3. **Update weapon data** - Similar process could be done for weapons using markdown files in `data/game-content/Weapon_Update/`
 4. **Test all pages** - Verify filters work correctly on all three pages
 
 ---

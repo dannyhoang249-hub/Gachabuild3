@@ -59,7 +59,7 @@ cd gacha-guide-cms
 ssh root@your-vps-ip
 
 # Navigate to project
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 
 # Pull latest changes from main branch
 git pull origin main
@@ -341,7 +341,7 @@ docker-compose -f docker-compose.production.yml exec nginx nginx -t
 ssh root@your-vps-ip
 
 # Navigate to project
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 
 # Pull latest changes
 git pull origin main
@@ -425,7 +425,7 @@ Make sure these are set in `.env.local`:
 ## 📚 Related Documentation
 
 - `DEPLOYMENT_TROUBLESHOOTING.md` - Detailed troubleshooting guide
-- `SANITY_CMS_FINAL_REPORT.md` - CMS integration details
+- `docs/reports/SANITY_CMS_FINAL_REPORT.md` - CMS integration details
 - `FIXES_SUMMARY.md` - Recent fixes and improvements
 - `nginx-ssl.conf` - Nginx configuration file
 

@@ -106,7 +106,7 @@ npm run import:builds
 ```
 
 This will:
-- ✅ Read CSV files from `Buildguide update/` folder
+- ✅ Read CSV files from `data/build-guides/` folder
 - ✅ Calculate build recommendations for all characters
 - ✅ Import results to Sanity CMS
 - ✅ Display progress and success/error counts
@@ -115,7 +115,7 @@ This will:
 
 #### Scenario 1: New Character Added
 
-1. Update `Buildguide update/characters.csv` with new character data
+1. Update `data/build-guides/characters.csv` with new character data
 2. Import character to Sanity (using existing character import script)
 3. Run `npm run import:builds`
 4. New character's build guide will be generated
@@ -309,8 +309,8 @@ Editors can manually adjust recommendations in Sanity Studio:
 
 ## References
 
-- **Algorithm Specification**: `Buildguide update/Buildguide_logic.md`
-- **Algorithm Overview**: `Buildguide update/Buildguide_overview.md`
+- **Algorithm Specification**: `data/build-guides/Buildguide_logic.md`
+- **Algorithm Overview**: `data/build-guides/Buildguide_overview.md`
 - **Sanity Schema**: `sanity/schemas/buildGuide.ts`
 - **Import Script**: `scripts/importBuildGuides.ts`
 

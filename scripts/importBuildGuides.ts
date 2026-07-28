@@ -217,8 +217,8 @@ async function main() {
   console.log('🚀 Starting build guide import...\n');
 
   // Read CSV files
-  const charactersPath = path.join(process.cwd(), 'Buildguide update', 'characters.csv');
-  const weaponsPath = path.join(process.cwd(), 'Buildguide update', 'weapons.csv');
+  const charactersPath = path.join(process.cwd(), 'data/build-guides', 'characters.csv');
+  const weaponsPath = path.join(process.cwd(), 'data/build-guides', 'weapons.csv');
 
   console.log('📖 Reading CSV files...');
   const characterData = readCSV<CharacterData>(charactersPath);

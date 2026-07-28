@@ -172,14 +172,14 @@ export const WEAPON_TYPE_CANONICAL: Record<string, string> = {
 
 ### Step 2: Update CSV Files
 
-Add the new weapon type to `Buildguide update/weapons.csv`:
+Add the new weapon type to `data/build-guides/weapons.csv`:
 
 ```csv
 Name,Element,Weapon Type,Category,...
 Soul Reaper,Umbro,Scythe,Melee,...
 ```
 
-And update character proficiencies in `Buildguide update/characters.csv`:
+And update character proficiencies in `data/build-guides/characters.csv`:
 
 ```csv
 Name,Element,Role,Rarity,Weapon Type (Main),Weapon Type (Sub),...
@@ -313,7 +313,7 @@ npm run import:builds
 
 ## References
 
-- **Algorithm Specification**: `Buildguide update/Buildguide_logic.md` (Appendix A)
+- **Algorithm Specification**: `data/build-guides/Buildguide_logic.md` (Appendix A)
 - **Implementation**: `scripts/buildAlgorithm/scoring.ts`
 - **Configuration**: `scripts/buildAlgorithm/config.ts`
 - **Full Documentation**: `docs/BUILD_GUIDE_SYSTEM.md`

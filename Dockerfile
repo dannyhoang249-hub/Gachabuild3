@@ -38,7 +38,7 @@ RUN adduser --system --uid 1001 nextjs
 
 COPY --from=builder /app/public ./public
 # Also include raw portrait PNGs so our route handler can serve them
-COPY --from=builder --chown=nextjs:nodejs /app/Character_content_update/PNG ./Character_content_update/PNG
+COPY --from=builder --chown=nextjs:nodejs /app/data/game-content/PNG ./data/game-content/PNG
 
 # Set the correct permission for prerender cache
 RUN mkdir .next

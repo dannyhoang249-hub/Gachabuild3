@@ -179,7 +179,7 @@ NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
 WEBHOOK_SECRET=your-secret-here
 ```
 
-**Location on VPS:** `/root/Gachabuild3/.env`
+**Location on VPS:** `/path/to/gacha-guide-cms/.env`
 
 ## 📊 Performance Characteristics
 

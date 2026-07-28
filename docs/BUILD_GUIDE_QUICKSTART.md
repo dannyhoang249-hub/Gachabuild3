@@ -47,8 +47,8 @@ npm run import:builds
 ```
 
 **What happens**:
-1. ✅ Reads `Buildguide update/characters.csv` (25 characters)
-2. ✅ Reads `Buildguide update/weapons.csv` (49 weapons)
+1. ✅ Reads `data/build-guides/characters.csv` (25 characters)
+2. ✅ Reads `data/build-guides/weapons.csv` (49 weapons)
 3. ✅ Parses data and extracts signals
 4. ✅ Applies **Proficiency Gate** - filters weapons by character proficiency
 5. ✅ Calculates build recommendations using algorithm v2.3
@@ -120,7 +120,7 @@ For each character, the system generates:
 
 ```bash
 # 1. Update CSV file
-# Edit: Buildguide update/characters.csv
+# Edit: data/build-guides/characters.csv
 # Add new character row
 
 # 2. Import character to Sanity (existing script)
@@ -134,8 +134,8 @@ npm run import:builds
 
 ```bash
 # 1. Update CSV files with new stats
-# Edit: Buildguide update/characters.csv
-# Edit: Buildguide update/weapons.csv
+# Edit: data/build-guides/characters.csv
+# Edit: data/build-guides/weapons.csv
 
 # 2. Re-import characters/weapons (if needed)
 npm run migrate:characters
@@ -168,7 +168,7 @@ npm run import:builds
 #   'New Type': 'Canonical Name'
 
 # 2. Update CSV files with new weapon type
-# Edit: Buildguide update/weapons.csv
+# Edit: data/build-guides/weapons.csv
 
 # 3. Regenerate builds
 npm run import:builds
@@ -254,7 +254,7 @@ See `docs/BUILD_GUIDE_FRONTEND.md` for implementation guide.
 ## 📚 Additional Resources
 
 - **Full Documentation**: `docs/BUILD_GUIDE_SYSTEM.md`
-- **Algorithm Spec**: `Buildguide update/Buildguide_logic.md`
+- **Algorithm Spec**: `data/build-guides/Buildguide_logic.md`
 - **Sanity Schema**: `sanity/schemas/buildGuide.ts`
 - **Import Script**: `scripts/importBuildGuides.ts`
 
@@ -281,5 +281,5 @@ After running the import:
 
 ---
 
-**Need help?** Check the full documentation or review the algorithm specification in `Buildguide update/Buildguide_logic.md`.
+**Need help?** Check the full documentation or review the algorithm specification in `data/build-guides/Buildguide_logic.md`.
 

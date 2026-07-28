@@ -2,7 +2,7 @@
 
 ## 🎯 Summary
 
-Successfully updated **all 23 characters** in Sanity database with correct elements and roles based on their Base Stats from markdown files in `Character_content_update/` folder.
+Successfully updated **all 23 characters** in Sanity database with correct elements and roles based on their Base Stats from markdown files in `data/game-content/` folder.
 
 ---
 
@@ -203,7 +203,7 @@ The actual roles in Sanity are now very detailed:
 ### 1. Fix Second Protagonist Image
 The user mentioned "Second Protagonist character is wrong picture". Need to:
 - Check which Protagonist entry has the wrong image
-- Upload correct image from `Character_content_update/PNG/Protagonist.png`
+- Upload correct image from `data/game-content/PNG/Protagonist.png`
 - Update the Sanity entry
 
 ### 2. Clean Up Duplicate Entries
@@ -213,7 +213,7 @@ Remove duplicate entries for:
 - Zhiliu (keep the one with full role "DPS / Skill DMG")
 
 ### 3. Verify All Character Images
-Check that all 23 characters have correct images matching the PNG files in `Character_content_update/PNG/`
+Check that all 23 characters have correct images matching the PNG files in `data/game-content/PNG/`
 
 ---
 
@@ -232,7 +232,7 @@ Check that all 23 characters have correct images matching the PNG files in `Char
 
 ## 🎉 Conclusion
 
-All character data has been successfully updated to match the markdown files in `Character_content_update/`. The filtering system now properly handles the detailed role structure (e.g., "DPS / Skill DMG") while still allowing simple filtering by main category (DPS or Support).
+All character data has been successfully updated to match the markdown files in `data/game-content/`. The filtering system now properly handles the detailed role structure (e.g., "DPS / Skill DMG") while still allowing simple filtering by main category (DPS or Support).
 
 **Database Status:**
 - ✅ 24 published characters (all updated)

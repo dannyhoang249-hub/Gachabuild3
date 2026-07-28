@@ -9,17 +9,11 @@ The following hardcoded secrets have been identified and removed from the codeba
 2. **GitHub Token** - Found in deployment scripts  
 3. **VPS Password** - Found in documentation
 
-### Files Modified
-- `scripts/deploy-production.sh`
-- `PRODUCTION_DEPLOYMENT_GUIDE.md`
-- `vps-deploy.sh`
-- `ultimate-deploy.sh`
-- `simple-deploy.sh`
-- `quick-deploy.sh`
-- `env.production`
-- `deploy.sh`
-- `DEPLOYMENT_GUIDE.md`
-- `scripts/README.md`
+### Current safeguards
+- Environment-specific files are excluded by [`.gitignore`](../../.gitignore).
+- [`env.example`](../../env.example) documents required variables without containing credentials.
+- Deployment helpers live in [`scripts/deployment/`](../../scripts/deployment/).
+- [Pre-commit hooks](../../.pre-commit-config.yaml) include secret detection.
 
 ## 🛡️ Environment Variables Template
 
@@ -27,10 +21,10 @@ Create your environment files using this template:
 
 ```bash
 # Copy template for development
-cp .env.template .env.local
+cp env.example .env.local
 
 # Copy template for production
-cp .env.template .env.production
+cp env.example .env.production
 ```
 
 ### Required Environment Variables:
@@ -163,8 +157,8 @@ git remote set-url origin https://github.com/your-username/new-repo.git
 ## 🛡️ Security Best Practices
 
 ### Environment Variables
-- ✅ Never commit `.env*` files
-- ✅ Use `.env.template` for documentation
+- ✅ Never commit local `.env*` files
+- ✅ Use `env.example` for documentation
 - ✅ Rotate tokens regularly
 - ✅ Use different tokens for dev/prod
 

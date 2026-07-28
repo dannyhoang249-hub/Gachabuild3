@@ -10,7 +10,7 @@ echo ""
 # Check if we're in the right directory
 if [ ! -f "docker-compose.production.yml" ]; then
     echo "❌ Error: docker-compose.production.yml not found"
-    echo "   Please run this from /root/Gachabuild3"
+    echo "   Please run this from the repository root"
     exit 1
 fi
 
@@ -20,12 +20,12 @@ echo ""
 # Check Git status
 echo "📦 Checking Git status..."
 git fetch origin
-BEHIND=$(git rev-list HEAD..origin/master --count)
+BEHIND=$(git rev-list HEAD..origin/main --count)
 if [ "$BEHIND" -gt 0 ]; then
-    echo "⚠️  WARNING: You are $BEHIND commits behind origin/master"
-    echo "   Run: git pull origin master"
+    echo "⚠️  WARNING: You are $BEHIND commits behind origin/main"
+    echo "   Run: git pull origin main"
 else
-    echo "✅ Git is up to date with origin/master"
+    echo "✅ Git is up to date with origin/main"
 fi
 echo ""
 
@@ -70,7 +70,7 @@ echo ""
 
 if [ "$BEHIND" -gt 0 ]; then
     echo "1. Pull latest changes:"
-    echo "   git pull origin master"
+    echo "   git pull origin main"
     echo ""
 fi
 
@@ -90,4 +90,3 @@ echo "   - Firefox: Ctrl+F5 (Windows) or Cmd+Shift+R (Mac)"
 echo ""
 echo "4. Test the studio:"
 echo "   https://duetnightabyss.gachabuild.com/studio"
-

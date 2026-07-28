@@ -170,14 +170,14 @@ Import JSON files are empty.
 
 1. **Check if data files are empty:**
    ```bash
-   ls -lh import/character_import.json
+   ls -lh data/import/character_import.json
    # If 2 bytes → empty!
    ```
 
 2. **Copy from full backup files:**
    ```bash
-   cp import/character_import_full.json import/character_import.json
-   cp import/weapon_import_full.json import/weapon_import.json
+   cp data/import/character_import_full.json data/import/character_import.json
+   cp data/import/weapon_import_full.json data/import/weapon_import.json
    ```
 
 3. **Rebuild containers:**
@@ -354,7 +354,7 @@ Is "[GA] Initialized" in console?
 Type in search bar
 ├─ Error in console? → Check browser console
 ├─ No suggestions? → Check import files
-│        ls -lh import/character_import.json
+│        ls -lh data/import/character_import.json
 │        ├─ 2 bytes (empty)? → Copy from *_full.json files
 │        └─ Has data? → Check browser console for errors
 │

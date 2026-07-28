@@ -163,7 +163,7 @@ export function findTopWeapons(...): WeaponScore[] {
 - Added "Workflow 4: Add New Weapon Type"
 - Updated version references
 
-✅ **`BUILD_GUIDE_IMPLEMENTATION_SUMMARY.md`**
+✅ **`docs/reports/BUILD_GUIDE_IMPLEMENTATION_SUMMARY.md`**
 - Updated algorithm version to v2.3
 - Added Proficiency Gate to key features
 - Updated documentation file list
@@ -306,7 +306,7 @@ npm run import:builds
    - Updated workflow descriptions
    - Added new weapon type workflow
 
-6. `BUILD_GUIDE_IMPLEMENTATION_SUMMARY.md`
+6. `docs/reports/BUILD_GUIDE_IMPLEMENTATION_SUMMARY.md`
    - Updated version references
    - Updated feature list
 
@@ -315,7 +315,7 @@ npm run import:builds
 7. `docs/BUILD_GUIDE_PROFICIENCY_GATE.md`
    - Complete Proficiency Gate implementation guide
 
-8. `PROFICIENCY_GATE_UPDATE_SUMMARY.md` (this file)
+8. `docs/reports/PROFICIENCY_GATE_UPDATE_SUMMARY.md` (this file)
    - Summary of v2.3 changes
 
 ---
@@ -333,7 +333,7 @@ npm run import:builds
 - [x] Update BUILD_GUIDE_SYSTEM.md
 - [x] Update BUILD_GUIDE_QUICKSTART.md
 - [x] Create BUILD_GUIDE_PROFICIENCY_GATE.md
-- [x] Update BUILD_GUIDE_IMPLEMENTATION_SUMMARY.md
+- [x] Update docs/reports/BUILD_GUIDE_IMPLEMENTATION_SUMMARY.md
 - [x] Test frontend display (build guide pages work)
 
 ---
@@ -349,5 +349,5 @@ The Proficiency Gate implementation (v2.3) is **complete and tested**. All build
 **Questions or Issues?** Refer to:
 - `docs/BUILD_GUIDE_PROFICIENCY_GATE.md` - Detailed implementation guide
 - `docs/BUILD_GUIDE_SYSTEM.md` - Full system documentation
-- `Buildguide update/Buildguide_logic.md` - Algorithm specification (Appendix A)
+- `data/build-guides/Buildguide_logic.md` - Algorithm specification (Appendix A)
 

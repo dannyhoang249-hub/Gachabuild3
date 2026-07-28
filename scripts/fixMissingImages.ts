@@ -134,8 +134,8 @@ async function fixMissingImages() {
   console.log('='.repeat(80))
   
   const workspaceRoot = process.cwd()
-  const weaponImageDir = path.join(workspaceRoot, 'Character_content_update', 'Weapon_Update', 'Weapon_update_PNG')
-  const characterImageDir = path.join(workspaceRoot, 'Character_content_update', 'PNG')
+  const weaponImageDir = path.join(workspaceRoot, 'data/game-content', 'Weapon_Update', 'Weapon_update_PNG')
+  const characterImageDir = path.join(workspaceRoot, 'data/game-content', 'PNG')
   
   let successCount = 0
   let failCount = 0

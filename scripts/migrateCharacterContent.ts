@@ -1,7 +1,7 @@
 /**
  * Migration Script: Update Character Data from Markdown to Sanity CMS
  * 
- * This script reads character markdown files from Character_content_update/
+ * This script reads character markdown files from data/game-content/
  * and updates existing character documents in Sanity CMS.
  * 
  * Usage: npm run migrate:characters
@@ -373,7 +373,7 @@ function parseMarkdownFile(filePath: string): ParsedCharacter | null {
 async function migrateCharacters() {
   console.log('🚀 Starting character data migration...\n');
   
-  const contentDir = path.join(__dirname, '../Character_content_update');
+  const contentDir = path.join(__dirname, '../data/game-content');
   const files = fs.readdirSync(contentDir).filter(f => f.endsWith('.md'));
   
   console.log(`Found ${files.length} markdown files\n`);

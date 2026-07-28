@@ -53,8 +53,8 @@ npm run check:sanity
 **Problem:**
 - Characters "Zhiliu" and "Outsider" existed in Sanity but had no images
 - Image files existed locally:
-  - `Character_content_update/PNG/zhiliu.png`
-  - `Character_content_update/PNG/outsider.png`
+  - `data/game-content/PNG/zhiliu.png`
+  - `data/game-content/PNG/outsider.png`
 
 **Root Cause:**
 - Characters were created from markdown files but image upload step was incomplete
@@ -297,7 +297,7 @@ npm run delete:old-weapons
 
 ### Data Directories
 ```
-Character_content_update/
+data/game-content/
 ├── PNG/                          # Character images (24 files)
 │   ├── zhiliu.png               ✅ Uploaded
 │   ├── outsider.png             ✅ Uploaded
@@ -378,13 +378,13 @@ All issues have been successfully resolved:
 ### Common Tasks
 
 **Add new weapon:**
-1. Add markdown file to `Character_content_update/Weapon_Update/`
-2. Add PNG image to `Character_content_update/Weapon_Update/Weapon_update_PNG/`
+1. Add markdown file to `data/game-content/Weapon_Update/`
+2. Add PNG image to `data/game-content/Weapon_Update/Weapon_update_PNG/`
 3. Run `npm run import:weapons`
 
 **Add new character:**
-1. Add markdown file to `Character_content_update/`
-2. Add PNG image to `Character_content_update/PNG/`
+1. Add markdown file to `data/game-content/`
+2. Add PNG image to `data/game-content/PNG/`
 3. Run `npm run migrate:characters`
 
 **Verify data integrity:**

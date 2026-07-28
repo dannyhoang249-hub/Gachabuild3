@@ -11,13 +11,13 @@ echo ""
 
 # Check directory
 if [ ! -f "docker-compose.production.yml" ]; then
-    echo "❌ Error: Run this from /root/Gachabuild3"
+    echo "❌ Error: Run this from the repository root"
     exit 1
 fi
 
 # Step 1: Pull latest code
 echo "📦 Step 1: Pulling latest code..."
-git pull origin master
+git pull origin main
 echo ""
 
 # Step 2: Verify sanity.config.ts has the base config
@@ -86,4 +86,3 @@ echo "1. Clear browser cache COMPLETELY"
 echo "2. Open in incognito/private mode: https://duetnightabyss.gachabuild.com/studio"
 echo "3. Check console - should see /studio/static/ URLs"
 echo ""
-

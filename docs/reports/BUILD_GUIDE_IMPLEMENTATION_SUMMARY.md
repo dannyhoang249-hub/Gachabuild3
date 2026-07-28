@@ -187,7 +187,7 @@ For each of the 25 characters:
 │   ├── BUILD_GUIDE_QUICKSTART.md       # Quick start guide
 │   └── BUILD_GUIDE_PROFICIENCY_GATE.md # Proficiency Gate guide (v2.3)
 │
-└── Buildguide update/
+└── data/build-guides/
     ├── characters.csv             # Character data (25 rows)
     ├── weapons.csv                # Weapon data (49 rows)
     ├── Buildguide_logic.md        # Algorithm specification
@@ -292,7 +292,7 @@ For each of the 25 characters:
 
 ### Understanding the Algorithm
 
-1. Read `Buildguide update/Buildguide_logic.md` (262 lines)
+1. Read `data/build-guides/Buildguide_logic.md` (262 lines)
 2. Review `scripts/buildAlgorithm/scoring.ts` (implementation)
 3. Check `docs/BUILD_GUIDE_SYSTEM.md` (detailed explanation)
 

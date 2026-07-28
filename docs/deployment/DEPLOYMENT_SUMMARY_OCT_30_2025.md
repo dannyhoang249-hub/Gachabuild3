@@ -22,7 +22,7 @@
 - ✅ Export all Sanity data to CSV files
 - ✅ Characters CSV with all attributes
 - ✅ Weapons CSV with all stats
-- ✅ Located in `Buildguide update/` folder
+- ✅ Located in `data/build-guides/` folder
 - ✅ Script: `scripts/exportSanityToCSV.ts`
 
 ### 3. **Weapon Element System** ⚡
@@ -50,14 +50,14 @@
 - ✅ Enhanced TierListV2 component
 
 ### 6. **Documentation** 📚
-- ✅ BUILD_GUIDE_IMPLEMENTATION_SUMMARY.md
+- ✅ docs/reports/BUILD_GUIDE_IMPLEMENTATION_SUMMARY.md
 - ✅ BUILD_GUIDE_PROFICIENCY_GATE.md
 - ✅ BUILD_GUIDE_QUICKSTART.md
 - ✅ BUILD_GUIDE_SYSTEM.md
-- ✅ CSV_EXPORT_SUMMARY.md
-- ✅ SEO_AUDIT_REPORT.md
-- ✅ WEAPON_ELEMENT_UPDATE_SUMMARY.md
-- ✅ Tierlist_logic.md
+- ✅ docs/reports/CSV_EXPORT_SUMMARY.md
+- ✅ docs/reports/SEO_AUDIT_REPORT.md
+- ✅ docs/reports/WEAPON_ELEMENT_UPDATE_SUMMARY.md
+- ✅ docs/reference/Tierlist_logic.md
 
 ---
 
@@ -84,8 +84,8 @@
 ```bash
 npm run export:csv
 # Generates:
-# - Buildguide update/characters.csv
-# - Buildguide update/weapons.csv
+# - data/build-guides/characters.csv
+# - data/build-guides/weapons.csv
 ```
 
 ---
@@ -93,17 +93,17 @@ npm run export:csv
 ## 📊 Files Changed
 
 ### New Files (27)
-1. `BUILD_GUIDE_IMPLEMENTATION_SUMMARY.md`
-2. `Buildguide update/Buildguide_logic.md`
-3. `Buildguide update/Buildguide_overview.md`
-4. `Buildguide update/characters.csv`
-5. `Buildguide update/weapons.csv`
-6. `COMPLETE_GAMEPLAY_DATA_EXPORT.md`
-7. `CSV_EXPORT_SUMMARY.md`
-8. `PROFICIENCY_GATE_UPDATE_SUMMARY.md`
-9. `SEO_AUDIT_REPORT.md`
-10. `Tierlist_logic.md`
-11. `WEAPON_ELEMENT_UPDATE_SUMMARY.md`
+1. `docs/reports/BUILD_GUIDE_IMPLEMENTATION_SUMMARY.md`
+2. `data/build-guides/Buildguide_logic.md`
+3. `data/build-guides/Buildguide_overview.md`
+4. `data/build-guides/characters.csv`
+5. `data/build-guides/weapons.csv`
+6. `docs/reports/COMPLETE_GAMEPLAY_DATA_EXPORT.md`
+7. `docs/reports/CSV_EXPORT_SUMMARY.md`
+8. `docs/reports/PROFICIENCY_GATE_UPDATE_SUMMARY.md`
+9. `docs/reports/SEO_AUDIT_REPORT.md`
+10. `docs/reference/Tierlist_logic.md`
+11. `docs/reports/WEAPON_ELEMENT_UPDATE_SUMMARY.md`
 12. `docs/BUILD_GUIDE_PROFICIENCY_GATE.md`
 13. `docs/BUILD_GUIDE_QUICKSTART.md`
 14. `docs/BUILD_GUIDE_SYSTEM.md`
@@ -121,7 +121,7 @@ npm run export:csv
 26. `src/app/guides/builds/page.tsx`
 27. `src/components/BuildGuideClient.tsx`
 28. `src/components/BuildGuidesListClient.tsx`
-29. `tierlistv2.md`
+29. `docs/reference/tierlistv2.md`
 
 ### Modified Files (12)
 1. `package.json` - Added new scripts
@@ -150,7 +150,7 @@ ssh root@your-vps-ip
 
 ### Step 2: Navigate to Project
 ```bash
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 ```
 
 ### Step 3: Pull Latest Changes
@@ -342,7 +342,7 @@ docker-compose -f docker-compose.production.yml restart frontend
 - `docs/BUILD_GUIDE_QUICKSTART.md` - Quick start guide
 
 ### SEO
-- `SEO_AUDIT_REPORT.md` - Complete SEO audit
+- `docs/reports/SEO_AUDIT_REPORT.md` - Complete SEO audit
 - `docs/features/SEO_OPTIMIZATION_REPORT.md` - SEO implementation details
 
 ---

@@ -88,7 +88,7 @@ services:
 
 ```bash
 ssh root@your-vps-ip
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 nano .env
 
 # Add this line:
@@ -123,7 +123,7 @@ git push origin master
 
 # 2. On VPS - Pull and redeploy
 ssh root@your-vps-ip
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 git pull origin master
 
 # 3. Make sure .env has the variable
@@ -361,7 +361,7 @@ git push origin master
 
 **4. On VPS:**
 ```bash
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 git pull origin master
 echo "NEXT_PUBLIC_MAPS_API_KEY=AIzaSy..." >> .env
 docker-compose -f docker-compose.production.yml stop frontend

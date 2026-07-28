@@ -11,7 +11,7 @@
 ssh root@your-vps-ip
 
 # 2. Navigate to project
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 
 # 3. Pull latest changes
 git pull origin feature/content-v1

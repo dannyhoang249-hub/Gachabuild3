@@ -226,7 +226,7 @@ git push origin main
 ssh root@your-vps-ip
 
 # Navigate to project
-cd /root/Gachabuild3
+cd /path/to/gacha-guide-cms
 
 # Pull latest changes
 git pull origin main
@@ -271,7 +271,7 @@ docker-compose -f docker-compose.production.yml logs -f
 4. `docs/deployment/VPS_DEPLOYMENT_STEPS.md` - UPDATED
 
 ### Summary Files (2)
-1. `DEPLOYMENT_FIXES_SUMMARY.md` - This file
+1. `docs/deployment/DEPLOYMENT_FIXES_SUMMARY.md` - This file
 2. `GITHUB_UPLOAD_SUMMARY.md` - Already created
 
 ---
@@ -324,7 +324,7 @@ All configurations have been verified:
 - `docs/deployment/DOCKER_DEPLOYMENT_GUIDE.md` - Main deployment guide
 - `docs/deployment/PRE_DEPLOYMENT_CHECKLIST.md` - Pre-deployment checklist
 - `docs/deployment/DEPLOYMENT_TROUBLESHOOTING.md` - Troubleshooting guide
-- `SANITY_CMS_FINAL_REPORT.md` - CMS integration details
+- `docs/reports/SANITY_CMS_FINAL_REPORT.md` - CMS integration details
 
 ---
 
