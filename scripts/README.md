@@ -1,176 +1,38 @@
-# 🚀 GachaBuild Production Deployment Scripts
+# Content and maintenance scripts
 
-This directory contains scripts for deploying GachaBuild to production on Ubuntu VPS with Docker, Nginx, and SSL.
+This directory contains scripts used to operate the GachaBuild content pipeline. Most scripts need valid Sanity credentials in `.env.local`; scripts that mutate CMS data should be run only after reviewing their source and testing against a non-production dataset.
 
-## 📁 Scripts Overview
+## Available scripts
 
-| Script | Purpose | Usage |
-|--------|---------|-------|
-| `reset-vps.sh` | Complete VPS cleanup and Docker installation | `sudo ./scripts/reset-vps.sh` |
-| `deploy-production.sh` | Deploy GachaBuild application with Docker | `sudo ./scripts/deploy-production.sh` |
-| `setup-letsencrypt.sh` | Configure Let's Encrypt SSL certificates | `sudo ./scripts/setup-letsencrypt.sh` |
-| `complete-deployment.sh` | Run all deployment steps automatically | `sudo ./scripts/complete-deployment.sh` |
+| Script | Purpose |
+| --- | --- |
+| `generateSearchData.ts` | Builds the local search index used by the guide. |
+| `importBuildGuides.ts` | Imports build-guide content into Sanity. |
+| `importWeaponsFromMD.ts` | Imports weapon content from Markdown files. |
+| `migrateCharacterContent.ts` | Migrates character content to the current schema. |
+| `translateCharacters.ts` | Translates character content through the configured provider. |
+| `uploadCharacterImages.ts` | Uploads character images to Sanity. |
+| `checkSanityData.ts` | Checks the CMS data used by the guide. |
+| `checkRequiredFields.ts` | Reports required fields that are missing. |
+| `checkWeapons.ts` / `verifyWeaponAvailability.ts` | Validates weapon data. |
+| `exportSanityToCSV.ts` | Exports CMS content to CSV. |
+| `fixMissingImages.ts`, `fixMissingKeys.ts`, `fixUnknownFields.ts` | Repairs targeted data issues. |
+| `deleteAllWeapons.ts`, `deleteOldWeapons.ts` | Destructive maintenance scripts—review carefully before use. |
+| `reset-vps.sh`, `setup-letsencrypt.sh` | Optional server-maintenance helpers for a self-hosted Docker deployment. |
 
-## 🎯 Quick Start
+## Running scripts
 
-### From Windows (Recommended)
-1. Double-click `deploy-to-vps.bat`
-2. Choose option 1 for complete automated deployment
-3. Wait for deployment to complete
-4. Visit https://duetnightabyss.gachabuild.com
-
-### From Linux/Mac
-```bash
-# SSH into your VPS
-ssh root@62.146.238.212
-
-# Clone repository
-git clone git@github.com:dannyhoang249-hub/Gachabuild.git
-cd Gachabuild
-
-# Make scripts executable
-chmod +x scripts/*.sh
-
-# Run complete deployment
-sudo ./scripts/complete-deployment.sh
-```
-
-## ⚠️ Important Notes
-
-- **VPS Credentials:**
-  - IP: `62.146.238.212`
-  - User: `root`
-  - Password: `[REDACTED]`
-
-- **Domain:** `duetnightabyss.gachabuild.com`
-
-- **Sanity Configuration:**
-  - Project ID: `u9m27k7u`
-  - API Token: Already configured in scripts
-
-## 🔧 What Each Script Does
-
-### `reset-vps.sh`
-- Stops and removes all Docker containers/images
-- Cleans Docker system completely
-- Updates system packages
-- Installs Docker and Docker Compose
-- Configures firewall (SSH, HTTP, HTTPS)
-- Sets up swap file (2GB)
-- Creates project directory
-
-### `deploy-production.sh`
-- Clones/updates repository from GitHub
-- Creates production environment configuration
-- Builds Docker images for frontend and Sanity Studio
-- Sets up Nginx reverse proxy
-- Generates self-signed SSL certificates
-- Starts all services
-- Creates systemd service for auto-start
-- Sets up log rotation
-
-### `setup-letsencrypt.sh`
-- Installs certbot via snap
-- Generates Let's Encrypt SSL certificates
-- Updates Nginx configuration for SSL
-- Sets up automatic certificate renewal
-- Tests SSL configuration
-
-### `complete-deployment.sh`
-- Runs all three scripts in sequence
-- Includes final verification steps
-- Provides comprehensive status report
-
-## 🌐 After Deployment
-
-Your site will be available at:
-- **Main Website:** https://duetnightabyss.gachabuild.com
-- **CMS Studio:** https://duetnightabyss.gachabuild.com/studio
-- **Health Check:** https://duetnightabyss.gachabuild.com/health
-
-## 🔧 Management Commands
+Use the npm commands listed in the root [`README.md`](../README.md), where available. For a script without an npm alias, run it explicitly with `tsx`:
 
 ```bash
-# View logs
-docker-compose -f docker-compose.production.yml logs -f
-
-# Restart services
-docker-compose -f docker-compose.production.yml restart
-
-# Check service status
-docker-compose -f docker-compose.production.yml ps
-
-# Update deployment
-./update-production.sh
-
-# Stop services
-docker-compose -f docker-compose.production.yml down
+npx tsx scripts/checkRequiredFields.ts
 ```
 
-## 🚨 Troubleshooting
+## Safe operating guidelines
 
-### Common Issues
+1. Copy [`env.example`](../env.example) to `.env.local` and provide your own credentials. Do not commit local environment files.
+2. Run validation or dry-run variants before running scripts that import, migrate, update, or delete content.
+3. Back up the target Sanity dataset before any bulk operation.
+4. Use generic deployment configuration for public forks—do not store VPS addresses, passwords, API tokens, or certificate files in this repository.
 
-1. **Scripts not executable:**
-   ```bash
-   chmod +x scripts/*.sh
-   ```
-
-2. **Permission denied:**
-   ```bash
-   sudo ./scripts/[script-name].sh
-   ```
-
-3. **Domain not accessible:**
-   - Check DNS settings
-   - Verify firewall: `sudo ufw status`
-
-4. **SSL certificate issues:**
-   - Check certificate: `sudo certbot certificates`
-   - Test renewal: `sudo certbot renew --dry-run`
-
-## 📊 Monitoring
-
-### Health Checks
-- Application: https://duetnightabyss.gachabuild.com/health
-- SSL Certificate: `openssl s_client -connect duetnightabyss.gachabuild.com:443`
-
-### Resource Usage
-```bash
-# Check Docker resource usage
-docker stats
-
-# Check disk usage
-df -h
-
-# Check memory usage
-free -h
-```
-
-## 🔄 Updates
-
-To update your deployment:
-
-```bash
-cd /home/ubuntu/gachabuild
-git pull origin main
-./update-production.sh
-```
-
-## 📋 Prerequisites
-
-- Ubuntu 22.04 LTS VPS
-- SSH access to VPS
-- GitHub SSH key configured
-- Domain DNS pointing to VPS IP
-
-## 🆘 Support
-
-If you encounter issues:
-
-1. Check the logs: `docker-compose logs`
-2. Verify environment: `cat .env.production`
-3. Check SSL status: `sudo certbot certificates`
-4. Test domain: `curl -I https://duetnightabyss.gachabuild.com`
-
-**Contact:** admin@gachabuild.com
+For Docker deployment, see the root [`README.md`](../README.md), [`PROJECT_OVERVIEW.md`](../PROJECT_OVERVIEW.md), and [`docs/SETUP_GUIDE.md`](../docs/SETUP_GUIDE.md).
