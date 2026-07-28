@@ -10,6 +10,16 @@ GachaBuild 3 is a production-oriented reference implementation for building game
 
 ---
 
+## Design previews
+
+### Mode-based tier list
+
+![Mode-based tier list with element, role, and weapon filters](public/screenshots/tier-list-preview.png)
+
+### Searchable character database
+
+![Character database with search, filters, responsive cards, and detailed character metadata](public/screenshots/character-database-preview.png)
+
 ## Why I built it
 
 Live-service games change frequently, while players need clear, current, and accessible information. Updating a traditional static guide can create a bottleneck between game-data research, writing, and publishing.
