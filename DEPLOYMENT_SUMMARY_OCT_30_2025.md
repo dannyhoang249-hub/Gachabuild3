@@ -4,7 +4,7 @@
 **Branch:** main  
 **Commit:** 026c2bb  
 **Status:** ✅ READY FOR VPS DEPLOYMENT  
-**GitHub:** https://github.com/dannyhoang249-hub/Gachabuild3.git
+**GitHub:** https://github.com/dannyhoang249-hub/gacha-guide-cms.git
 
 ---
 

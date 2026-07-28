@@ -49,8 +49,8 @@ ssh root@your-vps-ip
 
 # Clone the repository
 cd /root
-git clone https://github.com/dannyhoang249-hub/Gachabuild3.git
-cd Gachabuild3
+git clone https://github.com/dannyhoang249-hub/gacha-guide-cms.git
+cd gacha-guide-cms
 ```
 
 **If updating existing deployment:**
@@ -435,4 +435,3 @@ Make sure these are set in `.env.local`:
 **Estimated Time:** 10-15 minutes  
 **Branch:** main  
 **Last Updated:** October 30, 2025
-

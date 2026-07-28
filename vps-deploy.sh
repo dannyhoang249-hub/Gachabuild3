@@ -14,7 +14,7 @@ NC='\033[0m' # No Color
 
 # Configuration
 PROJECT_DIR="/root/gachabuild"
-REPO_URL="https://github.com/dannyhoang249-hub/Gachabuild3.git"
+REPO_URL="https://github.com/dannyhoang249-hub/gacha-guide-cms.git"
 DOMAIN="duetnightabyss.gachabuild.com"
 EMAIL="dannyhoang249@gmail.com"
 

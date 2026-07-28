@@ -298,7 +298,7 @@ docker-compose -f docker-compose.production.yml up -d --build
 - `docs/deployment/DEPLOYMENT_TROUBLESHOOTING.md` - Troubleshooting
 
 ### GitHub
-- Repository: https://github.com/dannyhoang249-hub/Gachabuild3.git
+- Repository: https://github.com/dannyhoang249-hub/gacha-guide-cms.git
 - Branch: main
 - Latest Commit: b891a93
 

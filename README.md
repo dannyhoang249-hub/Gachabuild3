@@ -89,8 +89,8 @@ For teams moving existing research into the CMS, the repository also contains im
 ### 1. Install and configure
 
 ```bash
-git clone https://github.com/dannyhoang249-hub/Gachabuild3.git
-cd Gachabuild3
+git clone https://github.com/dannyhoang249-hub/gacha-guide-cms.git
+cd gacha-guide-cms
 npm ci
 cp env.example .env.local
 ```
